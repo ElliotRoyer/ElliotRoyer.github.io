@@ -1,2 +1,7 @@
 # Ignorer les fichiers macOS inutiles
 .DS_Store
+
+# Ignorer WIP
+/livres/mmem/plus/
+/livres/sslq/plus/
+/dessins/carnets/REF/
