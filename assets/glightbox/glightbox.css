@@ -501,7 +501,7 @@ iframe.wait-autoplay {
 /*Skin */
 
 .glightbox-clean .gslide-description {
-  background: #fff;
+  background: none;
 }
 
 .glightbox-clean .gdesc-inner {
@@ -518,11 +518,12 @@ iframe.wait-autoplay {
 }
 
 .glightbox-clean .gslide-desc {
-  font-size: 0.9em;
+  font-size: 1em;
   margin-bottom: 0;
-  font-family: arial;
+  font-family: font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   line-height: 1.4em;
-  color: black;
+  color: #e8e8e8f7;
+  text-align: center;
   font-style: italic;
 }
 
@@ -897,11 +898,11 @@ iframe.wait-autoplay {
     height: auto;
   }
   .goverlay {
-    background: rgba(0, 0, 0, 0.90);
+    background: rgba(0, 0, 0, 0.92);
   }
   .glightbox-clean .gslide-media {
-    -webkit-box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.65);
-    box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0);
+    box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0);
   }
   .glightbox-clean .description-left .gdesc-inner,
 .glightbox-clean .description-right .gdesc-inner {

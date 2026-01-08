@@ -227,3 +227,11 @@ body.livres-page .button-achat:hover,
         margin-bottom: 10px;
     }
 }
+
+/* Masquer légendes des extraits en Glightbox sur mobile en mode paysage mais pas en mode portrait */
+
+@media (hover: none) and (pointer: coarse) and (orientation: landscape) and (max-width: 1024px) {
+  .gslide-description {
+    display: none !important;
+  }
+}
