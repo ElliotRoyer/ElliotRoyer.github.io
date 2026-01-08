@@ -1,0 +1,262 @@
+/* -------------------------------------------------
+   VARIABLES GLOBALES
+------------------------------------------------- */
+:root {
+  --border-radius-gallery: 10px; /* coins arrondis pour toutes les images et vidéos de la galerie */
+  --gallery-gap: 5px;            /* espacement entre les items de la galerie */
+  --gallery-margin: 10px;        /* marge autour des figures */
+  --credit: italic 0.9em/1.4 sans-serif;
+}
+
+/* -------------------------------------------------
+   CONTENEUR GLOBAL
+------------------------------------------------- */
+.container {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 10px 0;
+  padding: 0px 100px;
+}
+
+p.long {
+  margin: 10px 60px;
+  padding: 0;
+  text-align: left;
+}
+/* -------------------------------------------------
+   GALERIE — GRID
+------------------------------------------------- */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: var(--gallery-gap);
+}
+
+/* Largeur selon le type d’item */
+figure.gallery-item.c1 { grid-column: span 6; }
+figure.gallery-item.c1-c { grid-column: span 6; } /* ajout c1-c */
+figure.gallery-item.c2 { grid-column: span 3; }
+figure.gallery-item.c3 { grid-column: span 2; }
+
+/* Marges communes à toutes les figures */
+figure {
+  margin: var(--gallery-margin);
+}
+
+/* -------------------------------------------------
+   IMAGES — STYLES GÉNÉRAUX
+------------------------------------------------- */
+figure.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+
+/* Curseur zoom-in (sauf vidéos) */
+figure.gallery-item:not(.video-item) img {
+  cursor: zoom-in;
+}
+
+/* figcaption */
+figure.gallery-item figcaption {
+  margin: 8px 6px 10px 6px;
+  font-style: italic;
+}
+
+/* -------------------------------------------------
+   PARAGRAPHE — LÉGENDE - remplace figcaption quand ce dernier est masqué
+------------------------------------------------- */
+p.caption {
+  margin: 0px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* -------------------------------------------------
+   C2, C3 & C1-C — RATIO FIXE
+------------------------------------------------- */
+figure.gallery-item.c2,
+figure.gallery-item.c3,
+figure.gallery-item.c1-c {
+  display: grid;
+}
+
+figure.gallery-item.c2 > a,
+figure.gallery-item.c3 > a {
+  aspect-ratio: var(--ratio);
+  overflow: hidden;
+  display: block;
+  border-radius: var(--border-radius-gallery);
+}
+
+figure.gallery-item.c2 img,
+figure.gallery-item.c3 img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+figure.gallery-item.c1-c > a {
+  aspect-ratio: var(--ratio-c1-c);
+  overflow: hidden;
+  display: block;
+  border-radius: var(--border-radius-gallery);
+}
+
+/* image de c1-c */
+figure.gallery-item.c1-c img {
+  width: 100%;
+  aspect-ratio: var(--ratio-c1-c); /* ratio spécifique c1-c */
+  object-fit: cover;
+}
+
+/* -------------------------------------------------
+   C1 — GRAND FORMAT
+------------------------------------------------- */
+figure.gallery-item.c1 img {
+  height: auto;
+  max-height: 600px;
+  object-fit: contain;
+  filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+/* -------------------------------------------------
+   RATIO PARTICULIERS APRÈS C1, C2, C3
+------------------------------------------------- */
+
+  figure.gallery-item.car > a {
+  aspect-ratio: 1 / 1;
+  }
+  figure.gallery-item.car img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  }
+
+/* -------------------------------------------------
+   VIDÉOS — STYLE C1
+------------------------------------------------- */
+figure.gallery-item.c1.video-item {
+  grid-column: span 6;   /* occupe toute la largeur de la grille */
+  width: auto;           /* laisse la largeur s’adapter à la grille et marges */
+}
+
+/* Conteneur vidéo */
+figure.gallery-item.c1.video-item .video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* ratio 16:9 */
+  height: 0;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: var(--border-radius-gallery);
+}
+
+/* Iframe masquée tant qu'on n'a pas cliqué */
+figure.gallery-item.c1.video-item .video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+  visibility: hidden;
+}
+
+/* Miniature */
+figure.gallery-item.c1.video-item .video-minia {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  cursor: pointer;
+}
+
+figure.gallery-item.c1.video-item .thumbnail,
+figure.gallery-item.c1.video-item .play-button {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+
+/* Miniature */
+figure.gallery-item.c1.video-item .thumbnail {
+  width: 110%;
+  height: 110%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Bouton Play */
+figure.gallery-item.c1.video-item .play-button {
+  width: 15%;
+  z-index: 2;
+}
+
+/* Effets hover */
+figure.gallery-item.c1.video-item .video-minia:hover .thumbnail {
+  transform: translate(-50%, -50%) scale(0.95);
+}
+
+figure.gallery-item.c1.video-item .video-minia:hover .play-button {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Galerie spéciale en 4 colonnes */
+.gal-c4 {
+  grid-template-columns: repeat(4, 1fr) !important;
+}
+
+/* Tous les items prennent 1 colonne */
+.gal-c4 .gallery-item {
+  grid-column: span 1 !important;
+}
+
+/* -------------------------------------------------
+   MEDIA QUERIES
+------------------------------------------------- */
+
+/* Mobile 600px */
+@media (max-width: 600px) {
+  figure.gallery-item.c1 img {
+    max-height: 400px;
+  }
+
+  .gal-c4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .gallery.mobile-1colonne {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery.mobile-1colonne .gallery-item {
+    grid-column: span 1 !important;
+  }
+
+  p.long {
+  margin: 10px 10px;
+  padding: 0;
+  text-align: left;
+}
+}
+
+/* Mobile 450px */
+@media (max-width: 450px) {
+  .gallery {
+    gap: var(--gallery-gap);
+  }
+
+
+  figure {
+  margin: 4px;
+}
+
+  p {
+    padding: 0px 5px;
+  }
+}

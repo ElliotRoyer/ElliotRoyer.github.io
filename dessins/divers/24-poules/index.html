@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Vœux 2024</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/galerie.css">
+  <link rel="stylesheet" href="/assets/glightbox/glightbox.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/favicon.ico">
+  
+  <style>
+  :root {
+    --ratio: 3 / 2;
+    --ratio-c1-c: 3 / 2;
+  }
+  </style>
+</head>
+
+<body class="dessins-grid-page">
+  <div class="page">    
+
+  <header class="site-header">
+  <div class="logo">
+    <a href="/">
+      <img class="logo-default" src="/assets/logo/logo_ER.png" alt="Logo ER" height="50">
+      <img class="logo-hover" src="/assets/logo/Logo_ER_hover.png" alt="Logo ER hover" height="50">
+      <img class="logo-active" src="/assets/logo/Logo_ER_active.png" alt="Logo ER active" height="50">
+    </a>
+  </div>
+
+  <nav class="main-nav">
+    <a href="/dessins/">Dessins</a>
+    <a href="/livres/">Livres</a>
+    <a href="/musique/">Musique</a>
+    <a href="/infos/">Infos</a>
+  </nav>
+</header>
+
+
+<div class="container">
+
+    <h3>Carte de vœux 2024</h3>
+    <p>Linogravure réalisée avec <a href="https://unepageblanche.fr/" class="b-link" target="_blank" rel="noopener">Blanche</a>.</p>
+
+  <div class="gallery">
+
+    <figure class="gallery-item c1-c" role="img">
+      <a href="24-poules_1.webp" class="glightbox item" data-gallery="art">
+        <img src="24-poules_1.webp" alt="Image">
+      </a>
+    </figure>
+
+    <figure class="gallery-item c2" role="img">
+      <a href="24-poules_3.webp" class="glightbox item" data-gallery="art" data-description="premier passage seul">
+        <img src="24-poules_3.webp" alt="premier passage seul">
+      </a>
+    </figure>
+
+    <figure class="gallery-item c2" role="img">
+      <a href="24-poules_2.webp" class="glightbox item" data-gallery="art" data-description="second passage seul">
+        <img src="24-poules_2.webp" alt="second passage seul">
+      </a>
+    </figure>
+
+  </div>
+</div>
+
+
+
+  <footer class="site-footer">
+  <a href="mailto:contact@elliotroyer.com" class="footer-link">Pour m'écrire</a>
+  <p class="footer-text">© Elliot Royer 2026</p>
+</footer>
+
+</div>
+
+<script src="/assets/glightbox/glightbox.min.js"></script>
+
+<script>
+  const lightbox = GLightbox({
+    selector: '.glightbox',
+    loop: true,
+    keyboardNavigation: true
+  });
+</script>
+  <button id="backToTop" aria-label="Retour en haut">
+  ↑
+  </button>
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>

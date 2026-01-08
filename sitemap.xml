@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Pages principales -->
+  <url><loc>https://nomprenom.com/</loc></url>
+  <url><loc>https://nomprenom.com/infos/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/</loc></url>
+  <url><loc>https://nomprenom.com/livres/</loc></url>
+  <url><loc>https://nomprenom.com/musique/</loc></url>
+
+  <!-- Dessins / carnets -->
+  <url><loc>https://nomprenom.com/dessins/carnets/19-avene/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/carnets/20-25-balades-paris/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/carnets/21-23-bretagne/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/carnets/22-23-portraits-encres/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/carnets/22-24-musees/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/carnets/22-faro/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/carnets/23-24-portraits-hiver/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/carnets/23-portraits-automne/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/carnets/24-25-encre-noire/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/carnets/24-25-pastels/</loc></url>
+
+  <!-- Dessins / divers -->
+  <url><loc>https://nomprenom.com/dessins/divers/18-kunlun/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/divers/22-ciels/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/divers/24-lucky/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/divers/24-poules/</loc></url>
+
+  <!-- Projets -->
+  <url><loc>https://nomprenom.com/dessins/florent-marchet/freddie-mercury/</loc></url>
+  <url><loc>https://nomprenom.com/dessins/florent-marchet/le-monde-du-vivant/</loc></url>
+
+  <!-- Livres -->
+  <url><loc>https://nomprenom.com/livres/mmem/</loc></url>
+  <url><loc>https://nomprenom.com/livres/sslq/</loc></url>
+
+</urlset>

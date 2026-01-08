@@ -1,0 +1,144 @@
+/* -------------------------------------------------
+   VARIABLES GLOBALES
+------------------------------------------------- */
+:root {
+  --border-radius-video: 10px;   /* coins arrondis pour toutes les vidéos */
+  --video-max-width: 1200px;     /* largeur max de la vidéo */
+}
+
+/* -------------------------------------------------
+   CONTENEUR GLOBAL
+------------------------------------------------- */
+.song {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0px 10px 50px 10px;
+}
+
+p {
+  margin: 0;
+}
+
+/* -------------------------------------------------
+   BLOC INTRODUCTION DE LA CHANSON
+------------------------------------------------- */
+body.musique-page .song-intro {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+body.musique-page .song-intro p {
+  margin: 2px 0;
+  font-size: 1.1rem;
+}
+
+body.musique-page .song-intro .song-pub {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #555;
+}
+
+/* -------------------------------------------------
+   VIDÉO — CONTAINER
+------------------------------------------------- */
+.song-video {
+    position: relative;
+    width: 100%;             /* prend 100% du container .song */
+    padding-bottom: 56.25%;  /* ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: var(--border-radius-video);
+    margin: 0;               /* plus besoin de margin externe */
+}
+
+.song-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Bloc des images superposées avant clic */
+.song-video .video-minia {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+/* Miniature et bouton Play centrés */
+.song-video .thumbnail,
+.song-video .play-button {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+
+/* Miniature légèrement agrandie et cropée */
+.song-video .thumbnail {
+  width: 110%;
+  height: 110%;
+  object-fit: cover;
+  z-index: 1;
+  border-radius: var(--border-radius-video);
+}
+
+/* Play button centré */
+.song-video .play-button {
+  width: 15%;
+  z-index: 2;
+}
+
+/* Effets hover */
+.song-video .video-minia:hover .thumbnail {
+  transform: translate(-50%, -50%) scale(0.95);
+}
+
+.song-video .video-minia:hover .play-button {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Vidéo cachée initialement */
+.song-video .youtube-video {
+  display: block;
+  visibility: hidden;
+}
+
+/* -------------------------------------------------
+   DESCRIPTION DE LA CHANSON
+------------------------------------------------- */
+.song-description {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* -------------------------------------------------
+   MEDIA QUERIES
+------------------------------------------------- */
+
+/* Mobile 768px */
+@media (max-width: 768px) {
+  body.musique-page .song-video {
+    width: 95%;
+    padding-bottom: 56.25%;
+  }
+
+  body.musique-page .song-intro {
+    margin-bottom: 15px;
+  }
+
+  .song-video .play-button {
+    width: 20%;
+  }
+}
+
+
+

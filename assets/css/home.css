@@ -1,0 +1,236 @@
+/* ==================== GLOBAL ==================== */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background:
+  /*url("/assets/img-site/texture.webp") repeat,*/
+  linear-gradient(
+    to bottom,
+    #ecf2f8 0%,
+    #edf3fa 20%,
+    #f8ecdb 55%,
+    #f8ecdb 70%,
+    #d1d8e0 100%);
+  /*background-blend-mode: soft-light;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* voile gris */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: var(--body-bg-color);
+  z-index: 9999;
+  pointer-events: none;
+  animation: revealPage 1.5s cubic-bezier(.05,.11,0,.99) forwards;
+}
+
+@keyframes revealPage {
+  to {
+    opacity: 0;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+p { margin: 0; }
+
+/* ==================== TITRE ==================== */
+.ER-title {
+  width: 100%;
+  max-width: 450px;
+  margin: 35px auto;
+  animation: titleReveal 1s ease-out forwards;
+}
+
+.ER-title img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@keyframes titleReveal {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==================== NAVIGATION ==================== */
+.home-nav a {
+  margin: 0 10px;
+  font-size: 2em;
+  color: #6b7b8e;
+  text-decoration: none;
+  font-family: "Nunito", "Arial", "Helvetica", sans-serif;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  opacity: 0;
+  animation: navReveal 1.1s ease forwards;
+  transition: color 0.3s ease;
+}
+
+.home-nav {
+  margin-bottom: 55px;
+}
+
+.home-nav a:hover { color: #57535b; }
+
+.home-nav a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0.15em;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.home-nav a:hover::after { width: 100%; left: 0; }
+
+/* Déphasage apparition nav */
+.home-nav a:nth-child(1) { animation-delay: 0.1s; }
+.home-nav a:nth-child(2) { animation-delay: 0.2s; }
+.home-nav a:nth-child(3) { animation-delay: 0.3s; }
+.home-nav a:nth-child(4) { animation-delay: 0.4s; }
+
+/* Flottement lettres */
+.home-nav a span {
+  display: inline-block;
+  animation: float 4.5s ease-in-out infinite;
+}
+
+.home-nav a:nth-child(1) span { animation-delay: -0.8s; }
+.home-nav a:nth-child(2) span { animation-delay: -1.6s; }
+.home-nav a:nth-child(3) span { animation-delay: -2.4s; }
+.home-nav a:nth-child(4) span { animation-delay: -3.2s; }
+
+@keyframes navReveal {
+  from { opacity: 0; transform: translateY(3px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
+
+/* ==================== IMAGE ==================== */
+.home-image {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.home-image img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  display: block;
+  margin: 40px auto;
+}
+
+.home-image::before,
+.home-image::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.home-image::before {
+  z-index: 2;
+  background-image: url("/assets/img-site/brume-1.webp");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  background-position: 0 50%;
+  filter: blur(6px);
+  animation: fogScrollFade 18s linear infinite,
+             fogFadeStable 12s ease-in-out forwards,
+             fogBreath 9s ease-in-out infinite;           
+}
+
+.home-image::after {
+  z-index: 3;
+  background-image: url("/assets/img-site/brume-2.webp");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  background-position: 0 50%;
+  filter: blur(10px);
+  animation: fogScrollFadeFast 36s linear infinite,
+             fogFadeStable 12s ease-in-out forwards,
+             fogBreath 12s ease-in-out infinite reverse;
+}
+
+/* ==================== ANIMATIONS BRUME ==================== */
+@keyframes fogScrollFade       { 0% { background-position: 0 50%; } 100% { background-position: -1024px 50%; } }
+@keyframes fogScrollFadeFast   { 0% { background-position: 0 50%; } 100% { background-position: -1024px 50%; } }
+@keyframes fogFadeStable       { 0% { opacity: 0.7; } 50% { opacity: 0.5; } 100% { opacity: 0.3; } }
+@keyframes fogBreath           { 0% { opacity: 0.25; } 50% { opacity: 0.5; } 100% { opacity: 0.25; } }
+
+/* ==================== RESPONSIVE ==================== */
+@media (max-width: 768px) {
+  body {
+    display: flex;           /* garder le flex vertical centré */
+    flex-direction: column;  /* empile verticalement les enfants si besoin */
+    justify-content: center; /* centrer verticalement */
+    align-items: center;     /* centrer horizontalement */
+    min-height: 100vh;       /* s’assurer que le body prend toute la hauteur */
+  }
+
+  .ER-title {
+  width: 80%;
+  }
+
+  .container { 
+    margin: 0 auto; 
+    text-align: center;
+  }
+
+  .home-nav {
+  margin-bottom: 0;
+  }
+
+  .home-nav a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+    font-size: 2em;
+  }
+
+  .home-nav a span { animation: none; }
+
+  .home-image img { max-width: 400px; margin: 32px auto; }
+
+  .home-image::before { opacity: 0.4; }
+  .home-image::after  { opacity: 0.6; }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  html, body { height: auto; margin: 0;}
+  .home-nav a { display: inline-block; margin-bottom: 0; }
+  .home-nav a span { animation: float 4.5s ease-in-out infinite; }
+  .home-image img { max-width: 70%; }
+}

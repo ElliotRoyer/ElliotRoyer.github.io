@@ -1,0 +1,65 @@
+p {
+  margin: 0 0 1em 0;
+}
+
+body.infos-page .page-title {
+    text-align: center;
+}
+
+body.infos-page .bio-intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body.infos-page .bio-intro p {
+    margin: 2px 0;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+body.infos-page .bio-content {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+body.infos-page .bio-photo img {
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10);
+    border-radius: 5%;
+}
+
+body.infos-page .bio-text {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+    body.infos-page .bio-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body.infos-page .bio-text {
+        margin-top: 20px;
+    }
+
+    body.infos-page .bio-photo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    body.infos-page .bio-photo img {
+        width: 80%;
+        max-width: 280px;
+        height: auto;
+        margin: 0 auto;
+    }
+}

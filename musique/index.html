@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Musique</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/musique.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="description" content="Portfolio d’Elliot Royer">
+</head>
+
+<body class="musique-page">
+<div class="page">
+
+  <header class="site-header">
+  <div class="logo">
+    <a href="/">
+      <img class="logo-default" src="/assets/logo/logo_ER.png" alt="Logo ER" height="50">
+      <img class="logo-hover" src="/assets/logo/Logo_ER_hover.png" alt="Logo ER hover" height="50">
+      <img class="logo-active" src="/assets/logo/Logo_ER_active.png" alt="Logo ER active" height="50">
+    </a>
+  </div>
+
+  <nav class="main-nav">
+    <a href="/dessins/">Dessins</a>
+    <a href="/livres/">Livres</a>
+    <a href="/musique/">Musique</a>
+    <a href="/infos/">Infos</a>
+  </nav>
+</header>
+
+    <div class="container">
+
+      <h2 class="page-title">Musique</h2>
+
+      <!--<div class="page-desc">
+        <p>Créations musicales et vidéos les accompagnant. </p>
+      </div>-->
+
+
+      <!-- Strawberry Fields Forever -->
+      <section class="song" id="SFF">
+        <div class="song-intro">
+          <h3>Strawberry Fields Forever</h3>
+          <p>Reprise et clip</p>
+          <p class="song-pub"><em>Chanson des Beatles</em></p>
+        </div>
+
+        <div class="song-video">
+
+            <div class="video-minia">
+            <img src="minia-sff.webp" alt="minia" class="thumbnail">
+            <img src="/assets/img-site/play-video.png" alt="Play" class="play-button">
+          </div>
+
+          <div class="video-overlay"></div>
+
+          <iframe src="https://www.youtube.com/embed/4xxPMabMuyY?si=HOa38BzB6ksybOa5&rel=0" 
+                  title="Strawberry Fields Forever" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen
+                  class="youtube-video">
+          </iframe>
+
+          <p class="song-description">Une réinterprétation musicale et visuelle de la chanson des Beatles.</p>
+      </section>
+      
+      <!-- Lucky -->
+      <section class="song" id="LUCKY">
+        <div class="song-intro">
+          <h3>Lucky</h3>
+          <p>Reprise et clip</p>
+          <p class="song-pub"><em>Chanson de Jason Mraz et Colbie Caillat</em></p>
+        </div>
+
+        <div class="song-video">
+
+            <div class="video-minia">
+              <img src="minia-lucky.webp" alt="minia" class="thumbnail">
+              <img src="/assets/img-site/play-video.png" alt="Play" class="play-button">
+            </div>
+
+            <div class="video-overlay"></div>
+
+            <iframe src="https://www.youtube.com/embed/-HcF2t9ZPNk?rel=0" 
+                    title="Lucky" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen
+                    class="youtube-video">
+            </iframe>
+        </div>
+
+        <p class="song-description">Une reprise en duo avec <a href="https://unepageblanche.fr/" class="b-link" target="_blank" rel="noopener">Blanche</a></p>
+        <p class="song-description"><a class="plus-link" href="/dessins/divers/24-lucky/">En savoir plus sur la création de cette vidéo</a></p>
+      </section>
+        </div>
+
+  </div>
+
+  <footer class="site-footer">
+  <a href="mailto:contact@elliotroyer.com" class="footer-link">Pour m'écrire</a>
+  <p class="footer-text">© Elliot Royer 2026</p>
+</footer>
+
+</div>
+
+
+
+<script>
+document.querySelectorAll('.song-video').forEach(wrapper => {
+  const placeholder = wrapper.querySelector('.video-minia');
+  const video = wrapper.querySelector('.youtube-video');
+
+  if (!placeholder || !video) return;
+
+  placeholder.addEventListener('click', () => {
+    // montre la vidéo immédiatement
+    video.style.visibility = 'visible';        
+
+    // lance la lecture
+    video.src += "&autoplay=1";
+
+    // délai avant de cacher le placeholder
+    setTimeout(() => {
+      placeholder.style.display = 'none';  
+    }, 250); // 250ms avant disparition des images
+  });
+});
+
+
+</script>
+
+<button id="backToTop" aria-label="Retour en haut">
+↑
+</button>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Le monde du vivant</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/galerie.css">
+  <link rel="stylesheet" href="/assets/glightbox/glightbox.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/favicon.ico">
+  
+  <style>
+  :root {
+    --ratio: 3 / 2;
+  }
+  </style>
+</head>
+
+<body class="dessins-grid-page">
+  <div class="page">    
+
+  <header class="site-header">
+  <div class="logo">
+    <a href="/">
+      <img class="logo-default" src="/assets/logo/logo_ER.png" alt="Logo ER" height="50">
+      <img class="logo-hover" src="/assets/logo/Logo_ER_hover.png" alt="Logo ER hover" height="50">
+      <img class="logo-active" src="/assets/logo/Logo_ER_active.png" alt="Logo ER active" height="50">
+    </a>
+  </div>
+
+  <nav class="main-nav">
+    <a href="/dessins/">Dessins</a>
+    <a href="/livres/">Livres</a>
+    <a href="/musique/">Musique</a>
+    <a href="/infos/">Infos</a>
+  </nav>
+</header>
+
+
+<div class="container">
+
+    <h3>Le monde du vivant</h3>
+    <p>Lecture musicale et dessinée</p>
+
+  <div class="gallery">
+
+    <figure class="gallery-item c1 video-item">
+  <div class="video-wrapper">
+    <div class="video-minia">
+      <img src="fm-lmdv-minia.webp" alt="Miniature lecture" class="thumbnail">
+      <img src="/assets/img-site/play-video.png" alt="Play" class="play-button">
+    </div>
+
+    <iframe src="https://www.youtube.com/embed/IzBGxhz6ss4?rel=0&start=23" 
+            title="Lecture dessinée" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+            class="youtube-video">
+    </iframe>
+  </div>
+</figure>
+
+    <figure class="gallery-item c1" role="text">
+      <p class="long">
+        Florent Marchet est l’un de mes artistes préférés. J’ai cette chance inouie : c’est devenu un ami. Pour son premier roman <span class="i">Le monde du vivant</span>, nous avons créé une lecture musicale et dessinée. C’est un dialogue entre le texte et les chansons de Florent et mes dessins. Nous avons joué ce spectacle une douzaine de fois de 2020 à 2022, à Paris, Strasbourg, Marseille, Lignières, Manosques…
+      </p>
+    </figure>
+    
+    <figure class="gallery-item c2" role="img">
+      <a href="fm-lmdv-01.webp" class="glightbox item" data-gallery="art" data-description="Lecture à Lignières">
+        <img src="fm-lmdv-01.webp" alt="Image">
+      </a>
+    </figure>
+
+    <figure class="gallery-item c2" role="img">
+      <a href="fm-lmdv-02.webp" class="glightbox item" data-gallery="art" data-description="Lecture à Lignières">
+        <img src="fm-lmdv-02.webp" alt="Image">
+      </a>
+    </figure>
+
+    <figure class="gallery-item c2" role="img">
+      <a href="fm-lmdv-03.webp" class="glightbox item" data-gallery="art" data-description="Lecture à Strasbourg">
+        <img src="fm-lmdv-03.webp" alt="Image">
+      </a>
+    </figure>
+
+    <figure class="gallery-item c2" role="img">
+      <a href="fm-lmdv-04.webp" class="glightbox item" data-gallery="art" data-description="Lecture à Saint-Flour">
+        <img src="fm-lmdv-04.webp" alt="Image">
+      </a>
+    </figure>
+
+  </div>
+</div>
+
+
+
+  <footer class="site-footer">
+  <a href="mailto:contact@elliotroyer.com" class="footer-link">Pour m'écrire</a>
+  <p class="footer-text">© Elliot Royer 2026</p>
+</footer>
+
+</div>
+
+<script src="/assets/glightbox/glightbox.min.js"></script>
+
+<script>
+  const lightbox = GLightbox({
+    selector: '.glightbox',
+    loop: true,
+    keyboardNavigation: true
+  });
+
+  document.querySelectorAll('figure.gallery-item.video-item').forEach(wrapper => {
+  const placeholder = wrapper.querySelector('.video-minia');
+  const video = wrapper.querySelector('iframe.youtube-video');
+
+  if (!placeholder || !video) return;
+
+  placeholder.addEventListener('click', () => {
+    video.style.visibility = 'visible';
+    video.src += "&autoplay=1";
+    setTimeout(() => { placeholder.style.display = 'none'; }, 250);
+  });
+});
+</script>
+  <button id="backToTop" aria-label="Retour en haut">
+  ↑
+  </button>
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>

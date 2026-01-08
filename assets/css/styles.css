@@ -1,0 +1,737 @@
+:root {
+  --body-bg-color: #f5f5f5;
+}
+
+
+/* ===========================
+   FONTS — Nunito
+   =========================== */
+   
+   /* nunito-regular - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/nunito-v32-latin_latin-ext-regular.woff2') format('woff2');
+}
+/* nunito-500 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/nunito-v32-latin_latin-ext-500.woff2') format('woff2');
+}
+/* nunito-600 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/fonts/nunito-v32-latin_latin-ext-600.woff2') format('woff2');
+}
+/* nunito-700 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/nunito-v32-latin_latin-ext-700.woff2') format('woff2');
+}
+
+/* ===========================
+   FONTS — Raleway
+   =========================== */
+   
+/* raleway-300 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/assets/fonts/raleway-v37-latin_latin-ext-300.woff2') format('woff2');
+}
+/* raleway-300italic - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  src: url('/assets/fonts/raleway-v37-latin_latin-ext-300italic.woff2') format('woff2');
+}
+/* raleway-regular - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/raleway-v37-latin_latin-ext-regular.woff2') format('woff2');
+}
+/* raleway-italic - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/assets/fonts/raleway-v37-latin_latin-ext-italic.woff2') format('woff2');
+}
+/* raleway-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/raleway-v37-latin-500.woff2') format('woff2');
+}
+/* raleway-500italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/assets/fonts/raleway-v37-latin-500italic.woff2') format('woff2');
+}
+/* raleway-600 - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/fonts/raleway-v37-latin_latin-ext-600.woff2') format('woff2');
+}
+/* raleway-600italic - latin_latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/assets/fonts/raleway-v37-latin_latin-ext-600italic.woff2') format('woff2');
+}   
+
+
+body {
+    background-color: var(--body-bg-color);
+    margin: 0;
+    font-family: "Raleway", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.page {
+    width: 90%;       /* largeur relative à l’écran */
+    max-width: 900px;
+    margin: 0 auto;     /* centre le conteneur */
+    padding: 0 20px;    /* espace à l’intérieur pour petits écrans */
+}
+
+/* Header */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; /* inclut le padding dans la hauteur */
+    margin: 20px 0;
+}
+
+/* Logo */
+.logo {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+}
+
+/* Superposition des deux images */
+.logo a img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+}
+
+/* La deuxième image est cachée par défaut */
+.logo-hover {
+  opacity: 0;
+  z-index: 2; /* au-dessus de la première */
+}
+
+/* Au survol du lien : on montre la deuxième et on masque la première */
+.logo a:hover .logo-hover {
+  opacity: 1; /* s'affiche */
+}
+
+.logo a:hover .logo-default {
+  opacity: 0; /* disparaît complètement */
+}
+
+.logo-active {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  z-index: 3; /* au-dessus des autres */
+}
+
+/* Lors du clic : on affiche l'active */
+.logo a:active .logo-active {
+  opacity: 1;
+}
+
+/* Et on masque default + hover pendant le clic */
+.logo a:active .logo-default,
+.logo a:active .logo-hover {
+  opacity: 0;
+}
+
+/* Menu */
+.main-nav a {
+    margin-left: 20px;
+    font-size: 1.4em;
+    color: #000;
+    text-decoration: none;
+    font-family: "Nunito", "Arial", "Helvetica", sans-serif;
+    font-weight: 600;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.main-nav a:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+}
+
+.main-nav a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0.15em;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.main-nav a:hover::after {
+  width: 100%;
+  left: 0;
+}
+/*
+
+.main-nav a:nth-child(1) {
+    color: #477ee5;
+}
+
+.main-nav a:nth-child(2) {
+    color: #477ee5;
+}
+
+.main-nav a:nth-child(3) {
+    color: #477ee5;
+}
+
+.main-nav a:nth-child(4) {
+    color: #477ee5;
+}
+
+.main-nav a:nth-child(1):hover { color: #ffffff; background-color: #e3802c; }
+.main-nav a:nth-child(2):hover { color: #ffffff; background-color: #477ee5; }
+.main-nav a:nth-child(3):hover { color: #ffffff; background-color: #a23e9b; }
+.main-nav a:nth-child(4):hover { color: #ffffff; background-color: #2ca36b; }
+*/
+
+/* Footer */
+
+.site-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 1rem;
+    color: #000;
+}
+
+.site-footer .footer-link {
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Nunito", "Arial", "Helvetica", "sans-serif";
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+
+.site-footer .footer-link:hover {
+    opacity: 0.6;
+}
+
+.i {
+    font-style: italic;
+}
+
+h1, h2, h3 {
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 2rem;      /* taille par défaut pour tous les h2 */
+    margin: 35px 0;  /* espace sous le titre */
+    font-weight: 700;     /* optionnel : force un titre plus marqué */
+    text-align: center
+}
+
+h3 {
+    font-size: 1.8rem;    /* taille standard pour les h3 */
+    margin: 0 0 10px 0;
+    font-weight: 600;     /* optionnel : un peu moins lourd que h2 */
+    line-height: 1.3;     /* espace vertical confortable */
+}
+
+h4 {
+    font-size: 1rem;    /* taille standard pour les h3 */
+    margin-top: 0px;
+    margin-bottom: 0.2em; /* espace sous le titre, ajustable selon besoin */
+    font-weight: 600;     /* optionnel : un peu moins lourd que h2 */
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem; /* réduit la taille sur mobile */
+        margin: 25px 0;
+    }
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 0.4em;
+    }
+}
+
+
+
+.page-desc {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+
+[id]::before {
+    content: "";
+    display: block;
+    height: 10px; /* hauteur de l’espace */
+    margin-top: -10px; /* compense la hauteur pour ne pas décaler le flux */
+    visibility: hidden;
+}
+
+/* -------------------------------------------------
+   LIENS
+------------------------------------------------- */
+
+p a {
+  color: #3184b4;
+  text-decoration: none;
+  padding: 2px 0;
+  /*position: relative;
+  bottom: 0;
+  transition: bottom 0.2s ease;*/
+}
+
+p a:hover {
+  color: var(--body-bg-color);
+  background-color: #3184b4;
+  padding: 2px 0;
+  /*bottom: 1px;*/
+}
+
+/*a[target="_blank"] {
+  color: #3184b4;
+}
+
+a[target="_blank"]:hover {
+  background-color: #3184b4;
+  color: var(--body-bg-color);
+}*/
+
+a.b-link {
+  color: #e3802c;
+  text-decoration: none;
+  padding: 2px 0;
+}
+
+a.b-link:hover {
+  color: #ffffff;
+  background-color: #e3802c;
+  padding: 2 0px;
+}
+
+a.b-link::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 3px;
+  background-image: url('/assets/img-site/icon-b-link.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: text-top;
+  position: relative;
+  top: 1px;
+}
+
+a.b-link:hover::before {
+  background-image: url('/assets/img-site/icon-b-link-hover.png');
+}
+
+a.book-link {
+    color: #477ee5;
+    text-decoration: none;
+    padding: 2 0px;
+}
+
+a.book-link:hover {
+    color: var(--body-bg-color);
+    background-color: #477ee5;
+    padding: 2 0px;
+}
+a.book-link::before {
+  content: "📘";
+  margin-right: 3px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+a.book-link:hover::before {
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+  content: "📖";
+}
+
+a.music-link::before {
+  content: "♫";
+  margin-right: 3px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+
+a.plus-link {
+  letter-spacing: normal;
+  transition: letter-spacing 0.3s ease;
+  color: #3ac07b;
+}
+
+a.plus-link:hover {
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  transform: none;
+  background-color: #3ac07b;
+}
+
+/* ===========================
+   BOUTONS GLOBAUX
+   =========================== */
+.button {
+    display: inline-block;       /* largeur s'adapte au texte */
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(0.9);     /* effet léger au survol */
+}
+
+/* Variantes */
+.button-feuilleter { background-color: #171c1d; }
+.button-achat { background-color: #8898ff; }
+.modal-button { background-color: #ff8c88; }
+
+.modal-button:hover {
+    background-color: #e66d68;
+}
+
+/* ===========================
+   MODALES GLOBALES
+   =========================== */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+    animation: modal-fade-in 0.25s ease forwards;
+}
+
+/* Animation ouverture fond */
+@keyframes modal-fade-in {
+    from { background-color: rgba(0,0,0,0); }
+    to   { background-color: rgba(0,0,0,0.6); }
+}
+
+/* Animation fermeture fond */
+.modal.closing {
+    animation: modal-fade-out 0.22s ease forwards;
+}
+
+@keyframes modal-fade-out {
+    from { background-color: rgba(0,0,0,0.6); }
+    to   { background-color: rgba(0,0,0,0); }
+}
+
+/* Contenu de la modal */
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    position: relative;
+    /* ouverture */
+    opacity: 0;
+    transform: scale(0.95);
+    animation: modal-zoom-in 0.25s ease forwards;
+}
+
+/* Zoom + apparition */
+@keyframes modal-zoom-in {
+    from { opacity: 0; transform: scale(0.95); }
+    to   { opacity: 1; transform: scale(1); }
+}
+
+/* Zoom + disparition */
+.modal-content.closing {
+    animation: modal-zoom-out 0.22s ease forwards;
+}
+
+@keyframes modal-zoom-out {
+    from { opacity: 1; transform: scale(1); }
+    to   { opacity: 0; transform: scale(0.90); }
+}
+
+/* Bouton de fermeture */
+.modal .close {
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Organisation interne des modales */
+.modal-top {
+    margin: 0 20px 20px 20px;
+}
+
+.modal-top p {
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+.modal-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.modal-col {
+    flex: 1;
+    text-align: center;
+}
+
+.modal-col p {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.modal-col .modal-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 auto;
+    background-color: #ff8c88;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.modal-col .modal-button:hover {
+    background-color: #e66d68;
+}
+
+/* Responsive modales */
+@media (max-width: 600px) {
+    .modal-columns {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+/* ===========================
+     perso-bulle (je ne sais pas encore si je garderai ça)
+   =========================== */
+
+/* Bulle principale */
+.perso-bulle {
+    display: inline-block;
+    max-width: 80%;           /* largeur maximum */
+    background-color: #ffa76d;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-size: 0.95rem;
+    line-height: 1.4em;
+    position: relative;
+    margin: 30px 0 30px 80px; /* espace à gauche pour personnage */
+}
+
+/* Personnage à gauche (desktop et mobile) */
+.perso-bulle::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url(/assets/logo/logo_ER.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -80px;
+    top: 0;
+}
+
+/* Flèche pointant vers le personnage */
+.perso-bulle::after {
+    content: "";
+    display: inline-block;
+    height: 0;
+    width: 0;
+    border-top: 8px solid transparent;
+    border-right: 14px solid #ffa76d;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    left: -14px;
+    top: 20px;
+}
+
+@media (max-width: 600px) {
+    .perso-bulle {
+        max-width: 90%; /* bulle un peu plus large pour petits écrans */
+    }
+}
+
+
+/* ===========================
+     Bouton backToTop
+   =========================== */
+
+#backToTop {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.2s ease;
+  z-index: 999;
+}
+
+#backToTop:hover {
+  transform: scale(1.1);
+}
+
+#backToTop.show {
+  opacity: 0.8;
+  visibility: visible;
+}
+
+
+@media (max-width: 768px) {
+    /* Header vertical centré */
+    .site-header {
+        flex-direction: column;
+        align-items: center; /* centre horizontalement le logo et le menu */
+        text-align: center;
+    }
+
+    /* Logo centré avec marge en bas */
+    .logo {
+        margin-bottom: 20px; /* espace entre logo et menu */
+    }
+
+    /* Images du logo : superposition désactivée sur mobile, centré */
+    .logo a img {
+        position: static;
+        display: block;
+        margin: 0 auto;
+        height: 50px;
+        width: auto;
+    }
+
+    .logo-hover {
+        display: none;
+        position: static;
+    }
+
+    .logo a:hover .logo-hover {
+        display: block;
+    }
+
+    .logo a:hover .logo-default {
+        display: none;
+    }
+
+    .logo-active {
+        display: none;
+        position: static;
+    }
+
+    .logo a:active .logo-active {
+        display: block;
+    }
+
+    .logo a:active .logo-default,
+    .logo a:active .logo-hover {
+        display: none;
+    }
+
+
+    .main-nav {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .main-nav a {
+        flex: 1 1 auto;      /* largeur égale */
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 360px) {
+.main-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .main-nav a {
+        flex: 0 1 45%;
+        margin: 2px 0;
+    }
+}
