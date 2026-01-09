@@ -1,4 +1,30 @@
+# As a condition of accessing this website, you agree to abide by the following
+# content signals:
+
+# search:   building a search index and providing search results (links, snippets)
+# ai-input: inputting content into AI systems (RAG, grounding, AI answers)
+# ai-train: training or fine-tuning AI models
+
+# Any restriction expressed via content signals is an express reservation of
+# rights under Article 4 of EU Directive 2019/790.
+
 User-agent: *
+Content-signal: search=yes, ai-train=no
 Allow: /
 
-Sitemap: https://nomprenom.com/sitemap.xml
+# Known AI crawlers
+
+User-agent: GPTBot
+User-agent: Google-Extended
+User-agent: ClaudeBot
+User-agent: PerplexityBot
+User-agent: meta-externalagent
+User-agent: Anthropic
+User-agent: HuggingFace
+User-agent: DALL-E
+User-agent: MidJourneyBot
+User-agent: DeepAI-ImageBot
+Disallow: /
+
+
+Sitemap: https://elliotroyer.com/sitemap.xml
