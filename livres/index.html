@@ -197,28 +197,12 @@
 
 <script src="/assets/glightbox/glightbox.min.js"></script>
 
+<script src="/assets/glightbox/glightbox.min.js"></script>
+
 <script>
   // === Initialisation GLightbox ===
-  const lightboxCover = GLightbox({ selector: '.glightbox-cover', loop: false });
-  const lightboxFeuilleter = GLightbox({ selector: '.glightbox-feuilleter', loop: true });
-
-  // === Masquer les descriptions sur mobile/tablette tactile en paysage ===
-  const hideDescriptions = () => {
-    const isTouchLandscape = window.matchMedia('(hover: none) and (pointer: coarse) and (orientation: landscape) and (max-width: 1024px)').matches;
-    if (isTouchLandscape) {
-      const allDesc = document.querySelectorAll('.gslide-description');
-      allDesc.forEach(d => d.style.display = 'none');
-    }
-  };
-
-  // Appliquer directement si GLightbox est ouvert
-  lightboxCover.on('slide_changed', hideDescriptions);
-  lightboxFeuilleter.on('slide_changed', hideDescriptions);
-
-  // Appliquer dès l'ouverture du slide (évite le flash)
-  lightboxCover.on('open', hideDescriptions);
-  lightboxFeuilleter.on('open', hideDescriptions);
-
+  GLightbox({ selector: '.glightbox-cover', loop: false });
+  GLightbox({ selector: '.glightbox-feuilleter', loop: true });
 
   // ======================
   // Modales
@@ -235,7 +219,6 @@
         modal.classList.remove("closing");
         content.classList.remove("closing");
         document.body.classList.add("modal-open");
-
     }
 
     function closeModal() {
@@ -267,10 +250,13 @@
             closeModal();
         }
     });
-}
+  }
 
+  // Initialisation des deux modales
   setupModal("btn-sslq", "modal-sslq");
   setupModal("btn-mmem", "modal-mmem");
+</script>
+("btn-mmem", "modal-mmem");
 </script>
 
 <button id="backToTop" aria-label="Retour en haut">

@@ -944,16 +944,9 @@ iframe.wait-autoplay {
 
 /* Ajouts persos */
 
-/* Masquer légendes Glightbox sur mobile uniquement dans les galeries */
+/* Masquer les descriptions sur mobile/tablette tactile */
 @media (hover: none) and (pointer: coarse) {
-  .dessins-grid-page .gslide-description {
-    display: none !important;
-  }
-}
-
-/* Pour la page livres : masquer légendes Glightbox en mobile paysage uniquement dans book-content */
-@media (hover: none) and (pointer: coarse) and (orientation: landscape) and (max-width: 1024px) {
-  .livres-page .gslide-description {
+  .gslide-description {
     display: none !important;
   }
 }
