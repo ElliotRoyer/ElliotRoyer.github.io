@@ -62,6 +62,7 @@ figure.gallery-item:not(.video-item) img {
 /* figcaption */
 figure.gallery-item figcaption {
   margin: 8px 6px 10px 6px;
+  font-size: 0.95rem;
   font-style: italic;
 }
 
@@ -71,6 +72,7 @@ figure.gallery-item figcaption {
 p.caption {
   margin: 0px;
   font-style: italic;
+  font-size: 0.95rem;
   text-align: center;
   font-family: "Raleway", "Arial", "Helvetica", sans-serif;
 }
@@ -261,9 +263,14 @@ figure.gallery-item.c1.video-item .video-minia:hover .play-button {
   }
 }
 
+
+/* class pour galeries : "mobile-caption", permet d'afficher les figcaptions uniquement sur mobile, où les descriptions de GLightbox sont désactivées */
+
 @media (hover: hover) and (pointer: fine) {
-  /* Cible uniquement les figcaption des galeries "mobile-caption" */
   .mobile-only-figcaption figcaption {
     display: none !important;
   }
+  figure.mobile-only {
+      display: none !important;
+}
 }

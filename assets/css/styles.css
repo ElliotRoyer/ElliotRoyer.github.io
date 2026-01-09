@@ -327,26 +327,7 @@ p a {
   color: #3184b4;
   text-decoration: none;
   padding: 2px 0;
-  /*position: relative;
-  bottom: 0;
-  transition: bottom 0.2s ease;*/
 }
-
-p a:hover {
-  color: var(--body-bg-color);
-  background-color: #3184b4;
-  padding: 2px 0;
-  /*bottom: 1px;*/
-}
-
-/*a[target="_blank"] {
-  color: #3184b4;
-}
-
-a[target="_blank"]:hover {
-  background-color: #3184b4;
-  color: var(--body-bg-color);
-}*/
 
 a.b-link {
   color: #e3802c;
@@ -354,11 +335,57 @@ a.b-link {
   padding: 2px 0;
 }
 
-a.b-link:hover {
-  color: #ffffff;
-  background-color: #e3802c;
-  padding: 2 0px;
+a.book-link {
+  color: #477ee5;
+  text-decoration: none;
+  padding: 2px 0;
 }
+
+a.plus-link {
+  color: #3ac07b;
+  letter-spacing: normal;
+  transition: letter-spacing 0.3s ease;
+}
+
+/* hover + désactivé sur mobile */
+
+@media (hover: hover) and (pointer: fine) {
+
+  /* liens dans les paragraphes */
+  p a:hover {
+    color: var(--body-bg-color);
+    background-color: #3184b4;
+  }
+
+  /* b-link */
+  a.b-link:hover {
+    color: #ffffff;
+    background-color: #e3802c;
+  }
+
+  a.b-link:hover::before {
+    background-image: url('/assets/img-site/icon-b-link-hover.png');
+  }
+
+  /* book-link */
+  a.book-link:hover {
+    color: var(--body-bg-color);
+    background-color: #477ee5;
+  }
+
+  a.book-link:hover::before {
+    content: "📖";
+  }
+
+  /* plus-link */
+  a.plus-link:hover {
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    background-color: #3ac07b;
+  }
+}
+
+/* super icones */
 
 a.b-link::before {
   content: "";
@@ -374,34 +401,12 @@ a.b-link::before {
   top: 1px;
 }
 
-a.b-link:hover::before {
-  background-image: url('/assets/img-site/icon-b-link-hover.png');
-}
-
-a.book-link {
-    color: #477ee5;
-    text-decoration: none;
-    padding: 2 0px;
-}
-
-a.book-link:hover {
-    color: var(--body-bg-color);
-    background-color: #477ee5;
-    padding: 2 0px;
-}
 a.book-link::before {
   content: "📘";
   margin-right: 3px;
   vertical-align: middle;
   position: relative;
   bottom: 1px;
-}
-
-a.book-link:hover::before {
-  vertical-align: middle;
-  position: relative;
-  bottom: 1px;
-  content: "📖";
 }
 
 a.music-link::before {
@@ -412,19 +417,6 @@ a.music-link::before {
   bottom: 1px;
 }
 
-
-a.plus-link {
-  letter-spacing: normal;
-  transition: letter-spacing 0.3s ease;
-  color: #3ac07b;
-}
-
-a.plus-link:hover {
-  letter-spacing: 0.03em;
-  font-weight: 500;
-  transform: none;
-  background-color: #3ac07b;
-}
 
 /* ===========================
    BOUTONS GLOBAUX
