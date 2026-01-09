@@ -180,11 +180,22 @@
 <script src="/assets/glightbox/glightbox.min.js"></script>
 
 <script>
+  // === Initialisation GLightbox ===
   const lightbox = GLightbox({
     selector: '.glightbox',
     loop: true,
     keyboardNavigation: true
   });
+
+  // === Masquer les descriptions sur mobile/tablette uniquement ===
+  const isTouchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+
+  if (isTouchDevice) {
+    lightbox.on('slide_changed', () => {
+      const desc = document.querySelector('.gslide-description');
+      if (desc) desc.style.display = 'none';
+    });
+  }
 </script>
   <button id="backToTop" aria-label="Retour en haut">
   ↑
