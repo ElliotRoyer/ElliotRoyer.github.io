@@ -79,11 +79,16 @@
 <script src="/assets/glightbox/glightbox.min.js"></script>
 
 <script>
-const lightbox = GLightbox({
-  selector: '.glightbox',
-  loop: true,
-  keyboardNavigation: true
-});
+  // Détecter les appareils tactiles (mobile / tablette)
+  const isTouchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+
+  // Initialisation de GLightbox
+  const lightbox = GLightbox({
+    selector: '.glightbox',
+    loop: true,
+    keyboardNavigation: true,
+    description: !isTouchDevice // <-- désactive les descriptions sur mobile/tablette
+  });
 </script>
   <button id="backToTop" aria-label="Retour en haut">
   ↑

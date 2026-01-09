@@ -940,13 +940,3 @@ iframe.wait-autoplay {
     background: #000;
   }
 }
-
-
-/* Ajouts persos */
-
-/* Masquer les descriptions sur mobile/tablette tactile */
-@media (hover: none) and (pointer: coarse) {
-  .gslide-description {
-    display: none !important;
-  }
-}

@@ -201,8 +201,21 @@
 
 <script>
   // === Initialisation GLightbox ===
-  GLightbox({ selector: '.glightbox-cover', loop: false });
-  GLightbox({ selector: '.glightbox-feuilleter', loop: true });
+ // Détecter les appareils tactiles (mobile / tablette)
+  const isTouchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
+
+  // Initialisation des lightboxes
+  const lightboxCover = GLightbox({
+    selector: '.glightbox-cover',
+    loop: false,
+    description: !isTouchDevice // masque les descriptions sur mobile/tablette
+  });
+
+  const lightboxFeuilleter = GLightbox({
+    selector: '.glightbox-feuilleter',
+    loop: true,
+    description: !isTouchDevice // masque les descriptions sur mobile/tablette
+  });
 
   // ======================
   // Modales
@@ -255,8 +268,6 @@
   // Initialisation des deux modales
   setupModal("btn-sslq", "modal-sslq");
   setupModal("btn-mmem", "modal-mmem");
-</script>
-("btn-mmem", "modal-mmem");
 </script>
 
 <button id="backToTop" aria-label="Retour en haut">
