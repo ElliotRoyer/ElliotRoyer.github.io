@@ -197,25 +197,10 @@
 
 <script src="/assets/glightbox/glightbox.min.js"></script>
 
-<script src="/assets/glightbox/glightbox.min.js"></script>
-
 <script>
   // === Initialisation GLightbox ===
- // Détecter les appareils tactiles (mobile / tablette)
-  const isTouchDevice = window.matchMedia('(hover: none) and (pointer: coarse)').matches;
-
-  // Initialisation des lightboxes
-  const lightboxCover = GLightbox({
-    selector: '.glightbox-cover',
-    loop: false,
-    description: !isTouchDevice // masque les descriptions sur mobile/tablette
-  });
-
-  const lightboxFeuilleter = GLightbox({
-    selector: '.glightbox-feuilleter',
-    loop: true,
-    description: !isTouchDevice // masque les descriptions sur mobile/tablette
-  });
+  GLightbox({ selector: '.glightbox-cover', loop: false });
+  GLightbox({ selector: '.glightbox-feuilleter', loop: true });
 
   // ======================
   // Modales
