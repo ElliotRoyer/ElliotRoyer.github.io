@@ -520,7 +520,7 @@ iframe.wait-autoplay {
 .glightbox-clean .gslide-desc {
   font-size: 1em;
   margin-bottom: 0;
-  font-family: font-family: "Raleway", "Arial", "Helvetica", sans-serif;
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
   line-height: 1.4em;
   color: #e8e8e8f7;
   text-align: center;
@@ -938,5 +938,22 @@ iframe.wait-autoplay {
 @media screen and (max-height: 420px) {
   .goverlay {
     background: #000;
+  }
+}
+
+
+/* Ajouts persos */
+
+/* Masquer légendes Glightbox sur mobile uniquement dans les galeries */
+@media (hover: none) and (pointer: coarse) {
+  .dessins-grid-page .gslide-description {
+    display: none !important;
+  }
+}
+
+/* Pour la page livres : masquer légendes Glightbox en mobile paysage uniquement dans book-content */
+@media (hover: none) and (pointer: coarse) and (orientation: landscape) and (max-width: 1024px) {
+  .livres-page .gslide-description {
+    display: none !important;
   }
 }

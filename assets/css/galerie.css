@@ -261,14 +261,6 @@ figure.gallery-item.c1.video-item .video-minia:hover .play-button {
   }
 }
 
-/* Masquer légendes des images Glightbox sur mobile */
-
-@media (hover: none) and (pointer: coarse) {
-  .gslide-description {
-    display: none !important;
-  }
-}
-
 @media (hover: hover) and (pointer: fine) {
   /* Cible uniquement les figcaption des galeries "mobile-caption" */
   .mobile-only-figcaption figcaption {
