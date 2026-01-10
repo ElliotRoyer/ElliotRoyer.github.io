@@ -27,6 +27,7 @@
 }
 
 /* rotations aléatoires */
+.photopile figure.gallery-item:nth-child(1n) { transform: rotate(1deg); }
 .photopile figure.gallery-item:nth-child(2n) { transform: rotate(-3deg); }
 .photopile figure.gallery-item:nth-child(3n) { transform: rotate(2deg); }
 .photopile figure.gallery-item:nth-child(4n) { transform: rotate(4deg); }

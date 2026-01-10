@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Freddie Mercury</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/galerie.css">
+  <link rel="stylesheet" href="/assets/css/photopile.css">
+  <link rel="stylesheet" href="/assets/glightbox/glightbox.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/favicon.ico">
+
+<style>
+:root {
+    --ratio: 3 / 2;
+    --ratio-c1-c: 3 / 2;
+    }
+
+/* -------------------------------------------------
+   PHOTOPILE — POLAROID STYLE AJUSTÉ (texte plus bas)
+------------------------------------------------- */
+
+.photopile figure.gallery-item {
+  margin: 12px -6px;
+  padding: 10px 10px 14px 10px;   /* même bande blanche en bas */
+  background: #fff;
+  box-shadow: 1px 3px 6px rgba(0,0,0,0.16);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+/* image carrée dans le polaroid */
+.photopile figure.gallery-item > a {
+  aspect-ratio: 1 / 1;
+  display: block;
+  overflow: hidden;
+}
+
+/* image avec léger cadre sombre */
+.photopile figure.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border: 2px solid rgba(0,0,0,0.12);
+}
+
+/* figcaption légèrement plus bas */
+.photopile figure.gallery-item figcaption {
+  margin-top: 8px;           /* espace entre image et texte */
+  padding-top: 4px;           /* pousse le texte légèrement vers le bas */
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: center;
+  color: #111;
+  line-height: 1.2;
+}
+
+/* hover : léger agrandissement */
+.photopile figure.gallery-item:hover {
+  transform: rotate(0deg) scale(1.05);
+  box-shadow: 3px 7px 14px rgba(0,0,0,0.25);
+  z-index: 10;
+}
+
+/* mobile : polaroids légèrement plus petits et légendes plus fines */
+@media (max-width: 600px) {
+  .photopile figure.gallery-item {
+    margin: 10px -4px;
+    padding: 8px 8px 12px 8px;
+  }
+
+  .photopile figure.gallery-item figcaption {
+    font-size: 0.85rem;
+    padding-top: 2px;
+  }
+}
+</style>
+
+</head>
+
+
+
+<body class="dessins-grid-page">
+  <div class="page">
+
+  <header class="site-header">
+  <div class="logo">
+    <a href="/">
+      <img class="logo-default" src="/assets/logo/Logo_ER.png" alt="Logo ER" height="50">
+      <img class="logo-hover" src="/assets/logo/Logo_ER_hover.png" alt="Logo ER hover" height="50">
+      <img class="logo-active" src="/assets/logo/Logo_ER_active.png" alt="Logo ER active" height="50">
+    </a>
+  </div>
+
+  <nav class="main-nav">
+    <a href="/dessins/">Dessins</a>
+    <a href="/livres/">Livres</a>
+    <a href="/musique/">Musique</a>
+    <a href="/infos/">Infos</a>
+  </nav>
+</header>
+
+<div class="container">
+
+    <h3>Freddie Mercury</h3>
+    <p>Clip pour la chanson de Florent Marchet.</p>
+
+  <div class="gallery">
+
+     <!-- vidéo -->
+
+    <figure class="gallery-item c1 video-item">
+  <div class="video-wrapper">
+    <div class="video-minia">
+      <img src="fm-fm-minia.webp" alt="Miniature Freddie Mercury" class="thumbnail">
+      <img src="/assets/img-site/play-video.png" alt="Play" class="play-button">
+    </div>
+
+    <iframe src="https://www.youtube.com/embed/urn4YYZzSsE?rel=0" 
+            title="Clip Freddie Mercury" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+            class="youtube-video">
+    </iframe>
+  </div>
+</figure>
+
+    <figure class="gallery-item c1" role="text">
+      <p class="long">
+        Dans le train du retour d'une <a href="/dessins/florent-marchet/le-monde-du-vivant/">lecture musicale et dessinée</a>, Florent a commencé à me parler du clip qu’il cherchait encore pour porter sa chanson <span class="i">Freddie Mercury</span>, choisie pour présenter son album <a href="https://www.youtube.com/watch?v=8jOIcm8Ij8c&list=OLAK5uy_lhhjtMkg1kPG7J_2_PTs9RvomMIEC3lSU&index=1" target="_blank" class="i">Garden Party</a>. J’ai commencé à dessiner. « Et si on le faisait ensemble ? »
+      </p>
+    </figure>
+
+        <figure class="gallery-item c1-c" role="img">
+      <a href="fm-fm-01.webp" class="glightbox item" data-gallery="art">
+        <img src="fm-fm-01.webp" alt="Image">
+      </a>
+    </figure>
+  </div>
+  <div class="gallery gal-c4 photopile">
+    <figure class="gallery-item" role="img">
+      <a href="fm-fm-02.webp" class="glightbox item" data-gallery="art">
+        <img src="fm-fm-02.webp" alt="Image">
+      </a>
+      <figcaption>Photo de tournage</figcaption>
+    </figure>
+
+    <figure class="gallery-item" role="img">
+      <a href="fm-fm-03.webp" class="glightbox item" data-gallery="art">
+        <img src="fm-fm-03.webp" alt="Image">
+      </a>
+      <figcaption>Photo de tournage</figcaption>
+    </figure>
+
+    <figure class="gallery-item" role="img">
+      <a href="fm-fm-04.webp" class="glightbox item" data-gallery="art">
+        <img src="fm-fm-04.webp" alt="Image">
+      </a>
+      <figcaption>Photo de tournage</figcaption>
+    </figure>
+
+    <figure class="gallery-item" role="img">
+      <a href="fm-fm-05.webp" class="glightbox item" data-gallery="art">
+        <img src="fm-fm-05.webp" alt="Image">
+      </a>
+      <figcaption>Photo de tournage</figcaption>
+    </figure>
+  </div>
+  <div class="gallery">
+    <figure class="gallery-item c1" role="text" style="font: var(--credit)">
+      <p class="caption">
+        Crédit photos : Guy Fasolato
+      </p>
+    </figure>
+  </div>
+</div>
+
+
+
+  <footer class="site-footer">
+  <!--<a href="mailto:contact@elliotroyer.com" class="footer-link">Pour m'écrire</a>-->
+  <p class="footer-text">© Elliot Royer 2026</p>
+</footer>
+
+</div>
+
+<script src="/assets/glightbox/glightbox.min.js"></script>
+
+<script>
+const lightbox = GLightbox({
+  selector: '.glightbox',
+  loop: true,
+  keyboardNavigation: true
+});
+
+  document.querySelectorAll('figure.gallery-item.video-item').forEach(wrapper => {
+  const placeholder = wrapper.querySelector('.video-minia');
+  const video = wrapper.querySelector('iframe.youtube-video');
+
+  if (!placeholder || !video) return;
+
+  placeholder.addEventListener('click', () => {
+    video.style.visibility = 'visible';
+    video.src += "&autoplay=1";
+    setTimeout(() => { placeholder.style.display = 'none'; }, 250);
+  });
+});
+</script>
+  <button id="backToTop" aria-label="Retour en haut">
+  ↑
+  </button>
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
