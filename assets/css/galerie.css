@@ -222,10 +222,14 @@ figure.gallery-item.c1.video-item .video-minia:hover .play-button {
    MEDIA QUERIES
 ------------------------------------------------- */
 
-/* Mobile 600px */
 @media (max-width: 600px) {
   figure.gallery-item.c1 img {
     max-height: 400px;
+  }
+
+  p {
+  margin: 10px 0;
+  padding: 0px 50px;
   }
 
   .gal-c4 {
@@ -247,7 +251,6 @@ figure.gallery-item.c1.video-item .video-minia:hover .play-button {
 }
 }
 
-/* Mobile 450px */
 @media (max-width: 450px) {
   .gallery {
     gap: var(--gallery-gap);

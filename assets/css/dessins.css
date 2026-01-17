@@ -51,8 +51,11 @@
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+    .categories-grid {
+        gap: 30px;
+    }
     .category-item {
-        width: calc(33.333% - 22px); /* 3 colonnes */
+        width: calc(33.333% - 20px);
     }
     .categories h3 {
         margin: 0 0 20px 0;
@@ -60,7 +63,10 @@
 }
 
 @media (max-width: 600px) {
+    .categories-grid {
+        justify-content: center;
+    }
     .category-item {
-        width: calc(50% - 17px); /* 2 colonnes */
+        width: calc(50% - 30px);
     }
 }
