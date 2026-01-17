@@ -186,7 +186,7 @@ body {
 
 /* Menu */
 .main-nav a {
-    margin-left: 20px;
+    margin: 0 10px;
     font-size: 1.4em;
     color: #000;
     text-decoration: none;
@@ -271,34 +271,33 @@ h1, h2, h3 {
 }
 
 h2 {
-    font-size: 2rem;      /* taille par défaut pour tous les h2 */
-    margin: 35px 0;  /* espace sous le titre */
-    font-weight: 700;     /* optionnel : force un titre plus marqué */
+    font-size: 2rem;
+    margin: 35px 0;
+    font-weight: 700;
     text-align: center
 }
 
 h3 {
-    font-size: 1.8rem;    /* taille standard pour les h3 */
+    font-size: 1.8rem;
     margin: 0 0 10px 0;
-    font-weight: 600;     /* optionnel : un peu moins lourd que h2 */
-    line-height: 1.3;     /* espace vertical confortable */
+    font-weight: 600;
+    line-height: 1.3;
 }
 
 h4 {
-    font-size: 1rem;    /* taille standard pour les h3 */
+    font-size: 1rem;
     margin-top: 0px;
-    margin-bottom: 0.2em; /* espace sous le titre, ajustable selon besoin */
-    font-weight: 600;     /* optionnel : un peu moins lourd que h2 */
+    margin-bottom: 0.2em;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
     h2 {
-        font-size: 1.5rem; /* réduit la taille sur mobile */
+        font-size: 1.6rem;
         margin: 25px 0;
     }
     h3 {
-        font-size: 1.5rem;
-        margin-bottom: 0.4em;
+        font-size: 1.4rem;
     }
 }
 
@@ -708,7 +707,7 @@ a.music-link::before {
     }
 
     .main-nav a {
-        flex: 1 1 auto;      /* largeur égale */
+        flex: 1 1 auto;
         text-align: center;
     }
 }
