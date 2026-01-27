@@ -13,16 +13,14 @@
 /* 1 élément */
 .category-item {
     width: calc(25% - 25px);
-    text-align: center;
+    text-align: center;   
     text-decoration: none;
     color: #000;
-    font-weight: 500;
+    font-family: "Raleway", "Arial", "Helvetica", sans-serif;
 }
 
 .category-item span {
     display: block;
-    margin-top: 8px;
-    font-size: 0.95rem;
     transition: opacity 0.3s ease;
 }
 
@@ -32,6 +30,7 @@
     overflow: hidden;
     border-radius: 10px;
     transition: transform 0.3s ease; /* ← zoom sur le cadre */
+    margin-bottom: 8px;
 }
 
 .category-thumb img {
@@ -48,6 +47,15 @@
     opacity: 0.6;
 }
 
+.dessins-titre {
+    font-weight: 500;
+    font-size: 1.02rem;
+}
+
+.dessins-date {
+    font-weight: 400;
+    font-size: 0.92rem;
+}
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
