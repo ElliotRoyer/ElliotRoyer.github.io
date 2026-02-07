@@ -213,6 +213,16 @@ p { margin: 0; }
     justify-content: center;
     margin-bottom: 32px;
     font-size: 2em;
+    transition: none; /* suppression du hover sur les liens sur mobile */
+  }
+
+  .home-nav a:hover { /* suppression du hover sur les liens sur mobile */
+      opacity: 1;
+      transform: none;
+  }
+  
+  .home-nav a:hover::after {
+      width: 0;
   }
 
   .home-nav a span { animation: none; }
