@@ -17,11 +17,11 @@ body {
   align-items: center;
   background: linear-gradient(
     to bottom,
-    #ecf2f8 0%,
-    #edf3fa 20%,
-    #f8ecdb 55%,
-    #f8ecdb 70%,
-    #d1d8e0 100%);
+    #e9f1fa 0%,
+    #e1eaf4 20%,
+    #f6e9d6 55%,
+    #f6eada 70%,
+    #c4cdd8 100%);
   position: relative;
 }
 
@@ -77,7 +77,7 @@ p { margin: 0; }
 
 /* ==================== NAVIGATION ==================== */
 .home-nav a {
-  margin: 0 10px;
+  margin: 0 12px;
   font-size: 2em;
   color: #6b7b8e;
   text-decoration: none;
@@ -91,7 +91,7 @@ p { margin: 0; }
 }
 
 .home-nav {
-  margin-bottom: 55px;
+  margin-bottom: 40px;
 }
 
 .home-nav a:hover { color: #57535b; }
@@ -148,7 +148,7 @@ p { margin: 0; }
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 480px;
+  max-width: 680px;
   height: auto;
   display: block;
   margin: 40px auto;
@@ -186,6 +186,7 @@ p { margin: 0; }
              fogBreath 12s ease-in-out infinite reverse;
 }
 
+
 /* ==================== ANIMATIONS BRUME ==================== */
 @keyframes fogScrollFade       { 0% { background-position: 0 50%; } 100% { background-position: -1024px 50%; } }
 @keyframes fogScrollFadeFast   { 0% { background-position: 0 50%; } 100% { background-position: -1024px 50%; } }
@@ -220,6 +221,19 @@ p { margin: 0; }
 
   .home-image::before { opacity: 0.4; }
   .home-image::after  { opacity: 0.6; }
+}
+
+
+@media (max-width: 768px) and (orientation: portrait) {
+  .home-bg {
+    background: linear-gradient(
+      to bottom,
+      #e9f1fa 0%,
+      #e1eaf4 30%,
+      #f6e9d6 65%,
+      #f6eada 85%,
+      #c4cdd8 100%);
+    }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {

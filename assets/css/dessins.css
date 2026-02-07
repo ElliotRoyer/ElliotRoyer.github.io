@@ -65,9 +65,6 @@
     .category-item {
         width: calc(33.333% - 20px);
     }
-    .categories h3 {
-        margin: 0 0 20px 0;
-    }
 }
 
 @media (max-width: 600px) {
@@ -76,5 +73,8 @@
     }
     .category-item {
         width: calc(50% - 30px);
+    }
+    .categories h3 {
+        margin: 30px 0 20px 14px;
     }
 }
