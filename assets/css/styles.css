@@ -568,58 +568,6 @@ a.music-link::before {
 }
 
 /* ===========================
-     perso-bulle (je ne sais pas encore si je garderai ça)
-   =========================== */
-
-/* Bulle principale */
-.perso-bulle {
-    display: inline-block;
-    max-width: 80%;           /* largeur maximum */
-    background-color: #ffa76d;
-    border-radius: 20px;
-    padding: 15px 20px;
-    font-size: 0.95rem;
-    line-height: 1.4em;
-    position: relative;
-    margin: 30px 0 30px 80px; /* espace à gauche pour personnage */
-}
-
-/* Personnage à gauche (desktop et mobile) */
-.perso-bulle::before {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 60px;
-    background-image: url(/assets/logo/Logo_ER.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: -80px;
-    top: 0;
-}
-
-/* Flèche pointant vers le personnage */
-.perso-bulle::after {
-    content: "";
-    display: inline-block;
-    height: 0;
-    width: 0;
-    border-top: 8px solid transparent;
-    border-right: 14px solid #ffa76d;
-    border-bottom: 8px solid transparent;
-    position: absolute;
-    left: -14px;
-    top: 20px;
-}
-
-@media (max-width: 600px) {
-    .perso-bulle {
-        max-width: 90%; /* bulle un peu plus large pour petits écrans */
-    }
-}
-
-
-/* ===========================
      Bouton backToTop
    =========================== */
 
@@ -664,6 +612,17 @@ a.music-link::before {
         margin-bottom: 20px; /* espace entre logo et menu */
     }
 
+    .logo a {
+        display: inline-block;
+        height: 50px;
+        overflow: visible;
+    }
+
+    .logo-hover,
+    .logo-active {
+        pointer-events: none;
+    }
+
     /* Images du logo : superposition désactivée sur mobile, centré */
     .logo a img {
         position: static;
@@ -699,7 +658,6 @@ a.music-link::before {
     .logo a:active .logo-hover {
         display: none;
     }
-
 
     .main-nav {
         display: flex;
