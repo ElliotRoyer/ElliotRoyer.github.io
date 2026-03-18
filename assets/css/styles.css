@@ -341,6 +341,12 @@ a.book-link {
   padding: 2px 0;
 }
 
+a.carnet-link {
+  color: #7dc53e;
+  text-decoration: none;
+  padding: 2px 0;
+}
+
 a.plus-link {
   color: #3ac07b;
   letter-spacing: normal;
@@ -377,6 +383,12 @@ a.plus-link {
     content: "📖";
   }
 
+  /* carnet-link */
+  a.carnet-link:hover {
+    color: var(--body-bg-color);
+    background-color: #7dc53e;
+  }
+  
   /* plus-link */
   a.plus-link:hover {
     letter-spacing: 0.03em;
@@ -403,6 +415,14 @@ a.b-link::before {
 
 a.book-link::before {
   content: "📘";
+  margin-right: 3px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+a.carnet-link::before {
+  content: "📚";
   margin-right: 3px;
   vertical-align: middle;
   position: relative;
