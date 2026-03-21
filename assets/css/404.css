@@ -16,6 +16,21 @@ html, body {
   background: #f5f5f5;
 }
 
+/* voile gris */
+.home-bg::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: var(--body-bg-color);
+  z-index: 9999;
+  pointer-events: none;
+  animation: revealPage 1.5s cubic-bezier(.05,.11,0,.99) forwards;
+}
+
+@keyframes revealPage {
+  to { opacity: 0; }
+}
+
 .error-container {
   text-align: center;
 }
@@ -39,7 +54,8 @@ html, body {
   font-size: 10rem;
   background: linear-gradient(
     to top,
-    #6b7b8e00 15%,
+    #6b7b8e00 18%,
+    #6b7b8e42 50%,
     #6b7b8e8f 100%
       );
   background-clip: text;
