@@ -618,6 +618,31 @@ a.music-link::before {
   visibility: visible;
 }
 
+/* ===========================
+     Pagination
+   =========================== */
+
+.pagination {
+  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0 0.2rem;
+}
+
+.pagination a {
+  padding: 0.5rem 1rem;
+  background: #eee;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  transition: background 0.15s ease;
+}
+
+.pagination a:hover {
+  background: #e0e0e0;
+}
 
 @media (max-width: 768px) {
     /* Header vertical centré */
