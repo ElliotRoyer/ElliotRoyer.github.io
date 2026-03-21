@@ -8,12 +8,15 @@
 # Any restriction expressed via content signals is an express reservation of
 # rights under Article 4 of EU Directive 2019/790.
 
+# Ne pas indexer les logos dans les moteurs de recherche
 User-agent: *
-Content-signal: search=yes, ai-train=no
+Disallow: /assets/logo/
+Disallow: /assets/img-site/
+
+# Autoriser le reste du site
 Allow: /
 
 # Known AI crawlers
-
 User-agent: GPTBot
 User-agent: Google-Extended
 User-agent: ClaudeBot
