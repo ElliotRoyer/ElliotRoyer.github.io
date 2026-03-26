@@ -26,12 +26,19 @@
     ],
   };
 
-  let path = window.location.pathname.toLowerCase();
-  if (path.endsWith('/')) path += 'index.html';
+   let path = window.location.pathname.toLowerCase();
 
-  const segments = path.split('/').filter(seg => seg); 
-  const section = segments[segments.length - 3]; // "carnets" ou "divers"
-  const currentFolder = segments[segments.length - 2]; // "19-avene" ou "lucky"
+  // 🔥 IMPORTANT : on enlève index.html si présent
+  path = path.replace(/index\.html$/, "");
+
+  const segments = path.split('/').filter(seg => seg);
+
+  // 👉 Exemple attendu :
+  // /dessins/carnets/19-avene/
+  // segments = ["dessins", "carnets", "19-avene"]
+
+  const section = segments[segments.length - 2];
+  const currentFolder = segments[segments.length - 1];
 
   if (!sections[section]) {
     console.warn("Pagination : section non trouvée", section);
@@ -52,20 +59,20 @@
 
   if (index > 0) {
     const prev = document.createElement("a");
-    prev.href = `/dessins/${section}/${pages[index - 1]}/index.html`;
+    prev.href = `/dessins/${section}/${pages[index - 1]}/`;
     prev.textContent = "←";
     nav.appendChild(prev);
   }
 
   const home = document.createElement("a");
-  home.href = "/dessins/index.html";
+  home.href = "/dessins/";
   home.textContent = "Retour";
-  home.className = "pagination-home"; // optionnel pour styliser
+  home.className = "pagination-home";
   nav.appendChild(home);
 
   if (index < pages.length - 1) {
     const next = document.createElement("a");
-    next.href = `/dessins/${section}/${pages[index + 1]}/index.html`;
+    next.href = `/dessins/${section}/${pages[index + 1]}/`;
     next.textContent = "→";
     nav.appendChild(next);
   }
