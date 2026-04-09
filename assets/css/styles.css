@@ -245,9 +245,10 @@ body {
 
 .site-footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.3rem;
+    gap: 0.2rem;
     padding: 30px 0;
     font-size: 1rem;
     color: #000;
@@ -260,7 +261,8 @@ body {
 
 .site-footer .footer-contact {
     text-decoration: none;
-    color: #000;
+    font-style: italic;
+    color: #636f82;
 }
 
 .site-footer .footer-contact:hover {
