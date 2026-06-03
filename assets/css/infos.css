@@ -6,22 +6,12 @@ p {
     text-align: center;
 }
 
-.infos-page .bio-intro {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.infos-page .bio-intro p {
-    margin: 2px 0;
-    font-size: 1.1rem;
-    color: #444;
-}
-
 .infos-page .bio-content {
     display: flex;
     gap: 20px;
     align-items: flex-start;
-    margin-bottom: 60px;
+    margin: 0px 0 60px;
+    padding: 10px 0;
 }
 
 .infos-page .bio-photo img {
@@ -38,6 +28,13 @@ p {
     font-size: 1rem;
     line-height: 1.6;
     padding: 0 20px;
+}
+
+.s {
+    color:var(--body-bg-color);
+}
+.s:hover {
+    background-color:var(--body-bg-color)
 }
 
 @media (max-width: 768px) {

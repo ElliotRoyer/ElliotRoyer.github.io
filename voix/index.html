@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Voix</title>
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/voix.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/favicon.ico">
+</head>
+
+<body class="dessins-grid-page">
+  <div class="page">
+
+    <header class="site-header">
+      <div class="logo">
+        <a href="/">
+          <img class="logo-default" src="/assets/logo/logo_ER.png" alt="Logo ER" height="50">
+          <img class="logo-hover" src="/assets/logo/Logo_ER_hover.png" alt="Logo ER hover" height="50">
+          <img class="logo-active" src="/assets/logo/Logo_ER_active.png" alt="Logo ER active" height="50">
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <a href="/dessins/">Dessins</a>
+        <a href="/livres/">Livres</a>
+        <a href="/musique/">Musique</a>
+        <a href="/infos/">Infos</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h2>Des échos du passé</h2>
+      <p>Je parle seul.</p>
+      <p>Des ces heures d'enregistrements, j'ai extrait quelques phrases. Ces miettes sont le témoignage fragmentaire d'un type qui cherche à mener une vie artistique.</p>
+
+      <div class="audio-container">
+
+        <div class="controls">
+          <button id="play-random">Écouter</button>
+          <button id="toggle" style="display:none;">Lire</button>
+        </div>
+
+        <audio id="player" preload="none"></audio>
+
+        <div id="now-playing" hidden></div>
+        <input id="progress" type="range" min="0" max="100" value="0" hidden>
+        <div id="time-display" hidden>0:00 / 0:00</div>
+
+        <ul id="played-list"></ul>
+
+      </div>
+  </div>
+
+</div>
+
+<script src="audios/audio-list.js"></script>
+
+<script>
+  const player = document.getElementById('player');
+  const button = document.getElementById('play-random');
+  const toggle = document.getElementById('toggle');
+  const playedList = document.getElementById('played-list');
+  const progress = document.getElementById('progress');
+  const nowPlaying = document.getElementById('now-playing');
+  const timeDisplay = document.getElementById('time-display');
+  const footer = document.querySelector('.site-footer');
+
+  const playedFiles = new Set();
+  let hasStarted = false;
+
+  function formatName(file) {
+    return decodeURIComponent(
+      file.split('/').pop().replace(/\.[^/.]+$/, '')
+    );
+  }
+
+  function formatTime(seconds) {
+    if (!seconds || isNaN(seconds)) return "0:00";
+
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+
+    return `${m}:${s.toString().padStart(2, '0')}`;
+  }
+
+  function updateProgressBar() {
+    const percent = (player.currentTime / player.duration) * 100 || 0;
+
+    progress.value = percent;
+
+    progress.style.background =
+      `linear-gradient(to right, #333 ${percent}%, rgba(0,0,0,0.15) ${percent}%)`;
+  }
+
+  function updateTimeDisplay() {
+    const current = player.currentTime || 0;
+    const duration = player.duration || 0;
+
+    timeDisplay.textContent =
+      `${formatTime(current)} / ${formatTime(duration)}`;
+  }
+
+  function playAudio(file) {
+    player.src = file;
+    player.play();
+
+    nowPlaying.textContent = `Lecture : ${formatName(file)}`;
+  }
+
+  button.addEventListener('click', () => {
+    if (playedFiles.size === audios.length) {
+      alert("revenez plus tard pour d'autres miettes");
+      return;
+    }
+
+    if (!hasStarted) {
+      hasStarted = true;
+
+      button.textContent = "Un autre";
+
+      toggle.hidden = false;
+      toggle.style.display = "inline-block";
+
+      nowPlaying.hidden = false;
+      progress.hidden = false;
+      timeDisplay.hidden = false;
+
+      footer.hidden = false;
+
+      toggle.textContent = "Pause";
+    }
+
+    let i;
+    do {
+      i = Math.floor(Math.random() * audios.length);
+    } while (playedFiles.has(audios[i]));
+
+    const file = audios[i];
+
+    playAudio(file);
+
+    if (!playedFiles.has(file)) {
+      const li = document.createElement('li');
+      li.textContent = formatName(file);
+      li.style.cursor = 'pointer';
+
+      li.addEventListener('click', () => playAudio(file));
+
+      playedList.prepend(li);
+      playedFiles.add(file);
+    }
+  });
+
+  toggle.addEventListener('click', () => {
+    if (player.paused) {
+      player.play();
+      toggle.textContent = "Pause";
+    } else {
+      player.pause();
+      toggle.textContent = "Lire";
+    }
+  });
+
+  player.addEventListener('play', () => {
+    toggle.textContent = "Pause";
+  });
+
+  player.addEventListener('pause', () => {
+    toggle.textContent = "Lire";
+  });
+
+  player.addEventListener('timeupdate', () => {
+    updateProgressBar();
+    updateTimeDisplay();
+  });
+
+  player.addEventListener('loadedmetadata', updateTimeDisplay);
+
+  progress.addEventListener('input', () => {
+    if (!player.duration) return;
+    player.currentTime = (progress.value / 100) * player.duration;
+  });
+
+  document.addEventListener('keydown', (e) => {
+    const tag = document.activeElement.tagName;
+
+    if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+
+    if (e.code === 'Space') {
+      e.preventDefault();
+      player.paused ? player.play() : player.pause();
+    }
+  });
+</script>
+
+</body>
+</html>

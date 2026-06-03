@@ -1,0 +1,149 @@
+  body {
+    background-color: #a7a8a8;
+    color: #343434;
+    animation: fadeBg 1.3s cubic-bezier(0, 0.53, 0.18, 0.91) forwards;
+  }
+
+  @keyframes fadeBg {
+    from {
+      background-color: var(--body-bg-color);
+    }
+    to {
+      background-color: #a7a8a8;
+    }
+  }
+
+  p {
+    margin: 0 auto 10px;
+    width: 100%;
+    max-width: 480px;
+    text-align: center;
+  }
+
+  h2 {
+    color:#555758
+  }
+
+  .audio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 25px 0;
+  }
+
+  .controls {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    min-height: 44px;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+  }
+
+  .audio-container button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    background-color:#7c7f80;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+  }
+
+  .audio-container button:hover {
+    background-color: #636767;
+  }
+
+  #now-playing {
+    margin-top: 10px;
+    font-size: 0.92rem;
+    opacity: 0.7;
+    text-align: center;
+  }
+
+  #progress {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+    height: 5px;
+    border-radius: 999px;
+    appearance: none;
+    -webkit-appearance: none;
+    background: linear-gradient(
+      to right,
+      #333 0%,
+      #333 0%,
+      rgba(0,0,0,0.15) 0%
+    );
+    cursor: pointer;
+  }
+
+  #progress::-webkit-slider-thumb {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+  }
+
+  #progress::-webkit-slider-runnable-track {
+    background: transparent;
+  }
+
+  #progress::-moz-range-thumb {
+    width: 0;
+    height: 0;
+    border: none;
+  }
+
+  #progress::-moz-range-track {
+    background: transparent;
+  }
+
+  #played-list {
+    list-style: none;
+    padding: 0px 5px;
+    margin-top: 15px;
+    text-align: center;
+    max-height: 250px;
+    overflow-y: auto;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 6px;
+    background: #dadcdc;
+    scrollbar-width: thin;
+    scrollbar-color: #999 transparent;
+    font-size: 0.92rem;
+  }
+
+  #played-list li {
+    cursor: pointer;
+    margin: 6px 0;
+    padding: 4px 6px;
+    border-radius: 4px;
+    transition: background 0.2s;
+  }
+
+  #played-list li:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+
+  #toggle {
+    width: 90px;
+    text-align: center;
+  }
+
+  #play-random:focus,
+  #toggle:focus {
+    outline: none;
+  }
+
+  #time-display {
+    margin-top: 6px;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+  }

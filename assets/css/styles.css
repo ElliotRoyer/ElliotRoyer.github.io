@@ -279,7 +279,7 @@ h1, h2, h3 {
 
 h2 {
     font-size: 2rem;
-    margin: 35px 0;
+    margin: 35px 0 25px;
     font-weight: 700;
     text-align: center
 }
@@ -301,7 +301,7 @@ h4 {
 @media (max-width: 768px) {
     h2 {
         font-size: 1.7rem;
-        margin: 25px 0;
+        margin: 20px 0;
     }
     h3 {
         font-size: 1.5rem;
@@ -641,6 +641,7 @@ a.music-link::before {
   background: #eee;
   border-radius: 10px;
   text-decoration: none;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
   font-weight: 500;
   color: #333;
   transition: background 0.15s ease;
