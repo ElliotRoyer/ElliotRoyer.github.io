@@ -39,7 +39,7 @@
 
         <div class="controls">
           <button id="play-random">Écouter</button>
-          <button id="toggle" style="display:none;">Lire</button>
+          <button id="toggle" hidden>Lire</button>
         </div>
 
         <audio id="player" preload="none"></audio>
@@ -65,10 +65,10 @@
   const progress = document.getElementById('progress');
   const nowPlaying = document.getElementById('now-playing');
   const timeDisplay = document.getElementById('time-display');
-  const footer = document.querySelector('.site-footer');
 
   const playedFiles = new Set();
   let hasStarted = false;
+  let currentFile = null;
 
   function formatName(file) {
     return decodeURIComponent(
@@ -78,43 +78,42 @@
 
   function formatTime(seconds) {
     if (!seconds || isNaN(seconds)) return "0:00";
-
     const m = Math.floor(seconds / 60);
     const s = Math.floor(seconds % 60);
-
     return `${m}:${s.toString().padStart(2, '0')}`;
   }
 
   function updateProgressBar() {
     const percent = (player.currentTime / player.duration) * 100 || 0;
-
     progress.value = percent;
-
     progress.style.background =
       `linear-gradient(to right, #333 ${percent}%, rgba(0,0,0,0.15) ${percent}%)`;
   }
 
   function updateTimeDisplay() {
-    const current = player.currentTime || 0;
-    const duration = player.duration || 0;
-
     timeDisplay.textContent =
-      `${formatTime(current)} / ${formatTime(duration)}`;
+      `${formatTime(player.currentTime)} / ${formatTime(player.duration)}`;
   }
 
-  function playAudio(file) {
-    player.src = file;
-    player.play();
+  async function playAudio(file) {
+    try {
+      currentFile = file;
+      player.src = file;
+      await player.play(); // IMPORTANT : garantit le lancement
 
-    nowPlaying.textContent = `Lecture : ${formatName(file)}`;
+      nowPlaying.textContent = `Lecture : ${formatName(file)}`;
+    } catch (err) {
+      console.log("Lecture bloquée :", err);
+    }
   }
 
-  button.addEventListener('click', () => {
+  button.addEventListener('click', async () => {
     if (playedFiles.size === audios.length) {
       alert("revenez plus tard pour d'autres miettes");
       return;
     }
 
+    // premier clic : afficher UI
     if (!hasStarted) {
       hasStarted = true;
 
@@ -127,11 +126,10 @@
       progress.hidden = false;
       timeDisplay.hidden = false;
 
-      footer.hidden = false;
-
       toggle.textContent = "Pause";
     }
 
+    // choisir un fichier
     let i;
     do {
       i = Math.floor(Math.random() * audios.length);
@@ -139,13 +137,12 @@
 
     const file = audios[i];
 
-    playAudio(file);
+    await playAudio(file);
 
+    // ajouter liste
     if (!playedFiles.has(file)) {
       const li = document.createElement('li');
       li.textContent = formatName(file);
-      li.style.cursor = 'pointer';
-
       li.addEventListener('click', () => playAudio(file));
 
       playedList.prepend(li);
@@ -185,7 +182,6 @@
 
   document.addEventListener('keydown', (e) => {
     const tag = document.activeElement.tagName;
-
     if (tag === 'INPUT' || tag === 'TEXTAREA') return;
 
     if (e.code === 'Space') {
