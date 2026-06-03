@@ -12,6 +12,7 @@
 User-agent: *
 Disallow: /assets/logo/
 Disallow: /assets/img-site/
+Disallow: /voix/
 
 # Autoriser le reste du site
 Allow: /
