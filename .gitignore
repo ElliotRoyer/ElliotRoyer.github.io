@@ -1,13 +1,15 @@
 # Ignorer les fichiers macOS inutiles
 .DS_Store
 
-# Ignorer WIP
-/livres/mmem/plus/
-/livres/sslq/plus/
-/dessins/carnets/REF/
-/dessins/index-test.html
+# Ignorer fichiers de travail
 /voix/index-save.html
 /voix/audios/readme.md
 /voix/audios/generateAudioList.js
 /voix/audios/normalize.js
 /voix/audios/Terminal
+
+# Ignorer WIP
+/livres/mmem/plus/
+/livres/sslq/plus/
+/dessins/carnets/REF/
+/dessins/index-test.html
