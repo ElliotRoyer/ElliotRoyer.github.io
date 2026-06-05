@@ -10,8 +10,7 @@
 
 # Ne pas indexer les logos dans les moteurs de recherche
 User-agent: *
-Disallow: /assets/logo/
-Disallow: /assets/img-site/
+Disallow: /assets/
 Disallow: /voix/
 
 # Autoriser le reste du site

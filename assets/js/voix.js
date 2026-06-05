@@ -93,7 +93,11 @@ async function playAudio(audioObj) {
 
     nowPlaying.textContent = ``;
 
-    // 🔥 IMPORTANT : surlignage fonctionne pour random + clic + liste
+    playedFiles.add(audioObj.file);
+
+    const li = document.querySelector(`#played-list li[data-file="${audioObj.file}"]`);
+    if (li) li.classList.add('listened');
+
     setActive(audioObj.file);
 
   } catch (err) {
@@ -108,15 +112,19 @@ function renderList(list) {
 
   list.forEach(audio => {
     const li = document.createElement('li');
+
     li.textContent = formatName(audio.file);
     li.dataset.file = audio.file;
+
+    if (playedFiles.has(audio.file)) {
+      li.classList.add('listened');
+    }
 
     li.addEventListener('click', () => playAudio(audio));
 
     playedList.appendChild(li);
   });
 
-  // restaure surlignage si déjà en cours
   if (currentFile) setActive(currentFile);
 }
 
@@ -156,10 +164,11 @@ button.addEventListener('click', async () => {
     li.textContent = formatName(audioObj.file);
     li.dataset.file = audioObj.file;
 
+    playedList.prepend(li);
+    
     li.addEventListener('click', () => playAudio(audioObj));
 
     playedList.prepend(li);
-    playedFiles.add(audioObj.file);
   }
 });
 
