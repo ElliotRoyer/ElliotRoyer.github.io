@@ -169,6 +169,11 @@
     font-variant-numeric: tabular-nums;
   }
 
+  .sort-active {
+  background-color: #4a4d4e !important;
+  color: white;
+}
+  
 @media (hover: hover) {
 
   .audio-container button:hover {

@@ -31,7 +31,7 @@ function formatName(file) {
   let time = parts[1];
 
   // transforme 00_29 -> 00:29
-  time = time.replace(/(\d{2})_(\d{2})/, '$1:$2');
+  time = time.replace(/(\d{2})_(\d{2})/, '$1 min $2');
 
   return `${date} - ${time}`;
 }
@@ -50,6 +50,22 @@ function scrollToActive(li) {
     behavior: "smooth",
     block: "center"
   });
+}
+
+function initList() {
+  const sorted = [...audios].sort((a, b) =>
+    new Date(b.date) - new Date(a.date)
+  );
+  renderList(sorted);
+
+  setActiveSort(sortDateBtn);
+}
+
+function setActiveSort(activeBtn) {
+  sortDateBtn.classList.remove('sort-active');
+  sortAddedBtn.classList.remove('sort-active');
+
+  activeBtn.classList.add('sort-active');
 }
 
 /* -------------------- ACTIVE STATE -------------------- */
@@ -149,6 +165,7 @@ button.addEventListener('click', async () => {
     sortAddedBtn.hidden = false;
 
     toggle.textContent = "Pause";
+    initList();
   }
 
   let audioObj;
@@ -164,11 +181,6 @@ button.addEventListener('click', async () => {
     li.textContent = formatName(audioObj.file);
     li.dataset.file = audioObj.file;
 
-    playedList.prepend(li);
-    
-    li.addEventListener('click', () => playAudio(audioObj));
-
-    playedList.prepend(li);
   }
 });
 
@@ -178,14 +190,18 @@ sortDateBtn.addEventListener('click', () => {
   const sorted = [...audios].sort((a, b) =>
     new Date(b.date) - new Date(a.date)
   );
+
   renderList(sorted);
+  setActiveSort(sortDateBtn);
 });
 
 sortAddedBtn.addEventListener('click', () => {
   const sorted = [...audios].sort((a, b) =>
     b.added - a.added
   );
+
   renderList(sorted);
+  setActiveSort(sortAddedBtn);
 });
 
 /* -------------------- CONTROLS -------------------- */
