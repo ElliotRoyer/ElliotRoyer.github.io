@@ -31,8 +31,7 @@
     </header>
 
     <div class="container">
-      <h2>Voies</h2>
-      <p>Entretiens avec moi-même.</p>
+      <h3>Entretiens avec moi-même</h3>
       <p>De ces heures d'enregistrements, j'ai extrait quelques phrases. Ces miettes sont le témoignage fragmentaire d'un jeune homme qui cherche à mener une vie artistique.</p>
 
       <div class="audio-container">
@@ -48,148 +47,19 @@
         <input id="progress" type="range" min="0" max="100" value="0" hidden>
         <div id="time-display" hidden>0:00 / 0:00</div>
 
+        <div id="sort-controls" class="controls">
+          <button id="sort-date" hidden>Par date</button>
+          <button id="sort-added" hidden>Par ajout</button>
+        </div>
+
         <ul id="played-list"></ul>
 
-      </div>
   </div>
 
 </div>
 
 <script src="audios/audio-list.js"></script>
-
-<script>
-  const player = document.getElementById('player');
-  const button = document.getElementById('play-random');
-  const toggle = document.getElementById('toggle');
-  const playedList = document.getElementById('played-list');
-  const progress = document.getElementById('progress');
-  const nowPlaying = document.getElementById('now-playing');
-  const timeDisplay = document.getElementById('time-display');
-
-  const playedFiles = new Set();
-  let hasStarted = false;
-  let currentFile = null;
-
-  function formatName(file) {
-    return decodeURIComponent(
-      file.split('/').pop().replace(/\.[^/.]+$/, '')
-    );
-  }
-
-  function formatTime(seconds) {
-    if (!seconds || isNaN(seconds)) return "0:00";
-    const m = Math.floor(seconds / 60);
-    const s = Math.floor(seconds % 60);
-    return `${m}:${s.toString().padStart(2, '0')}`;
-  }
-
-  function updateProgressBar() {
-    const percent = (player.currentTime / player.duration) * 100 || 0;
-    progress.value = percent;
-    progress.style.background =
-      `linear-gradient(to right, #333 ${percent}%, rgba(0,0,0,0.15) ${percent}%)`;
-  }
-
-  function updateTimeDisplay() {
-    timeDisplay.textContent =
-      `${formatTime(player.currentTime)} / ${formatTime(player.duration)}`;
-  }
-
-  async function playAudio(file) {
-    try {
-      currentFile = file;
-      player.src = file;
-      await player.play(); // IMPORTANT : garantit le lancement
-
-      nowPlaying.textContent = `Lecture : ${formatName(file)}`;
-    } catch (err) {
-      console.log("Lecture bloquée :", err);
-    }
-  }
-
-  button.addEventListener('click', async () => {
-    if (playedFiles.size === audios.length) {
-      alert("Vous avez écouté tous les enregistrements ! Mais d'autres viendront plus tard.");
-      return;
-    }
-
-    // premier clic : afficher UI
-    if (!hasStarted) {
-      hasStarted = true;
-
-      button.textContent = "Un autre";
-
-      toggle.hidden = false;
-      toggle.style.display = "inline-block";
-
-      nowPlaying.hidden = false;
-      progress.hidden = false;
-      timeDisplay.hidden = false;
-
-      toggle.textContent = "Pause";
-    }
-
-    // choisir un fichier
-    let i;
-    do {
-      i = Math.floor(Math.random() * audios.length);
-    } while (playedFiles.has(audios[i]));
-
-    const file = audios[i];
-
-    await playAudio(file);
-
-    // ajouter liste
-    if (!playedFiles.has(file)) {
-      const li = document.createElement('li');
-      li.textContent = formatName(file);
-      li.addEventListener('click', () => playAudio(file));
-
-      playedList.prepend(li);
-      playedFiles.add(file);
-    }
-  });
-
-  toggle.addEventListener('click', () => {
-    if (player.paused) {
-      player.play();
-      toggle.textContent = "Pause";
-    } else {
-      player.pause();
-      toggle.textContent = "Lire";
-    }
-  });
-
-  player.addEventListener('play', () => {
-    toggle.textContent = "Pause";
-  });
-
-  player.addEventListener('pause', () => {
-    toggle.textContent = "Lire";
-  });
-
-  player.addEventListener('timeupdate', () => {
-    updateProgressBar();
-    updateTimeDisplay();
-  });
-
-  player.addEventListener('loadedmetadata', updateTimeDisplay);
-
-  progress.addEventListener('input', () => {
-    if (!player.duration) return;
-    player.currentTime = (progress.value / 100) * player.duration;
-  });
-
-  document.addEventListener('keydown', (e) => {
-    const tag = document.activeElement.tagName;
-    if (tag === 'INPUT' || tag === 'TEXTAREA') return;
-
-    if (e.code === 'Space') {
-      e.preventDefault();
-      player.paused ? player.play() : player.pause();
-    }
-  });
-</script>
+<script src="/assets/js/voix.js"></script>
 
 </body>
 </html>

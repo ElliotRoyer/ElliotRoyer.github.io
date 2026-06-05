@@ -21,6 +21,7 @@ p {
     margin: 0.9em 0;
 }
 
+
 /* ===========================
    Contenu livre
    =========================== */
@@ -189,6 +190,17 @@ body.livres-page .button-achat:hover,
     margin-bottom: 10px;
     font-size: 0.95rem;
     color: #444;
+}
+
+/* ===== auto-scroll depuis page externe ===== */
+
+
+[id]::before {
+    content: "";
+    display: block;
+    height: 10px; /* hauteur de l’espace */
+    margin-top: -10px; /* compense la hauteur pour ne pas décaler le flux */
+    visibility: hidden;
 }
 
 /* ===== Responsive modales ===== */

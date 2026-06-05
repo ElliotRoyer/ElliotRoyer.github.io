@@ -20,8 +20,11 @@
     text-align: center;
   }
 
-  h2 {
-    color:#555758
+  h3 {
+    font-size: 1.3rem;
+    color:#555758;
+    text-align: center;
+    margin: 25px 0 20px
   }
 
   .audio-container {
@@ -129,13 +132,21 @@
     background: rgba(0, 0, 0, 0.05);
   }
 
+  #played-list li.active {
+  background: rgba(0, 0, 0, 0.12);
+  color:rgb(62, 67, 68);
+  font-weight: 600;
+}
+
   #toggle {
     width: 90px;
     text-align: center;
   }
 
   #play-random:focus,
-  #toggle:focus {
+  #toggle:focus,
+  #sort-date:focus,
+  #sort-added:focus {
     outline: none;
   }
 
@@ -147,3 +158,10 @@
     text-align: center;
     font-variant-numeric: tabular-nums;
   }
+
+@media (hover: hover) {
+
+  .audio-container button:hover {
+    background-color: #636767;
+  }
+}

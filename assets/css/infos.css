@@ -30,11 +30,11 @@ p {
     padding: 0 20px;
 }
 
-.s {
-    color:var(--body-bg-color);
+.voix {
+    color:#c1ceda;
 }
-.s:hover {
-    background-color:var(--body-bg-color)
+.voix:hover {
+    background-color:#c1ceda;
 }
 
 @media (max-width: 768px) {

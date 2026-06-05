@@ -316,15 +316,6 @@ h4 {
     margin: 0 0 20px 0;
 }
 
-
-[id]::before {
-    content: "";
-    display: block;
-    height: 10px; /* hauteur de l’espace */
-    margin-top: -10px; /* compense la hauteur pour ne pas décaler le flux */
-    visibility: hidden;
-}
-
 /* -------------------------------------------------
    LIENS
 ------------------------------------------------- */
@@ -357,6 +348,12 @@ a.plus-link {
   color: #3ac07b;
   letter-spacing: normal;
   transition: letter-spacing 0.3s ease;
+}
+
+a.voix-link {
+  color: #18b6de;
+  text-decoration: none;
+  padding: 2px 0;
 }
 
 /* hover + désactivé sur mobile */
@@ -401,6 +398,12 @@ a.plus-link {
     font-weight: 500;
     background-color: #3ac07b;
   }
+
+  /* voix-link */
+  a.voix-link:hover {
+    color: var(--body-bg-color);
+    background-color: #18b6de;
+  }
 }
 
 /* super icones */
@@ -443,6 +446,13 @@ a.music-link::before {
   bottom: 1px;
 }
 
+a.voix-link::before {
+  content: "🌻";
+  margin-right: 3px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
 
 /* ===========================
    BOUTONS GLOBAUX
