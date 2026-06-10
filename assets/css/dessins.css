@@ -18,6 +18,7 @@
     text-decoration: none;
     color: #000;
     font-family: "Raleway", "Arial", "Helvetica", sans-serif;
+    position: relative;
 }
 
 .category-item span {
@@ -57,6 +58,40 @@
     font-weight: 400;
     font-size: 0.92rem;
 }
+
+
+
+.category-item.new::after {
+  content: "Récent";
+  position: absolute;
+
+  top: -12px;
+  left: -12px;
+
+  background: #000000;
+  color: #fff;
+
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+
+  padding: 8px 12px;
+  border-radius: 100px;
+
+  z-index: 5;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.15s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .category-item:hover.new::after {
+    transform: scale(0.9);
+    background: #757575;
+    box-shadow: none;
+    }
+    }
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
