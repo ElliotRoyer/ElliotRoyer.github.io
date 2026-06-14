@@ -68,7 +68,7 @@
   top: -12px;
   left: -12px;
 
-  background: #000000;
+  background: #71768c;
   color: #fff;
 
   font-size: 0.8rem;
@@ -88,7 +88,7 @@
 @media (hover: hover) and (pointer: fine) {
     .category-item:hover.new::after {
     transform: scale(0.9);
-    background: #757575;
+    background: #a6a8ae;
     box-shadow: none;
     }
     }

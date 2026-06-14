@@ -15,6 +15,8 @@
       "19-avene"
     ],
     "divers": [
+      "jfd",
+      "22-foret-blanche",
       "24-lucky",
       "24-poules",
       "22-ciels",

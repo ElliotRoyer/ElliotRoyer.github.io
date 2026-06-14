@@ -39,6 +39,7 @@ figure.gallery-item.c1 { grid-column: span 6; }
 figure.gallery-item.c1-c { grid-column: span 6; } /* ajout c1-c */
 figure.gallery-item.c2 { grid-column: span 3; }
 figure.gallery-item.c3 { grid-column: span 2; }
+figure.gallery-item.c4 { grid-column: span 4; }
 
 /* Marges communes à toutes les figures */
 figure {
@@ -61,7 +62,7 @@ figure.gallery-item:not(.video-item) img {
 
 /* figcaption */
 figure.gallery-item figcaption {
-  margin: 8px 6px 10px 6px;
+  margin: 10px 6px 3px 6px;
   font-size: 0.95rem;
   font-style: italic;
 }
@@ -219,6 +220,18 @@ figure.gallery-item.c1.video-item .video-minia:hover .play-button {
 }
 
 /* -------------------------------------------------
+   DIVIDER / barre de séparation
+------------------------------------------------- */
+
+.divider {
+grid-column: span 6;
+border: none;
+height: 1px;
+background: rgba(0, 0, 0, 0.2);
+margin: 40px 100px 50px;
+}
+
+/* -------------------------------------------------
    MEDIA QUERIES
 ------------------------------------------------- */
 
@@ -228,8 +241,12 @@ figure.gallery-item.c1.video-item .video-minia:hover .play-button {
   }
 
   p {
-  margin: 10px 0;
-  padding: 0px 50px;
+    margin: 10px 0;
+    padding: 0px 50px;
+  }
+
+  .divider {
+    margin: 30px 30px 40px;
   }
 
   .gal-c4 {

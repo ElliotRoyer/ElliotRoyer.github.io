@@ -7,6 +7,7 @@
 /voix/audios/generateAudioList.js
 /voix/audios/normalize.js
 /voix/audios/Terminal
+/.vscode
 
 # Ignorer WIP
 /livres/mmem/plus/
@@ -14,3 +15,5 @@
 /dessins/carnets/REF/
 /dessins/index-test.html
 /reves/
+/dessins/carnets/??-??-pays-de-caux
+/dessins/carnets/train
