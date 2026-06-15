@@ -36,7 +36,8 @@ p.long {
 
 /* Largeur selon le type d’item */
 figure.gallery-item.c1 { grid-column: span 6; }
-figure.gallery-item.c1-c { grid-column: span 6; } /* ajout c1-c */
+figure.gallery-item.c1-c { grid-column: span 6; }
+figure.gallery-item.c1-b { grid-column: span 6; }
 figure.gallery-item.c2 { grid-column: span 3; }
 figure.gallery-item.c3 { grid-column: span 2; }
 figure.gallery-item.c4 { grid-column: span 4; }
@@ -79,11 +80,12 @@ p.caption {
 }
 
 /* -------------------------------------------------
-   C2, C3 & C1-C — RATIO FIXE
+   C2, C3, C1-C & C1-B — RATIO FIXE
 ------------------------------------------------- */
 figure.gallery-item.c2,
 figure.gallery-item.c3,
-figure.gallery-item.c1-c {
+figure.gallery-item.c1-c
+figure.gallery-item.c1-b {
   display: grid;
 }
 
@@ -109,11 +111,24 @@ figure.gallery-item.c1-c > a {
   border-radius: var(--border-radius-gallery);
 }
 
-/* image de c1-c */
 figure.gallery-item.c1-c img {
   width: 100%;
   aspect-ratio: var(--ratio-c1-c); /* ratio spécifique c1-c */
   object-fit: cover;
+}
+
+figure.gallery-item.c1-b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figure.gallery-item.c1-b > a {
+  width: auto;
+  max-width: 620px;
+  overflow: hidden;
+  display: block;
+  border-radius: var(--border-radius-gallery);
 }
 
 /* -------------------------------------------------
