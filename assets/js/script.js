@@ -4,6 +4,7 @@
   const sections = {
     "carnets": [
       "23-25-pays-de-caux",
+      "trains",
       "24-25-pastels",
       "24-25-encre-noire",
       "23-24-portraits-hiver",
