@@ -132,13 +132,17 @@ figure.gallery-item.c1-b > a {
 }
 
 /* -------------------------------------------------
-   C1 — GRAND FORMAT
+   C1 — GRAND FORMAT + FOND TRANSPARENT + OMBRE PORTÉE
 ------------------------------------------------- */
 figure.gallery-item.c1 img {
   height: auto;
   max-height: 600px;
   object-fit: contain;
   filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+figure.gallery-item.c1 figcaption {
+  margin-top: 2px; /* Remonter légendes */
 }
 
 /* -------------------------------------------------
@@ -308,4 +312,10 @@ margin: 40px 100px 50px;
   figure.mobile-only {
       display: none !important;
 }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .desktop-only-figcaption figcaption {
+    display: none !important;
+  }
 }
