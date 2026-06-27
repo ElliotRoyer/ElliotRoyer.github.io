@@ -320,7 +320,8 @@ h4 {
    LIENS
 ------------------------------------------------- */
 
-p a {
+p a,
+figcaption a {
   color: #3184b4;
   text-decoration: none;
   padding: 2px 0;
@@ -361,7 +362,8 @@ a.voix-link {
 @media (hover: hover) and (pointer: fine) {
 
   /* liens dans les paragraphes */
-  p a:hover {
+  p a:hover,
+  figcaption a:hover {
     color: var(--body-bg-color);
     background-color: #3184b4;
   }
