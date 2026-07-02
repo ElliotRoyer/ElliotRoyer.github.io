@@ -84,7 +84,7 @@ p.caption {
 ------------------------------------------------- */
 figure.gallery-item.c2,
 figure.gallery-item.c3,
-figure.gallery-item.c1-c
+figure.gallery-item.c1-c,
 figure.gallery-item.c1-b {
   display: grid;
 }
@@ -267,6 +267,10 @@ margin: 40px 100px 50px;
   .divider {
     margin: 30px 30px 40px;
   }
+ .gallery.mobile-1colonne > .divider {
+    grid-column: span 1;
+  }
+
 
   .gal-c4 {
     grid-template-columns: repeat(2, 1fr) !important;
