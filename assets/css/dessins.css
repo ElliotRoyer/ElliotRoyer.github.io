@@ -60,15 +60,13 @@
 }
 
 
-
-.category-item.new::after {
-  content: "Récent";
+.category-item.new::after,
+.category-item.maj::after {
   position: absolute;
 
   top: -12px;
   left: -12px;
 
-  background: #71768c;
   color: #fff;
 
   font-size: 0.8rem;
@@ -85,13 +83,29 @@
   transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.15s ease;
 }
 
+.category-item.new::after {
+  content: "Récent";
+  background: #71768c;
+}
+
+.category-item.maj::after {
+  content: "Mis à jour";
+  background: #717f8c;
+}
+
 @media (hover: hover) and (pointer: fine) {
-    .category-item:hover.new::after {
+  .category-item:hover.new::after,
+  .category-item:hover.maj::after {
     transform: scale(0.9);
-    background: #a6a8ae;
     box-shadow: none;
-    }
-    }
+  }
+  .category-item:hover.maj::after {
+    background: #a6a8ae; 
+  }
+  .category-item:hover.maj::after {
+    background: #a0a5a9; 
+  }
+}
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
