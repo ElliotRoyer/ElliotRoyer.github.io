@@ -5,7 +5,6 @@
     "carnets": [
       "23-25-pays-de-caux",
       "trains",
-      "21-23-bretagne",
       "24-25-pastels",
       "24-25-encre-noire",
       "23-24-portraits-hiver",
@@ -13,6 +12,7 @@
       "22-23-portraits-encres",
       "22-24-musees",
       "20-25-balades-paris",
+      "21-23-bretagne",
       "22-faro",
       "19-avene"
     ],
