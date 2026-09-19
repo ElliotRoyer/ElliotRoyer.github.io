@@ -502,7 +502,7 @@ body {
 /* Sans survol : les fils restent faiblement visibles, un appui ouvre le rêve. */
 @media (hover: none) {
   .lien { opacity: 0.22; }
-  .intro::after { content: " Touchez un point pour le lire."; }
+  .intro::after { content: ""; }
 }
 
 @media (max-width: 40rem) {
