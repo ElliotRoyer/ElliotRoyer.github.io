@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carnet de rêves</title>
+<link rel="stylesheet" href="reves.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">
+    <a href="/" aria-label="Retour à l'accueil">
+      <span class="logo-default" aria-hidden="true"></span>
+      <span class="logo-active" aria-hidden="true"></span>
+    </a>
+  </div>
+</header>
+
+<header class="entete">
+  <h1>Carnet de rêves</h1>
+  <p class="intro">Souvenirs de l’autre côté.</p>
+  <button type="button" id="bascule" class="bascule" aria-pressed="false">Voir la liste</button>
+</header>
+
+<main class="scene">
+
+  <!-- vue constellation -->
+  <div class="graphe-cadre" id="graphe-cadre">
+    <svg id="graphe" viewBox="0 0 1000 640" preserveAspectRatio="xMidYMid meet"
+         role="group" aria-label="Constellation des rêves">
+      <g id="liens" aria-hidden="true"></g>
+      <g id="points"></g>
+    </svg>
+
+    <!-- mot dont le chemin est tracé -->
+    <div class="cartouche" id="cartouche" hidden>
+      <span id="cartouche-mot"></span>
+      <span id="cartouche-compte"></span>
+      <button type="button" id="cartouche-effacer" aria-label="Effacer le chemin">&times;</button>
+    </div>
+  </div>
+
+  <!-- vue liste -->
+  <div class="liste-cadre" id="liste-cadre" hidden>
+    <ol class="liste" id="liste"></ol>
+  </div>
+
+</main>
+
+<!-- aperçu au survol : reste affiché, ses mots sont cliquables -->
+<div class="apercu" id="apercu">
+  <h2 id="apercu-titre"></h2>
+  <p class="apercu-date" id="apercu-date"></p>
+  <p class="apercu-extrait" id="apercu-extrait"></p>
+  <button type="button" class="apercu-lire" id="apercu-lire">Lire le rêve</button>
+  <p class="apercu-mots" id="apercu-mots"></p>
+</div>
+
+<!-- fiche de lecture -->
+<div class="voile" id="voile" hidden>
+  <div class="fiche-ext" id="fiche"
+       role="dialog" aria-modal="true" aria-labelledby="fiche-titre">
+    <div class="fiche-int">
+      <div class="fiche-corps">
+        <div class="fiche-tete">
+          <h2 id="fiche-titre"></h2>
+          <p class="fiche-date" id="fiche-date"></p>
+          <button type="button" class="fermer" id="fermer" aria-label="Fermer le rêve">&times;</button>
+        </div>
+        <div class="fiche-texte" id="fiche-texte"></div>
+        <p class="fiche-mots" id="fiche-mots"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="donnees.js"></script>
+<script src="reves.js"></script>
+</body>
+</html>

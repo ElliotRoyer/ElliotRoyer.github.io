@@ -1,0 +1,5 @@
+Nous avions pu y accéder parce que l’une d’entre nous avait commandé une soupe de nouilles particulière, avec des fruits rouges. Des litchis non épluchés.
+
+De l’extérieur, il s’agissait d’une grande pyramide d'un noir rougi à l’aspect lisse, presque métallique. À l’intérieur, de longs couloirs de portes pratiquement toutes fermées. Seul le premier étage était accessible et autorisé. L’endroit était sombre et chaud, éclairé par des lampes de plafond plates et bleutées. Les quelques portes qui n'étaient pas verrouillées donnaient accès à de grandes salles, genre d'amphithéâtre ou de cinéma, aux murs, fauteuils et sols de velours rouge. Des rideaux également, je crois, autour de la scène centrale.
+
+J'ai trouvé par hasard une porte entrouverte et bloquée qui donnait accès au deuxième étage. Malgré l’interdiction, je décidai de l’emprunter. L’escalier était plongé dans le noir. Le deuxième étage était similaire au premier, et comme lui, il était désert de toute vie. J’entrai dans l'une des grandes salles et m'installai dans un fauteuil, vers le fond. Silence. Devant moi, à gauche, à quelques mètres, était une silhouette masculine, de dos.

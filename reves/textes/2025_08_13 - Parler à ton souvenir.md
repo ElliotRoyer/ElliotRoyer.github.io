@@ -1,0 +1,7 @@
+Je parle avec Jean-François tel qu'il était lorsque je l'ai rencontré, les joues encore pleines, et la moustache épaisse. Il est assis dans son fauteuil en cuir rouge. Je sais qu'il est mort et que je parle avec son souvenir. Pourtant il est bien là, il me répond, je lui pose une question, une histoire de calcul qu'il fait de tête, à voix haute. Delphine est là elle aussi, je ne sais pas si elle le voit. Je parle avec elle après que la présence de Jean-François se soit évanouie.
+
+Je manque un appel de l'école et risque de perdre mes cours là-bas. Puis la rentrée arrive, j'ai une classe de cinquante élèves, c'est intenable - c'est le second rêve que je fais de ce genre. Je tente de m'imposer plus sévère dès le premier cours, j'en fais trop, il y a une évacuation de l'école, un test d'alarme incendie peut-être, c'est le bazar. Je retrouve ma classe avec des élèves qui ne devraient pas y être. Un élève que j'avais eu l'an dernier est à nouveau dans ma classe, je lui dit que je ne comprends pas, à quoi bon, lui qui n'a aucun intérêt pour le dessin ? Je m'entends bien avec quelques autres. Je crois qu'on fait une sortie dans un musée.
+
+Au Japon, je rencontre à un distributeur de boisson une japonaise avec qui je parle en marchant un peu. Elle se moque de mon mauvais niveau de japonais. Son français est excellent. Je crois qu'on va manger au restaurant avec son compagnon. 
+
+Le reste s'est dissipé à la lumière du jour. Ne persiste qu'une légère tristesse.

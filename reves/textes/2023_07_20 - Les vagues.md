@@ -1,0 +1,3 @@
+Blanche et moi surplombons la ville. Ce n'est pas Paris - peut-être Lyon ? Je cherche du regard la tour Part-Dieu. Nous venons d'arriver ici, sans y être venus. Je sais que c'est un rêve, le rêve de *quelqu'un d'autre*, qui nous a plongés dans son rêve.
+
+Je regarde au loin et essaye de créer des vagues qui feraient onduler la ville. Au début, rien. Je me concentre. Puis, les vagues se forment. Des ondulations monumentales qui soulèvent les bâtiments, qui suivent avec souplesse la forme des vagues, comme si ils étaient d'un seul bloc fait d'une matière molle. Mes vagues traversent également quelques plans d'eau avec le même effet.

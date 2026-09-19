@@ -1,0 +1,3 @@
+Je suis réveillé par des bruits dans l'entrée. Je me lève et découvre devant la porte Blanche qui marche à quatre pattes, dépliées comme une araignée. Je sais que ce n'est pas Blanche, mais quelqu'un d'autre qui se fait passer pour elle pour me duper (pour me cambrioler ?), d'ailleurs, la vraie Blanche est partie travailler.
+
+Alors, je lui arrache ses lunettes. En dessous, une autre paire. Je recommence trois, quatre, peut-être cinq fois avec toujours le même résultat. Je comprends grâce à ça que je suis dans un rêve. J'empoigne le visage de la fausse Blanche et l'étale en l'écrasant, comme une trace de peinture. Je fais de même avec mon propre visage, puis je le colle au sien brutalement. Nos tête fusionnent en émettant une violente lumière. Je me réveille.

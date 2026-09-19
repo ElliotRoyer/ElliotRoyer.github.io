@@ -12,6 +12,7 @@
 User-agent: *
 Disallow: /assets/
 Disallow: /voix/
+Disallow: /reves/
 
 # Autoriser le reste du site
 Allow: /

@@ -1,0 +1,3 @@
+Je suis aux Deux Noyers, je sors les Bêtes sur la terrasse. Ce sont trois oiseaux dans des caisses en bois, dont un paon et un gros oiseau blanc. Ses proportions ressemblent à celle d'un Gros-bec mais son volume est celui d'un gros chien. Il est touffu comme une poule. Je crois qu'on l'appelle tantôt "un aigle", tantôt "un pigeon blanc". Il est gigantesque mais vol sans difficulté. Il me fait penser à mon père qui s'est éteint et je suis bien triste.
+
+Je me réveille dans ma chambre d'ado aux Deux Noyers. Je sors dans le couloir en espérant de toutes mes forces que j'ai fait un mauvais rêve et que mon père est vivant. Je le vois dans la chambre de mon frère, en train de faire des travaux, je suis fou de joie, et lui saute au cou.

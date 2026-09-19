@@ -1,0 +1,9 @@
+Je ne suis plus seulement prof à l'Écaille : j'y suis également élève. J'alterne entre les deux rôles selon le cours, je suis une formation pour pouvoir faire des travaux de graphismes plus tard. Sensation étrange d'être tantôt devant, tantôt parmi mes élèves. À midi, je pense aller à la cantine, mais en tant que prof je n'ai pas de carte. Je vais  prendre quelque chose en ville.
+
+Je croise Kenny, camarade de primaire jamais revu depuis. Il me désigne une adresse qu'il aime bien, des burgers, mais les prix sont dissuasifs, je pars chercher plus loin. La ville ne ressemble pas plus à Paris que l'école ne ressemble à l'Écaille, il me semble que c'est une ville plus petite.
+
+Je marche jusqu'à une maison abandonnée, seule sur une plaine dorée trouée par un lac. Je monte à l'étage, là : Joachim et quelques amis à lui, d'autres animateurs. Leur accueil est glacial. Leur mépris me fait fuir, je guette une réaction de Joachim, il évite mon regard.
+
+En bas, je rassemble mes affaires éparpillées quand une des filles croisées en haut me rattrape. Elle a mon âge, elle est agressive, je crois qu'elle cherche de l'attention. Elle me provoque, elle a des paroles affreuses : elle me dit d'un ton moqueur que ce doit être dur, à présent que ma mère a perdu la vue, de savoir qu'elle ne verra plus ni ses enfants ni aucun de mes dessins. Je suis intimement convaincu qu'elle n'en pense pas un mot, de toutes façons l'attaque ne m'atteint pas puisque son fondement est faux : l'accident de ma mère ne l'a pas privée de la vision. Je ne bronche pas et la repousse, ce qui l'exaspère davantage.
+
+Lorsque je sors enfin, je dois encore rassembler des affaires et trouver comment les faire rentrer dans mon sac à dos - pourquoi est-ce que je n'arrive pas à venir à bout de ce fichu rangement ? L'embêteuse m'a suivi, elle continue de m'asticoter. Elle me plaque au sol, dans l'herbe jaune. Jaunes, ses cheveux. Je remarque pour la première fois qu'elle est jolie.

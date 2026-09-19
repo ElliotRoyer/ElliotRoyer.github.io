@@ -1,0 +1,5 @@
+Je ne les ai pas saisis au réveil : les rêves de la nuit se sont dissipés comme un nuage de cendre, dont il ne me serait resté qu'une poignée de poussière.
+
+J'étais coincé avec Jean-François dans un ascenseur qui tombait. Heureusement pour nous, peu d'étages nous séparaient du sol, et bien que la chute ait été impressionnante, nous n'étions pas blessés. Jean-François était même "rajeuni" : rasé de près, il s'est levé et s'est mis à marcher sans canne ni béquilles, comme si il avait retrouvé l'usage de ses jambes. Comme si il était encore là. Comme si l'ascenseur en chutant nous avait ramené plusieurs années en arrière. Delphine était très émue de le voir ainsi, et mon émotion était telle que je me suis réveillé, les yeux qui débordent, triste de t'avoir perdu, heureux de t'avoir revu.
+
+Nous sommes les tombeaux de nos proches disparus, et c'est comme si les rêves nous permettaient de descendre en nous même, les retrouver un instant.

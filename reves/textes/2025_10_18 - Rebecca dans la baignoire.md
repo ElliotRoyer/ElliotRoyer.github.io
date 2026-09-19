@@ -1,0 +1,5 @@
+Je pouvais faire l'aller-retour France-Japon en une matinée. Je devais m'y rendre, je ne sais plus la raison. Me voilà dans un magasin de fournitures artistiques. Il y a quelques membres du studios Ghibli, dont Miyazaki lui-même. Accroupi devant des stylos, des compas, il hésite. Je pense : ce n'est pas une question d'argent. Quand on a à cœur de bien travailler, on peut hésiter longtemps entre deux crayons, quand bien même on pourrait acheter les deux. Rentré en France, je dis à Blanche que je n'en reviens pas d'avoir fait l'aller-retour dans la matinée. J'y retournerai bien, d'ailleurs.
+
+Un immeuble à moitié en ruine, dans une ville inconnue. Plus proche de Hanoï que de Paris. Je suis avec un type oublié et Rebecca Manzoni. L'interview doit se passer dans une baignoire : nous voilà tous les trois nus. Je dois monter sur la baignoire pour y rentrer. Je songe que de la fenêtre derrière moi, la scène pourrait prêter à confusion. Mais ça nous fait rire.
+
+Il est question plus tard d'un manga dessiné par Taiyō Matsumoto. La scénariste commente les pages, qui se mettent en mouvement et deviennent un film d'animation sans que je ne m'en sois rendu compte.

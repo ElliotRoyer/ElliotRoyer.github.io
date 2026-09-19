@@ -1,0 +1,3 @@
+Je rêve que nous vivons dans une ville-tube. C'est un gigantesque cylindre allongé au sol, dont le diamètre doit approcher les cent étages (ou plus) et dont les extrémités (s'il en existe) sont hors de vue. Toutes les infrastructures, logements, jardins, commerces, se trouvent sur ses parois.
+
+Je suis avec ma mère dans l'une de ces habitations. Nous regardons en face, elle a du mal à voir quelque chose que je lui montre. Elle me dit que sa vue baisse depuis l'avc. J'ai une peur terrible qu'elle ne perde la vue. Qu'elle ne puisse plus nous voir, qu'elle ne voit plus jamais mes dessins. Je me réveille en larmes.

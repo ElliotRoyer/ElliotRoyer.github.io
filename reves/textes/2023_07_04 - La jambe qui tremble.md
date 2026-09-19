@@ -1,0 +1,3 @@
+Il fait nuit, moi et mes frères sommes dans la rue devant une vitrine éclairée. Je crois que Lucas fait l'idiot pour rire et me frappe la jambe, qui se met à trembler. Lorsque nous entrons dans la boutique, elle tremble encore. Les gens de la boutique nous désignent cette vibration comme un potentiel signe avant-coureur d'avc. J'annule tout ce que j'avais prévu ce soir et file aux urgences.
+
+Je marche dans une rue qui ressemble à celle à gauche du musée des Beaux Arts à Besançon, là où passe le tramway. À l'hôpital, l'attente annoncée se compte en heures. Je me dis que si c'était vraiment les prémices d'un avc, on m'aurait pris tout de suite, comme ma mère ; et d'ailleurs ma jambe ne tremble plus. J'en conclus que je peux partir.
