@@ -1,8 +1,8 @@
 /* Fichier généré par build-index.js — ne pas modifier à la main. */
 window.REVES = {
   "genere": "2026-09-19",
-  "viewBox": "0 0 868 498",
-  "viewBoxMobile": "0 0 498 868",
+  "viewBox": "0 0 802 509",
+  "viewBoxMobile": "0 0 509 802",
   "mots": [
     "Blanche",
     "Joachim",
@@ -18,6 +18,7 @@ window.REVES = {
     "Dessin",
     "École",
     "Ville",
+    "Mort",
     "Temps",
     "Eau",
     "Jardin",
@@ -61,10 +62,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 272.8,
-      "y": 303.3,
-      "xM": 194.4,
-      "yM": 272.8,
+      "x": 267.4,
+      "y": 312.7,
+      "xM": 196.4,
+      "yM": 267.4,
       "duree": 21,
       "delai": -15
     },
@@ -107,10 +108,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 213.1,
-      "y": 352.7,
-      "xM": 145,
-      "yM": 213.1,
+      "x": 204.2,
+      "y": 360.1,
+      "xM": 149,
+      "yM": 204.2,
       "duree": 18,
       "delai": -24
     },
@@ -126,10 +127,10 @@ window.REVES = {
       "mots": [],
       "id": "r003",
       "voisins": [],
-      "x": 452.7,
-      "y": 156.6,
-      "xM": 341.2,
-      "yM": 452.7,
+      "x": 418.4,
+      "y": 185,
+      "xM": 324.1,
+      "yM": 418.4,
       "duree": 16,
       "delai": -15
     },
@@ -154,8 +155,8 @@ window.REVES = {
         }
       ],
       "x": 70,
-      "y": 346,
-      "xM": 151.7,
+      "y": 355.9,
+      "xM": 153.1,
       "yM": 70,
       "duree": 25,
       "delai": -21
@@ -238,10 +239,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 185.3,
-      "y": 280.7,
-      "xM": 217,
-      "yM": 185.3,
+      "x": 187.4,
+      "y": 296,
+      "xM": 213.1,
+      "yM": 187.4,
       "duree": 25,
       "delai": -7
     },
@@ -278,10 +279,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 270.2,
-      "y": 427.7,
+      "x": 262.5,
+      "y": 439.1,
       "xM": 70,
-      "yM": 270.2,
+      "yM": 262.5,
       "duree": 24,
       "delai": -4
     },
@@ -337,10 +338,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 217.6,
-      "y": 225.6,
-      "xM": 272.1,
-      "yM": 217.6,
+      "x": 213,
+      "y": 228.2,
+      "xM": 280.9,
+      "yM": 213,
       "duree": 22,
       "delai": -16
     },
@@ -389,10 +390,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 299,
-      "y": 348,
-      "xM": 149.7,
-      "yM": 299,
+      "x": 295,
+      "y": 367.7,
+      "xM": 141.4,
+      "yM": 295,
       "duree": 27,
       "delai": -2
     },
@@ -450,10 +451,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 219.9,
-      "y": 287.9,
-      "xM": 209.8,
-      "yM": 219.9,
+      "x": 229,
+      "y": 307,
+      "xM": 202.1,
+      "yM": 229,
       "duree": 17,
       "delai": -9
     },
@@ -482,10 +483,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 87,
-      "y": 216.3,
-      "xM": 281.4,
-      "yM": 87,
+      "x": 80.2,
+      "y": 254.4,
+      "xM": 254.7,
+      "yM": 80.2,
       "duree": 19,
       "delai": -1
     },
@@ -499,6 +500,7 @@ window.REVES = {
       ],
       "mots": [
         "Blanche",
+        "Mort",
         "Temps"
       ],
       "id": "r011",
@@ -516,6 +518,12 @@ window.REVES = {
           ]
         },
         {
+          "id": "r022",
+          "mots": [
+            "Mort"
+          ]
+        },
+        {
           "id": "r005",
           "mots": [
             "Temps"
@@ -528,10 +536,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 145.4,
-      "y": 250.5,
-      "xM": 247.3,
-      "yM": 145.4,
+      "x": 242.4,
+      "y": 247.4,
+      "xM": 261.7,
+      "yM": 242.4,
       "duree": 27,
       "delai": -4
     },
@@ -567,10 +575,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 284.7,
-      "y": 150.6,
-      "xM": 347.1,
-      "yM": 284.7,
+      "x": 289.3,
+      "y": 160.9,
+      "xM": 348.2,
+      "yM": 289.3,
       "duree": 26,
       "delai": -21
     },
@@ -599,10 +607,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 172,
-      "y": 157.5,
-      "xM": 340.2,
-      "yM": 172,
+      "x": 153.3,
+      "y": 202.8,
+      "xM": 306.3,
+      "yM": 153.3,
       "duree": 23,
       "delai": -14
     },
@@ -658,10 +666,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 182.3,
-      "y": 228,
-      "xM": 269.7,
-      "yM": 182.3,
+      "x": 194.5,
+      "y": 250.1,
+      "xM": 259,
+      "yM": 194.5,
       "duree": 15,
       "delai": -16
     },
@@ -703,10 +711,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 128.2,
-      "y": 149.9,
-      "xM": 347.8,
-      "yM": 128.2,
+      "x": 175.1,
+      "y": 152,
+      "xM": 357.1,
+      "yM": 175.1,
       "duree": 24,
       "delai": -20
     },
@@ -756,10 +764,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 343.5,
-      "y": 371.9,
-      "xM": 125.9,
-      "yM": 343.5,
+      "x": 344.9,
+      "y": 381.6,
+      "xM": 127.5,
+      "yM": 344.9,
       "duree": 17,
       "delai": -12
     },
@@ -788,10 +796,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 132.2,
+      "x": 162.8,
       "y": 70,
-      "xM": 427.7,
-      "yM": 132.2,
+      "xM": 439.1,
+      "yM": 162.8,
       "duree": 16,
       "delai": -19
     },
@@ -842,10 +850,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 229.8,
-      "y": 138.6,
-      "xM": 359.1,
-      "yM": 229.8,
+      "x": 246.6,
+      "y": 144,
+      "xM": 365.1,
+      "yM": 246.6,
       "duree": 18,
       "delai": -6
     },
@@ -897,10 +905,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 263.4,
-      "y": 270.4,
-      "xM": 227.3,
-      "yM": 263.4,
+      "x": 296,
+      "y": 287.8,
+      "xM": 221.3,
+      "yM": 296,
       "duree": 16,
       "delai": -3
     },
@@ -953,10 +961,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 277.5,
-      "y": 232.1,
-      "xM": 265.6,
-      "yM": 277.5,
+      "x": 283.3,
+      "y": 249,
+      "xM": 260.1,
+      "yM": 283.3,
       "duree": 24,
       "delai": -6
     },
@@ -1033,7 +1041,8 @@ window.REVES = {
         {
           "id": "r022",
           "mots": [
-            "Paris"
+            "Paris",
+            "École"
           ]
         },
         {
@@ -1056,22 +1065,16 @@ window.REVES = {
           ]
         },
         {
-          "id": "r036",
-          "mots": [
-            "École"
-          ]
-        },
-        {
           "id": "r033",
           "mots": [
             "Ville"
           ]
         }
       ],
-      "x": 312.4,
-      "y": 192.1,
-      "xM": 305.6,
-      "yM": 312.4,
+      "x": 313.6,
+      "y": 216.7,
+      "xM": 292.4,
+      "yM": 313.6,
       "duree": 16,
       "delai": -7
     },
@@ -1083,14 +1086,17 @@ window.REVES = {
         "Nous tombons par hasard sur Malice dans la rue. On va boire un coup avec d'autres anciens élèves d'Estienne. Malice a quelque chose d'important à nous dire, mais elle tourne autour du pot. Elle prend finalement la parole, et se tait aussitôt. Laisse passer un long silence. Se fait alors entendre la radio du bar : Denfert-Rochereau a été bombardé. La guerre a éclaté et ma vie d'avant meurt à cet instant."
       ],
       "mots": [
-        "Paris"
+        "Paris",
+        "École",
+        "Mort"
       ],
       "id": "r022",
       "voisins": [
         {
           "id": "r021",
           "mots": [
-            "Paris"
+            "Paris",
+            "École"
           ]
         },
         {
@@ -1098,12 +1104,30 @@ window.REVES = {
           "mots": [
             "Paris"
           ]
+        },
+        {
+          "id": "r028",
+          "mots": [
+            "École"
+          ]
+        },
+        {
+          "id": "r011",
+          "mots": [
+            "Mort"
+          ]
+        },
+        {
+          "id": "r024",
+          "mots": [
+            "Mort"
+          ]
         }
       ],
-      "x": 393.8,
-      "y": 124.2,
-      "xM": 373.5,
-      "yM": 393.8,
+      "x": 370.4,
+      "y": 275.1,
+      "xM": 234,
+      "yM": 370.4,
       "duree": 22,
       "delai": -17
     },
@@ -1132,10 +1156,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 339.6,
-      "y": 101.5,
-      "xM": 396.2,
-      "yM": 339.6,
+      "x": 349.6,
+      "y": 119.7,
+      "xM": 389.4,
+      "yM": 349.6,
       "duree": 22,
       "delai": -25
     },
@@ -1149,7 +1173,8 @@ window.REVES = {
         "Car il n’existe pas."
       ],
       "mots": [
-        "Frère"
+        "Frère",
+        "Mort"
       ],
       "id": "r024",
       "voisins": [
@@ -1164,12 +1189,24 @@ window.REVES = {
           "mots": [
             "Frère"
           ]
+        },
+        {
+          "id": "r022",
+          "mots": [
+            "Mort"
+          ]
+        },
+        {
+          "id": "r028",
+          "mots": [
+            "Mort"
+          ]
         }
       ],
-      "x": 437.8,
-      "y": 400.8,
-      "xM": 96.9,
-      "yM": 437.8,
+      "x": 422.4,
+      "y": 350.5,
+      "xM": 158.6,
+      "yM": 422.4,
       "duree": 20,
       "delai": -20
     },
@@ -1278,10 +1315,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 373.6,
-      "y": 199.7,
-      "xM": 298,
-      "yM": 373.6,
+      "x": 376.7,
+      "y": 210.8,
+      "xM": 298.3,
+      "yM": 376.7,
       "duree": 27,
       "delai": -14
     },
@@ -1339,10 +1376,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 390.9,
-      "y": 272,
-      "xM": 225.7,
-      "yM": 390.9,
+      "x": 399.2,
+      "y": 284.5,
+      "xM": 224.6,
+      "yM": 399.2,
       "duree": 21,
       "delai": -2
     },
@@ -1395,10 +1432,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 409.8,
-      "y": 228,
-      "xM": 269.7,
-      "yM": 409.8,
+      "x": 404.8,
+      "y": 241.7,
+      "xM": 267.4,
+      "yM": 404.8,
       "duree": 18,
       "delai": -4
     },
@@ -1415,14 +1452,17 @@ window.REVES = {
       "mots": [
         "JFD",
         "Ami",
-        "Dessin"
+        "Dessin",
+        "École",
+        "Mort"
       ],
       "id": "r028",
       "voisins": [
         {
           "id": "r031",
           "mots": [
-            "JFD"
+            "JFD",
+            "École"
           ]
         },
         {
@@ -1446,14 +1486,27 @@ window.REVES = {
         {
           "id": "r029",
           "mots": [
-            "Dessin"
+            "Dessin",
+            "Mort"
+          ]
+        },
+        {
+          "id": "r022",
+          "mots": [
+            "École"
+          ]
+        },
+        {
+          "id": "r024",
+          "mots": [
+            "Mort"
           ]
         }
       ],
-      "x": 469.6,
-      "y": 192.2,
-      "xM": 305.5,
-      "yM": 469.6,
+      "x": 446.3,
+      "y": 240.8,
+      "xM": 268.3,
+      "yM": 446.3,
       "duree": 23,
       "delai": -15
     },
@@ -1470,6 +1523,7 @@ window.REVES = {
         "Frère",
         "Magnolia",
         "Dessin",
+        "Mort",
         "Temps"
       ],
       "id": "r029",
@@ -1486,6 +1540,7 @@ window.REVES = {
             "Blanche",
             "Frère",
             "Magnolia",
+            "Mort",
             "Temps"
           ]
         },
@@ -1504,7 +1559,8 @@ window.REVES = {
         {
           "id": "r028",
           "mots": [
-            "Dessin"
+            "Dessin",
+            "Mort"
           ]
         },
         {
@@ -1520,10 +1576,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 448.1,
-      "y": 289.6,
-      "xM": 208.1,
-      "yM": 448.1,
+      "x": 440,
+      "y": 311.4,
+      "xM": 197.6,
+      "yM": 440,
       "duree": 17,
       "delai": -16
     },
@@ -1559,10 +1615,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 435.2,
-      "y": 138.1,
-      "xM": 359.6,
-      "yM": 435.2,
+      "x": 428,
+      "y": 153.5,
+      "xM": 355.6,
+      "yM": 428,
       "duree": 17,
       "delai": -3
     },
@@ -1576,14 +1632,16 @@ window.REVES = {
       "mots": [
         "JFD",
         "Ami",
-        "Train"
+        "Train",
+        "École"
       ],
       "id": "r031",
       "voisins": [
         {
           "id": "r028",
           "mots": [
-            "JFD"
+            "JFD",
+            "École"
           ]
         },
         {
@@ -1610,12 +1668,18 @@ window.REVES = {
           "mots": [
             "Train"
           ]
+        },
+        {
+          "id": "r036",
+          "mots": [
+            "École"
+          ]
         }
       ],
-      "x": 519.6,
-      "y": 171,
-      "xM": 326.7,
-      "yM": 519.6,
+      "x": 518.6,
+      "y": 160.6,
+      "xM": 348.5,
+      "yM": 518.6,
       "duree": 21,
       "delai": -11
     },
@@ -1644,10 +1708,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 470.5,
-      "y": 125.3,
-      "xM": 372.4,
-      "yM": 470.5,
+      "x": 477.9,
+      "y": 173.4,
+      "xM": 335.7,
+      "yM": 477.9,
       "duree": 24,
       "delai": -19
     },
@@ -1672,6 +1736,7 @@ window.REVES = {
         "Magnolia",
         "Paris",
         "Ville",
+        "Mort",
         "Temps",
         "Maison"
       ],
@@ -1683,6 +1748,7 @@ window.REVES = {
             "Blanche",
             "Frère",
             "Magnolia",
+            "Mort",
             "Temps"
           ]
         },
@@ -1720,16 +1786,22 @@ window.REVES = {
           ]
         },
         {
+          "id": "r037",
+          "mots": [
+            "Mort"
+          ]
+        },
+        {
           "id": "r032",
           "mots": [
             "Maison"
           ]
         }
       ],
-      "x": 453.3,
-      "y": 212.4,
-      "xM": 285.3,
-      "yM": 453.3,
+      "x": 480.1,
+      "y": 267.3,
+      "xM": 241.8,
+      "yM": 480.1,
       "duree": 16,
       "delai": -1
     },
@@ -1777,10 +1849,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 595.8,
-      "y": 264.7,
-      "xM": 233,
-      "yM": 595.8,
+      "x": 575.5,
+      "y": 330.3,
+      "xM": 178.8,
+      "yM": 575.5,
       "duree": 17,
       "delai": -13
     },
@@ -1814,10 +1886,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 652,
-      "y": 169.4,
-      "xM": 328.3,
-      "yM": 652,
+      "x": 634.9,
+      "y": 188.6,
+      "xM": 320.5,
+      "yM": 634.9,
       "duree": 26,
       "delai": -7
     },
@@ -1834,16 +1906,16 @@ window.REVES = {
       "id": "r036",
       "voisins": [
         {
-          "id": "r021",
+          "id": "r031",
           "mots": [
             "École"
           ]
         }
       ],
-      "x": 339.6,
-      "y": 275.1,
-      "xM": 222.7,
-      "yM": 339.6,
+      "x": 604.2,
+      "y": 71.6,
+      "xM": 437.5,
+      "yM": 604.2,
       "duree": 25,
       "delai": -17
     },
@@ -1857,7 +1929,8 @@ window.REVES = {
       "mots": [
         "JFD",
         "Ami",
-        "Dessin"
+        "Dessin",
+        "Mort"
       ],
       "id": "r037",
       "voisins": [
@@ -1879,12 +1952,18 @@ window.REVES = {
           "mots": [
             "Dessin"
           ]
+        },
+        {
+          "id": "r033",
+          "mots": [
+            "Mort"
+          ]
         }
       ],
-      "x": 713.2,
-      "y": 232.6,
-      "xM": 265.2,
-      "yM": 713.2,
+      "x": 629,
+      "y": 280,
+      "xM": 229.1,
+      "yM": 629,
       "duree": 17,
       "delai": -19
     },
@@ -1913,10 +1992,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 723.6,
-      "y": 293.7,
-      "xM": 204,
-      "yM": 723.6,
+      "x": 689.5,
+      "y": 372,
+      "xM": 137.1,
+      "yM": 689.5,
       "duree": 19,
       "delai": -18
     },
@@ -1964,8 +2043,8 @@ window.REVES = {
         }
       ],
       "x": 477.7,
-      "y": 237.6,
-      "xM": 260.1,
+      "y": 216.9,
+      "xM": 292.2,
       "yM": 477.7,
       "duree": 23,
       "delai": -20
@@ -1996,10 +2075,10 @@ window.REVES = {
           ]
         }
       ],
-      "x": 797.6,
-      "y": 268.5,
-      "xM": 229.2,
-      "yM": 797.6,
+      "x": 732.4,
+      "y": 325.1,
+      "xM": 184,
+      "yM": 732.4,
       "duree": 24,
       "delai": -3
     }
@@ -2083,6 +2162,7 @@ window.REVES = {
         "Blanche",
         "Frère",
         "Magnolia",
+        "Mort",
         "Temps"
       ]
     },
@@ -2127,7 +2207,8 @@ window.REVES = {
       "a": "r028",
       "b": "r031",
       "mots": [
-        "JFD"
+        "JFD",
+        "École"
       ]
     },
     {
@@ -2352,7 +2433,8 @@ window.REVES = {
       "a": "r021",
       "b": "r022",
       "mots": [
-        "Paris"
+        "Paris",
+        "École"
       ]
     },
     {
@@ -2423,7 +2505,8 @@ window.REVES = {
       "a": "r028",
       "b": "r029",
       "mots": [
-        "Dessin"
+        "Dessin",
+        "Mort"
       ]
     },
     {
@@ -2448,7 +2531,14 @@ window.REVES = {
       ]
     },
     {
-      "a": "r021",
+      "a": "r022",
+      "b": "r028",
+      "mots": [
+        "École"
+      ]
+    },
+    {
+      "a": "r031",
       "b": "r036",
       "mots": [
         "École"
@@ -2473,6 +2563,34 @@ window.REVES = {
       "b": "r033",
       "mots": [
         "Ville"
+      ]
+    },
+    {
+      "a": "r011",
+      "b": "r022",
+      "mots": [
+        "Mort"
+      ]
+    },
+    {
+      "a": "r022",
+      "b": "r024",
+      "mots": [
+        "Mort"
+      ]
+    },
+    {
+      "a": "r024",
+      "b": "r028",
+      "mots": [
+        "Mort"
+      ]
+    },
+    {
+      "a": "r033",
+      "b": "r037",
+      "mots": [
+        "Mort"
       ]
     },
     {
