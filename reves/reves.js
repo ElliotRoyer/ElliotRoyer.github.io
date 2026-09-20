@@ -294,7 +294,10 @@
     plus.type = 'button';
     plus.className = 'mot-plus';
     plus.textContent = `+ ${masques.length} mot${masques.length > 1 ? 's' : ''}`;
-    plus.addEventListener('click', () => {
+    plus.addEventListener('click', (e) => {
+      e.stopPropagation(); // le bouton se retire du DOM juste après : sans ceci,
+                            // l'écouteur « clic à l'extérieur » ne retrouve plus
+                            // .apercu comme ancêtre et referme l'aperçu à tort
       masques.forEach((b) => { b.hidden = false; });
       plus.remove();
       if (reveApercu) placerApercu(parId.get(reveApercu).el); // la hauteur a changé
@@ -315,6 +318,7 @@
     cacherApercu();
     cadreListe.hidden = true;
     cadreGraphe.hidden = false;
+    document.body.classList.remove('mode-liste');
     bascule.textContent = 'Voir la liste';
     bascule.setAttribute('aria-pressed', 'false');
   }
@@ -324,6 +328,7 @@
     effacerChemin(true);
     cadreGraphe.hidden = true;
     cadreListe.hidden = false;
+    document.body.classList.add('mode-liste');
     bascule.textContent = 'Voir la constellation';
     bascule.setAttribute('aria-pressed', 'true');
   }
@@ -471,6 +476,7 @@
 
     renvoiFocus = origine || null;
     cacherApercu();
+    document.body.classList.add('lecture-ouverte');
     voile.hidden = false;
     voile.querySelector('.fiche-corps').scrollTop = 0;   // texte long : on repart du début
     requestAnimationFrame(() => voile.classList.add('ouvert'));
@@ -480,6 +486,7 @@
   function fermer() {
     if (voile.hidden) return;
     voile.classList.remove('ouvert');
+    document.body.classList.remove('lecture-ouverte');
     setTimeout(() => { voile.hidden = true; }, 560);
     if (renvoiFocus) { ignorerProchainFocus = true; renvoiFocus.focus(); renvoiFocus = null; }
     if (idOuvert) { marquerCommeLu(idOuvert); idOuvert = null; }

@@ -90,6 +90,7 @@ body {
   z-index: 40;
   bottom: 1.5rem;
   right: clamp(1rem, 4vw, 3rem); /* même marge que le bouton « Voir la liste » */
+  transition: opacity 0.2s ease;
 }
 
 .site-header .logo {
@@ -146,6 +147,15 @@ body {
 @media (max-width: 40rem) {
   /* même coin, logo à ~70% de sa taille */
   .site-header .logo { width: 35px; height: 35px; }
+
+  /* Sur petit écran, la liste et la fiche de lecture occupent toute la
+     hauteur disponible et finissent sous le logo (coin bas-droit) : il
+     s'efface le temps de ces deux vues plutôt que de rester en surimpression. */
+  body.lecture-ouverte .site-header,
+  body.mode-liste .site-header {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 
 /* ------------------------------------------------------------------- scène */
