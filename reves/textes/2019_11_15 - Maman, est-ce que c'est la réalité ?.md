@@ -1,0 +1,1 @@
+J'étais un gangster en décalage avec la réalité. Je faisais les adieux à ma famille, car j'allais partir en prison. J'émergeais de ce rêve, mais dans un autre rêve, où j'étais (toujours) au Magnolia. J'ai demandé à ma mère : « Maman, est-ce que c'est la réalité ? »

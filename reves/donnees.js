@@ -1,8 +1,8 @@
 /* Fichier généré par build-index.js — ne pas modifier à la main. */
 window.REVES = {
   "genere": "2026-09-20",
-  "viewBox": "0 0 938 563",
-  "viewBoxMobile": "0 0 648 805",
+  "viewBox": "0 0 954 556",
+  "viewBoxMobile": "0 0 556 834",
   "mots": [
     "Blanche",
     "Joachim",
@@ -56,12 +56,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 346.2,
-      "y": 493.3,
+      "x": 357.5,
+      "y": 485.5,
       "xM": 70,
-      "yM": 300.2,
-      "duree": 22,
-      "delai": -11
+      "yM": 314.9,
+      "duree": 16,
+      "delai": -12
     },
     {
       "titre": "Bribes",
@@ -92,24 +92,24 @@ window.REVES = {
           ]
         },
         {
-          "id": "r030",
+          "id": "r031",
           "mots": [
             "Train"
           ]
         },
         {
-          "id": "r008",
+          "id": "r009",
           "mots": [
             "Soleil"
           ]
         }
       ],
-      "x": 365.6,
-      "y": 381.9,
-      "xM": 203.7,
-      "yM": 316.3,
-      "duree": 24,
-      "delai": -19
+      "x": 384.7,
+      "y": 368.7,
+      "xM": 186.8,
+      "yM": 338.1,
+      "duree": 21,
+      "delai": -8
     },
     {
       "titre": "Le jambon sec (ou fumé)",
@@ -133,13 +133,13 @@ window.REVES = {
           ]
         },
         {
-          "id": "r009",
+          "id": "r010",
           "mots": [
             "Frère"
           ]
         },
         {
-          "id": "r010",
+          "id": "r011",
           "mots": [
             "Femme"
           ]
@@ -151,18 +151,18 @@ window.REVES = {
           ]
         },
         {
-          "id": "r012",
+          "id": "r013",
           "mots": [
             "Eau"
           ]
         }
       ],
-      "x": 244.8,
-      "y": 392.1,
-      "xM": 191.5,
-      "yM": 215.7,
-      "duree": 22,
-      "delai": -9
+      "x": 253.2,
+      "y": 379.1,
+      "xM": 176.4,
+      "yM": 226,
+      "duree": 20,
+      "delai": -1
     },
     {
       "titre": "Vente de chiens",
@@ -178,7 +178,7 @@ window.REVES = {
       "id": "r004",
       "voisins": [
         {
-          "id": "r014",
+          "id": "r015",
           "mots": [
             "Dessin",
             "Animaux"
@@ -191,12 +191,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 134.8,
-      "y": 381.2,
-      "xM": 204.6,
-      "yM": 124,
-      "duree": 26,
-      "delai": -11
+      "x": 130,
+      "y": 356.5,
+      "xM": 199,
+      "yM": 121.1,
+      "duree": 21,
+      "delai": -15
     },
     {
       "titre": "La pyramide",
@@ -210,12 +210,12 @@ window.REVES = {
       "mots": [],
       "id": "r005",
       "voisins": [],
-      "x": 616.9,
-      "y": 361,
-      "xM": 228.8,
-      "yM": 525.7,
-      "duree": 23,
-      "delai": -23
+      "x": 795.5,
+      "y": 371,
+      "xM": 184.5,
+      "yM": 688,
+      "duree": 22,
+      "delai": -14
     },
     {
       "titre": "Quelque chose cloche",
@@ -244,7 +244,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r008",
+          "id": "r009",
           "mots": [
             "Ami",
             "Paris",
@@ -259,24 +259,19 @@ window.REVES = {
           ]
         },
         {
-          "id": "r009",
+          "id": "r008",
           "mots": [
-            "Parents"
-          ]
-        },
-        {
-          "id": "r011",
-          "mots": [
+            "Parents",
             "Magnolia"
           ]
         }
       ],
-      "x": 282.8,
-      "y": 436.2,
-      "xM": 138.5,
-      "yM": 247.3,
-      "duree": 16,
-      "delai": -24
+      "x": 237.3,
+      "y": 456.8,
+      "xM": 98.7,
+      "yM": 212.5,
+      "duree": 22,
+      "delai": -1
     },
     {
       "titre": "Fausse Blanche",
@@ -299,24 +294,64 @@ window.REVES = {
           ]
         },
         {
-          "id": "r008",
+          "id": "r009",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r014",
+          "id": "r015",
           "mots": [
             "Lumière"
           ]
         }
       ],
-      "x": 203.2,
-      "y": 386.9,
-      "xM": 197.7,
-      "yM": 181,
-      "duree": 18,
-      "delai": -11
+      "x": 176.9,
+      "y": 387.6,
+      "xM": 167.9,
+      "yM": 161.1,
+      "duree": 16,
+      "delai": -10
+    },
+    {
+      "titre": "Maman, est-ce que c'est la réalité ?",
+      "date": "2019-11-15",
+      "extrait": "J'étais un gangster en décalage avec la réalité. Je faisais les adieux à ma famille, car j'allais partir en prison.…",
+      "texte": [
+        "J'étais un gangster en décalage avec la réalité. Je faisais les adieux à ma famille, car j'allais partir en prison. J'émergeais de ce rêve, mais dans un autre rêve, où j'étais (toujours) au Magnolia. J'ai demandé à ma mère : « Maman, est-ce que c'est la réalité ? »"
+      ],
+      "mots": [
+        "Parents",
+        "Magnolia"
+      ],
+      "id": "r008",
+      "voisins": [
+        {
+          "id": "r006",
+          "mots": [
+            "Parents",
+            "Magnolia"
+          ]
+        },
+        {
+          "id": "r010",
+          "mots": [
+            "Parents"
+          ]
+        },
+        {
+          "id": "r012",
+          "mots": [
+            "Magnolia"
+          ]
+        }
+      ],
+      "x": 299.1,
+      "y": 479.3,
+      "xM": 76.2,
+      "yM": 265.2,
+      "duree": 19,
+      "delai": 0
     },
     {
       "titre": "L'appartement saccagé",
@@ -338,7 +373,7 @@ window.REVES = {
         "Chambre",
         "Chemin"
       ],
-      "id": "r008",
+      "id": "r009",
       "voisins": [
         {
           "id": "r007",
@@ -347,13 +382,13 @@ window.REVES = {
           ]
         },
         {
-          "id": "r011",
+          "id": "r012",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "Joachim"
           ]
@@ -368,13 +403,13 @@ window.REVES = {
           ]
         },
         {
-          "id": "r013",
+          "id": "r014",
           "mots": [
             "Ami"
           ]
         },
         {
-          "id": "r012",
+          "id": "r013",
           "mots": [
             "Paris",
             "Ville"
@@ -387,25 +422,25 @@ window.REVES = {
           ]
         },
         {
-          "id": "r018",
+          "id": "r019",
           "mots": [
             "Soleil"
           ]
         },
         {
-          "id": "r010",
+          "id": "r011",
           "mots": [
             "Chambre",
             "Chemin"
           ]
         }
       ],
-      "x": 290.2,
-      "y": 318.9,
-      "xM": 279.3,
-      "yM": 253.5,
-      "duree": 19,
-      "delai": -20
+      "x": 256.9,
+      "y": 334.9,
+      "xM": 220.7,
+      "yM": 229.2,
+      "duree": 21,
+      "delai": -5
     },
     {
       "titre": "La jambe qui tremble",
@@ -419,16 +454,16 @@ window.REVES = {
         "Parents",
         "Frère"
       ],
-      "id": "r009",
+      "id": "r010",
       "voisins": [
         {
-          "id": "r006",
+          "id": "r008",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r020",
+          "id": "r021",
           "mots": [
             "Parents"
           ]
@@ -440,18 +475,18 @@ window.REVES = {
           ]
         },
         {
-          "id": "r011",
+          "id": "r012",
           "mots": [
             "Frère"
           ]
         }
       ],
-      "x": 230.5,
-      "y": 433.5,
-      "xM": 141.8,
-      "yM": 203.7,
-      "duree": 25,
-      "delai": -9
+      "x": 286.6,
+      "y": 415.1,
+      "xM": 140.4,
+      "yM": 254.5,
+      "duree": 16,
+      "delai": -1
     },
     {
       "titre": "Chemins",
@@ -467,7 +502,7 @@ window.REVES = {
         "Chambre",
         "Chemin"
       ],
-      "id": "r010",
+      "id": "r011",
       "voisins": [
         {
           "id": "r003",
@@ -476,49 +511,49 @@ window.REVES = {
           ]
         },
         {
-          "id": "r014",
+          "id": "r015",
           "mots": [
             "Femme"
           ]
         },
         {
-          "id": "r025",
+          "id": "r026",
           "mots": [
             "Jardin"
           ]
         },
         {
-          "id": "r018",
+          "id": "r019",
           "mots": [
             "Maison"
           ]
         },
         {
-          "id": "r008",
+          "id": "r009",
           "mots": [
             "Chambre",
             "Chemin"
           ]
         },
         {
-          "id": "r011",
+          "id": "r012",
           "mots": [
             "Chambre"
           ]
         },
         {
-          "id": "r016",
+          "id": "r017",
           "mots": [
             "Chemin"
           ]
         }
       ],
-      "x": 263.1,
-      "y": 330.3,
-      "xM": 265.6,
-      "yM": 230.9,
-      "duree": 26,
-      "delai": -8
+      "x": 289.7,
+      "y": 317.8,
+      "xM": 237.7,
+      "yM": 257.2,
+      "duree": 24,
+      "delai": -3
     },
     {
       "titre": "Les cordes",
@@ -533,58 +568,58 @@ window.REVES = {
         "Magnolia",
         "Chambre"
       ],
-      "id": "r011",
+      "id": "r012",
       "voisins": [
         {
-          "id": "r008",
-          "mots": [
-            "Blanche"
-          ]
-        },
-        {
-          "id": "r012",
-          "mots": [
-            "Blanche"
-          ]
-        },
-        {
           "id": "r009",
+          "mots": [
+            "Blanche"
+          ]
+        },
+        {
+          "id": "r013",
+          "mots": [
+            "Blanche"
+          ]
+        },
+        {
+          "id": "r010",
           "mots": [
             "Frère"
           ]
         },
         {
-          "id": "r020",
+          "id": "r021",
           "mots": [
             "Frère",
             "Chambre"
           ]
         },
         {
-          "id": "r006",
+          "id": "r008",
           "mots": [
             "Magnolia"
           ]
         },
         {
-          "id": "r035",
+          "id": "r036",
           "mots": [
             "Magnolia"
           ]
         },
         {
-          "id": "r010",
+          "id": "r011",
           "mots": [
             "Chambre"
           ]
         }
       ],
-      "x": 326.3,
-      "y": 371,
-      "xM": 216.8,
-      "yM": 283.6,
+      "x": 350.1,
+      "y": 370.2,
+      "xM": 185.3,
+      "yM": 308.6,
       "duree": 23,
-      "delai": -19
+      "delai": -10
     },
     {
       "titre": "Les vagues",
@@ -600,35 +635,35 @@ window.REVES = {
         "Ville",
         "Eau"
       ],
-      "id": "r012",
+      "id": "r013",
       "voisins": [
         {
-          "id": "r011",
+          "id": "r012",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r014",
+          "id": "r015",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r008",
+          "id": "r009",
           "mots": [
             "Paris",
             "Ville"
           ]
         },
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "Paris"
           ]
         },
         {
-          "id": "r018",
+          "id": "r019",
           "mots": [
             "Ville"
           ]
@@ -640,12 +675,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 279.8,
-      "y": 297.9,
-      "xM": 304.5,
-      "yM": 244.8,
-      "duree": 24,
-      "delai": -22
+      "x": 308.1,
+      "y": 296.1,
+      "xM": 259.4,
+      "yM": 272.8,
+      "duree": 25,
+      "delai": -1
     },
     {
       "titre": "Guibert Tinder",
@@ -657,27 +692,27 @@ window.REVES = {
       "mots": [
         "Ami"
       ],
-      "id": "r013",
+      "id": "r014",
       "voisins": [
         {
-          "id": "r008",
+          "id": "r009",
           "mots": [
             "Ami"
           ]
         },
         {
-          "id": "r017",
+          "id": "r018",
           "mots": [
             "Ami"
           ]
         }
       ],
-      "x": 247.1,
-      "y": 185.3,
-      "xM": 439.7,
-      "yM": 217.6,
-      "duree": 24,
-      "delai": -2
+      "x": 112.6,
+      "y": 288,
+      "xM": 267.5,
+      "yM": 106.3,
+      "duree": 25,
+      "delai": -16
     },
     {
       "titre": "La petite chienne",
@@ -696,28 +731,28 @@ window.REVES = {
         "Animaux",
         "Lumière"
       ],
-      "id": "r014",
+      "id": "r015",
       "voisins": [
         {
-          "id": "r012",
+          "id": "r013",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r015",
+          "id": "r016",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r010",
+          "id": "r011",
           "mots": [
             "Femme"
           ]
         },
         {
-          "id": "r022",
+          "id": "r023",
           "mots": [
             "Femme"
           ]
@@ -730,13 +765,13 @@ window.REVES = {
           ]
         },
         {
-          "id": "r025",
+          "id": "r026",
           "mots": [
             "Dessin"
           ]
         },
         {
-          "id": "r018",
+          "id": "r019",
           "mots": [
             "Animaux"
           ]
@@ -748,18 +783,18 @@ window.REVES = {
           ]
         },
         {
-          "id": "r033",
+          "id": "r034",
           "mots": [
             "Lumière"
           ]
         }
       ],
-      "x": 226,
-      "y": 289.9,
-      "xM": 314.1,
-      "yM": 200,
-      "duree": 24,
-      "delai": -10
+      "x": 233.9,
+      "y": 270.5,
+      "xM": 285,
+      "yM": 209.6,
+      "duree": 19,
+      "delai": -1
     },
     {
       "titre": "Ma main dans ma main",
@@ -772,26 +807,26 @@ window.REVES = {
       "mots": [
         "Blanche"
       ],
-      "id": "r015",
+      "id": "r016",
       "voisins": [
         {
-          "id": "r014",
+          "id": "r015",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r019",
+          "id": "r020",
           "mots": [
             "Blanche"
           ]
         }
       ],
-      "x": 70.2,
-      "y": 267,
-      "xM": 341.6,
-      "yM": 70.2,
-      "duree": 27,
+      "x": 70,
+      "y": 220.7,
+      "xM": 334.8,
+      "yM": 70,
+      "duree": 16,
       "delai": -14
     },
     {
@@ -805,33 +840,33 @@ window.REVES = {
         "École",
         "Chemin"
       ],
-      "id": "r016",
+      "id": "r017",
       "voisins": [
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "École"
           ]
         },
         {
-          "id": "r010",
+          "id": "r011",
           "mots": [
             "Chemin"
           ]
         },
         {
-          "id": "r030",
+          "id": "r031",
           "mots": [
             "Chemin"
           ]
         }
       ],
-      "x": 365.8,
-      "y": 283.5,
-      "xM": 321.8,
-      "yM": 316.5,
-      "duree": 26,
-      "delai": -7
+      "x": 399.7,
+      "y": 277.1,
+      "xM": 278.4,
+      "yM": 350.8,
+      "duree": 18,
+      "delai": 0
     },
     {
       "titre": "Un moment avec lui",
@@ -843,27 +878,27 @@ window.REVES = {
       "mots": [
         "Ami"
       ],
-      "id": "r017",
+      "id": "r018",
       "voisins": [
         {
-          "id": "r013",
+          "id": "r014",
           "mots": [
             "Ami"
           ]
         },
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "Ami"
           ]
         }
       ],
-      "x": 288.8,
-      "y": 114.8,
-      "xM": 524.3,
-      "yM": 252.3,
-      "duree": 22,
-      "delai": -16
+      "x": 187.3,
+      "y": 205.5,
+      "xM": 350,
+      "yM": 169.9,
+      "duree": 21,
+      "delai": -2
     },
     {
       "titre": "Le chat et les rats",
@@ -879,63 +914,63 @@ window.REVES = {
         "Soleil",
         "Maison"
       ],
-      "id": "r018",
+      "id": "r019",
       "voisins": [
         {
-          "id": "r012",
+          "id": "r013",
           "mots": [
             "Ville"
           ]
         },
         {
-          "id": "r025",
+          "id": "r026",
           "mots": [
             "Ville"
           ]
         },
         {
-          "id": "r014",
+          "id": "r015",
           "mots": [
             "Animaux"
+          ]
+        },
+        {
+          "id": "r021",
+          "mots": [
+            "Animaux"
+          ]
+        },
+        {
+          "id": "r009",
+          "mots": [
+            "Soleil"
+          ]
+        },
+        {
+          "id": "r024",
+          "mots": [
+            "Soleil"
+          ]
+        },
+        {
+          "id": "r011",
+          "mots": [
+            "Maison"
           ]
         },
         {
           "id": "r020",
           "mots": [
-            "Animaux"
-          ]
-        },
-        {
-          "id": "r008",
-          "mots": [
-            "Soleil"
-          ]
-        },
-        {
-          "id": "r023",
-          "mots": [
-            "Soleil"
-          ]
-        },
-        {
-          "id": "r010",
-          "mots": [
-            "Maison"
-          ]
-        },
-        {
-          "id": "r019",
-          "mots": [
             "Maison"
           ]
         }
       ],
-      "x": 191.6,
-      "y": 277.5,
-      "xM": 329,
-      "yM": 171.3,
-      "duree": 15,
-      "delai": -22
+      "x": 207.7,
+      "y": 252.5,
+      "xM": 303,
+      "yM": 187.3,
+      "duree": 26,
+      "delai": -10
     },
     {
       "titre": "Réalité de base",
@@ -948,39 +983,39 @@ window.REVES = {
         "Blanche",
         "Maison"
       ],
-      "id": "r019",
+      "id": "r020",
       "voisins": [
         {
-          "id": "r015",
+          "id": "r016",
           "mots": [
             "Blanche"
-          ]
-        },
-        {
-          "id": "r021",
-          "mots": [
-            "Blanche"
-          ]
-        },
-        {
-          "id": "r018",
-          "mots": [
-            "Maison"
           ]
         },
         {
           "id": "r022",
           "mots": [
+            "Blanche"
+          ]
+        },
+        {
+          "id": "r019",
+          "mots": [
+            "Maison"
+          ]
+        },
+        {
+          "id": "r023",
+          "mots": [
             "Maison"
           ]
         }
       ],
-      "x": 88.4,
-      "y": 205,
-      "xM": 416,
-      "yM": 85.4,
+      "x": 105,
+      "y": 160.8,
+      "xM": 394.7,
+      "yM": 99.8,
       "duree": 17,
-      "delai": -6
+      "delai": -24
     },
     {
       "titre": "L'oiseau de mon père",
@@ -997,29 +1032,29 @@ window.REVES = {
         "Animaux",
         "Chambre"
       ],
-      "id": "r020",
+      "id": "r021",
       "voisins": [
         {
-          "id": "r009",
+          "id": "r010",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r023",
+          "id": "r024",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r011",
+          "id": "r012",
           "mots": [
             "Frère",
             "Chambre"
           ]
         },
         {
-          "id": "r024",
+          "id": "r025",
           "mots": [
             "Frère",
             "Deux Noyers",
@@ -1027,18 +1062,18 @@ window.REVES = {
           ]
         },
         {
-          "id": "r018",
+          "id": "r019",
           "mots": [
             "Animaux"
           ]
         }
       ],
-      "x": 216.3,
-      "y": 327.3,
-      "xM": 269.2,
-      "yM": 191.9,
-      "duree": 20,
-      "delai": -22
+      "x": 269.9,
+      "y": 290,
+      "xM": 265.5,
+      "yM": 240.3,
+      "duree": 19,
+      "delai": -24
     },
     {
       "titre": "Blanches",
@@ -1050,27 +1085,27 @@ window.REVES = {
       "mots": [
         "Blanche"
       ],
-      "id": "r021",
+      "id": "r022",
       "voisins": [
         {
-          "id": "r019",
+          "id": "r020",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r022",
+          "id": "r023",
           "mots": [
             "Blanche"
           ]
         }
       ],
-      "x": 70,
-      "y": 139.4,
-      "xM": 494.7,
-      "yM": 70,
-      "duree": 26,
-      "delai": -10
+      "x": 99.9,
+      "y": 89.9,
+      "xM": 465.6,
+      "yM": 95.4,
+      "duree": 19,
+      "delai": -4
     },
     {
       "titre": "Viscères",
@@ -1085,46 +1120,46 @@ window.REVES = {
         "Femme",
         "Maison"
       ],
-      "id": "r022",
+      "id": "r023",
       "voisins": [
         {
-          "id": "r021",
+          "id": "r022",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r024",
+          "id": "r025",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r014",
+          "id": "r015",
           "mots": [
             "Femme"
           ]
         },
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "Femme",
             "Maison"
           ]
         },
         {
-          "id": "r019",
+          "id": "r020",
           "mots": [
             "Maison"
           ]
         }
       ],
-      "x": 197,
-      "y": 188.6,
-      "xM": 435.7,
-      "yM": 175.9,
-      "duree": 22,
-      "delai": -16
+      "x": 219.2,
+      "y": 153.5,
+      "xM": 402.1,
+      "yM": 197.1,
+      "duree": 26,
+      "delai": -15
     },
     {
       "titre": "La gifle",
@@ -1140,33 +1175,33 @@ window.REVES = {
         "Parents",
         "Soleil"
       ],
-      "id": "r023",
+      "id": "r024",
       "voisins": [
         {
-          "id": "r020",
+          "id": "r021",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r024",
+          "id": "r025",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r018",
+          "id": "r019",
           "mots": [
             "Soleil"
           ]
         }
       ],
-      "x": 170.4,
-      "y": 245,
-      "xM": 368,
-      "yM": 153.7,
-      "duree": 19,
-      "delai": -15
+      "x": 235.8,
+      "y": 198.8,
+      "xM": 356.7,
+      "yM": 211.3,
+      "duree": 26,
+      "delai": -7
     },
     {
       "titre": "Petite sœur",
@@ -1184,35 +1219,35 @@ window.REVES = {
         "Deux Noyers",
         "Chambre"
       ],
-      "id": "r024",
+      "id": "r025",
       "voisins": [
         {
-          "id": "r022",
+          "id": "r023",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r030",
+          "id": "r031",
           "mots": [
             "Blanche",
             "Chambre"
           ]
         },
         {
-          "id": "r023",
+          "id": "r024",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r025",
+          "id": "r026",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r020",
+          "id": "r021",
           "mots": [
             "Frère",
             "Deux Noyers",
@@ -1220,24 +1255,24 @@ window.REVES = {
           ]
         },
         {
-          "id": "r029",
+          "id": "r030",
           "mots": [
             "Frère"
           ]
         },
         {
-          "id": "r031",
+          "id": "r032",
           "mots": [
             "Deux Noyers"
           ]
         }
       ],
-      "x": 302.3,
-      "y": 220.5,
-      "xM": 397.4,
-      "yM": 263.5,
-      "duree": 20,
-      "delai": -4
+      "x": 336.9,
+      "y": 180.9,
+      "xM": 374.6,
+      "yM": 297.4,
+      "duree": 23,
+      "delai": -13
     },
     {
       "titre": "La ville-tube",
@@ -1253,16 +1288,16 @@ window.REVES = {
         "Ville",
         "Jardin"
       ],
-      "id": "r025",
+      "id": "r026",
       "voisins": [
         {
-          "id": "r024",
+          "id": "r025",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "Parents",
             "Dessin",
@@ -1270,36 +1305,36 @@ window.REVES = {
           ]
         },
         {
-          "id": "r014",
+          "id": "r015",
           "mots": [
             "Dessin"
           ]
         },
         {
-          "id": "r018",
+          "id": "r019",
           "mots": [
             "Ville"
           ]
         },
         {
-          "id": "r010",
+          "id": "r011",
           "mots": [
             "Jardin"
           ]
         },
         {
-          "id": "r031",
+          "id": "r032",
           "mots": [
             "Jardin"
           ]
         }
       ],
-      "x": 292.5,
-      "y": 250,
-      "xM": 361.9,
-      "yM": 255.4,
-      "duree": 23,
-      "delai": -19
+      "x": 311.4,
+      "y": 226.3,
+      "xM": 329.2,
+      "yM": 275.7,
+      "duree": 15,
+      "delai": -8
     },
     {
       "titre": "L'herbe jaune",
@@ -1323,28 +1358,28 @@ window.REVES = {
         "Ville",
         "Maison"
       ],
-      "id": "r026",
+      "id": "r027",
       "voisins": [
         {
-          "id": "r008",
+          "id": "r009",
           "mots": [
             "Joachim"
           ]
         },
         {
-          "id": "r036",
+          "id": "r037",
           "mots": [
             "Joachim"
           ]
         },
         {
-          "id": "r017",
+          "id": "r018",
           "mots": [
             "Ami"
           ]
         },
         {
-          "id": "r030",
+          "id": "r031",
           "mots": [
             "Ami",
             "Femme",
@@ -1352,7 +1387,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r025",
+          "id": "r026",
           "mots": [
             "Parents",
             "Dessin",
@@ -1360,61 +1395,61 @@ window.REVES = {
           ]
         },
         {
-          "id": "r028",
+          "id": "r029",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r012",
+          "id": "r013",
           "mots": [
             "Paris"
           ]
         },
         {
-          "id": "r027",
+          "id": "r028",
           "mots": [
             "Paris"
           ]
         },
         {
-          "id": "r022",
+          "id": "r023",
           "mots": [
             "Femme",
             "Maison"
           ]
         },
         {
-          "id": "r032",
+          "id": "r033",
           "mots": [
             "Dessin"
           ]
         },
         {
-          "id": "r016",
+          "id": "r017",
           "mots": [
             "École"
           ]
         },
         {
-          "id": "r042",
+          "id": "r043",
           "mots": [
             "École"
           ]
         },
         {
-          "id": "r039",
+          "id": "r040",
           "mots": [
             "Ville"
           ]
         }
       ],
-      "x": 379,
-      "y": 205.4,
-      "xM": 415.5,
-      "yM": 327.5,
-      "duree": 16,
-      "delai": -10
+      "x": 385.7,
+      "y": 203.6,
+      "xM": 351.9,
+      "yM": 338.9,
+      "duree": 21,
+      "delai": -3
     },
     {
       "titre": "Denfert-Rochereau",
@@ -1427,33 +1462,33 @@ window.REVES = {
         "Paris",
         "Mort"
       ],
-      "id": "r027",
+      "id": "r028",
       "voisins": [
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "Paris"
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Paris"
           ]
         },
         {
-          "id": "r029",
+          "id": "r030",
           "mots": [
             "Mort"
           ]
         }
       ],
-      "x": 480,
-      "y": 133.2,
-      "xM": 502.1,
-      "yM": 411.7,
-      "duree": 20,
-      "delai": -7
+      "x": 504.6,
+      "y": 111.1,
+      "xM": 444.4,
+      "yM": 440.2,
+      "duree": 26,
+      "delai": -19
     },
     {
       "titre": "Sans effort",
@@ -1465,27 +1500,27 @@ window.REVES = {
       "mots": [
         "Parents"
       ],
-      "id": "r028",
+      "id": "r029",
       "voisins": [
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r030",
+          "id": "r031",
           "mots": [
             "Parents"
           ]
         }
       ],
-      "x": 417.7,
-      "y": 128.6,
-      "xM": 507.7,
-      "yM": 359.7,
-      "duree": 22,
-      "delai": -12
+      "x": 412.7,
+      "y": 115.7,
+      "xM": 439.8,
+      "yM": 361.9,
+      "duree": 16,
+      "delai": -1
     },
     {
       "titre": "Le quatrième frère",
@@ -1500,39 +1535,39 @@ window.REVES = {
         "Frère",
         "Mort"
       ],
-      "id": "r029",
+      "id": "r030",
       "voisins": [
         {
-          "id": "r024",
+          "id": "r025",
           "mots": [
             "Frère"
+          ]
+        },
+        {
+          "id": "r035",
+          "mots": [
+            "Frère"
+          ]
+        },
+        {
+          "id": "r028",
+          "mots": [
+            "Mort"
           ]
         },
         {
           "id": "r034",
           "mots": [
-            "Frère"
-          ]
-        },
-        {
-          "id": "r027",
-          "mots": [
-            "Mort"
-          ]
-        },
-        {
-          "id": "r033",
-          "mots": [
             "Mort"
           ]
         }
       ],
-      "x": 426.5,
-      "y": 173.6,
-      "xM": 453.7,
-      "yM": 367,
-      "duree": 26,
-      "delai": -19
+      "x": 466.3,
+      "y": 140.1,
+      "xM": 415.4,
+      "yM": 407.6,
+      "duree": 19,
+      "delai": -12
     },
     {
       "titre": "Carré noir",
@@ -1555,24 +1590,24 @@ window.REVES = {
         "Chambre",
         "Chemin"
       ],
-      "id": "r030",
+      "id": "r031",
       "voisins": [
         {
-          "id": "r024",
+          "id": "r025",
           "mots": [
             "Blanche",
             "Chambre"
           ]
         },
         {
-          "id": "r032",
+          "id": "r033",
           "mots": [
             "Blanche",
             "Femme"
           ]
         },
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "Ami",
             "Femme",
@@ -1580,19 +1615,19 @@ window.REVES = {
           ]
         },
         {
-          "id": "r033",
+          "id": "r034",
           "mots": [
             "Ami"
           ]
         },
         {
-          "id": "r028",
+          "id": "r029",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r031",
+          "id": "r032",
           "mots": [
             "Parents"
           ]
@@ -1604,37 +1639,37 @@ window.REVES = {
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Train",
             "Maison"
           ]
         },
         {
-          "id": "r038",
+          "id": "r039",
           "mots": [
             "Chambre"
           ]
         },
         {
-          "id": "r016",
+          "id": "r017",
           "mots": [
             "Chemin"
           ]
         },
         {
-          "id": "r045",
+          "id": "r046",
           "mots": [
             "Chemin"
           ]
         }
       ],
-      "x": 436.9,
-      "y": 238.4,
-      "xM": 375.9,
-      "yM": 375.7,
-      "duree": 17,
-      "delai": -18
+      "x": 462,
+      "y": 217.5,
+      "xM": 338,
+      "yM": 404,
+      "duree": 22,
+      "delai": -2
     },
     {
       "titre": "Sous terre",
@@ -1651,51 +1686,51 @@ window.REVES = {
         "Deux Noyers",
         "Jardin"
       ],
-      "id": "r031",
+      "id": "r032",
       "voisins": [
         {
-          "id": "r030",
+          "id": "r031",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Parents"
-          ]
-        },
-        {
-          "id": "r024",
-          "mots": [
-            "Deux Noyers"
-          ]
-        },
-        {
-          "id": "r045",
-          "mots": [
-            "Deux Noyers"
           ]
         },
         {
           "id": "r025",
           "mots": [
+            "Deux Noyers"
+          ]
+        },
+        {
+          "id": "r046",
+          "mots": [
+            "Deux Noyers"
+          ]
+        },
+        {
+          "id": "r026",
+          "mots": [
             "Jardin"
           ]
         },
         {
-          "id": "r032",
+          "id": "r033",
           "mots": [
             "Jardin"
           ]
         }
       ],
-      "x": 417.2,
-      "y": 214.6,
-      "xM": 404.4,
-      "yM": 359.3,
-      "duree": 27,
-      "delai": -8
+      "x": 445.8,
+      "y": 180.2,
+      "xM": 375.3,
+      "yM": 390.2,
+      "duree": 21,
+      "delai": -6
     },
     {
       "titre": "Un jour de rien",
@@ -1712,46 +1747,46 @@ window.REVES = {
         "Dessin",
         "Jardin"
       ],
-      "id": "r032",
+      "id": "r033",
       "voisins": [
         {
-          "id": "r030",
+          "id": "r031",
           "mots": [
             "Blanche",
             "Femme"
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "Dessin"
           ]
         },
         {
-          "id": "r033",
+          "id": "r034",
           "mots": [
             "Dessin"
           ]
         },
         {
-          "id": "r031",
+          "id": "r032",
           "mots": [
             "Jardin"
           ]
         }
       ],
-      "x": 468.7,
-      "y": 191.3,
-      "xM": 432.4,
-      "yM": 402.3,
-      "duree": 22,
-      "delai": -20
+      "x": 496.4,
+      "y": 171.3,
+      "xM": 384.2,
+      "yM": 433.2,
+      "duree": 25,
+      "delai": -15
     },
     {
       "titre": "Parler à ton souvenir",
@@ -1770,64 +1805,64 @@ window.REVES = {
         "Mort",
         "Lumière"
       ],
-      "id": "r033",
+      "id": "r034",
       "voisins": [
         {
-          "id": "r037",
+          "id": "r038",
           "mots": [
             "JFD"
           ]
         },
         {
-          "id": "r030",
+          "id": "r031",
           "mots": [
             "Ami"
           ]
         },
         {
-          "id": "r036",
+          "id": "r037",
           "mots": [
             "Ami",
             "Lumière"
           ]
         },
         {
-          "id": "r032",
+          "id": "r033",
           "mots": [
             "Dessin"
+          ]
+        },
+        {
+          "id": "r036",
+          "mots": [
+            "Dessin"
+          ]
+        },
+        {
+          "id": "r030",
+          "mots": [
+            "Mort"
           ]
         },
         {
           "id": "r035",
           "mots": [
-            "Dessin"
-          ]
-        },
-        {
-          "id": "r029",
-          "mots": [
             "Mort"
           ]
         },
         {
-          "id": "r034",
-          "mots": [
-            "Mort"
-          ]
-        },
-        {
-          "id": "r014",
+          "id": "r015",
           "mots": [
             "Lumière"
           ]
         }
       ],
-      "x": 448.4,
-      "y": 261.6,
-      "xM": 348,
-      "yM": 385.3,
-      "duree": 18,
-      "delai": -25
+      "x": 477.8,
+      "y": 240.4,
+      "xM": 315.2,
+      "yM": 417.4,
+      "duree": 26,
+      "delai": -11
     },
     {
       "titre": "Déserter",
@@ -1851,16 +1886,16 @@ window.REVES = {
         "Mort",
         "Maison"
       ],
-      "id": "r034",
+      "id": "r035",
       "voisins": [
         {
-          "id": "r032",
+          "id": "r033",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r035",
+          "id": "r036",
           "mots": [
             "Blanche",
             "Frère",
@@ -1868,62 +1903,62 @@ window.REVES = {
           ]
         },
         {
-          "id": "r031",
+          "id": "r032",
           "mots": [
             "Parents"
           ]
         },
         {
-          "id": "r039",
+          "id": "r040",
           "mots": [
             "Parents",
             "Paris"
           ]
         },
         {
-          "id": "r029",
+          "id": "r030",
           "mots": [
             "Frère"
           ]
         },
         {
-          "id": "r027",
+          "id": "r028",
           "mots": [
             "Paris"
           ]
         },
         {
-          "id": "r030",
+          "id": "r031",
           "mots": [
             "Train",
             "Maison"
           ]
         },
         {
-          "id": "r037",
+          "id": "r038",
           "mots": [
             "Train"
           ]
         },
         {
-          "id": "r033",
+          "id": "r034",
           "mots": [
             "Mort"
           ]
         },
         {
-          "id": "r038",
+          "id": "r039",
           "mots": [
             "Maison"
           ]
         }
       ],
-      "x": 511.6,
-      "y": 217.8,
-      "xM": 400.6,
-      "yM": 438,
-      "duree": 24,
-      "delai": -13
+      "x": 545.1,
+      "y": 197.6,
+      "xM": 358,
+      "yM": 474.7,
+      "duree": 21,
+      "delai": -11
     },
     {
       "titre": "Feux follets",
@@ -1940,10 +1975,10 @@ window.REVES = {
         "Dessin",
         "Mort"
       ],
-      "id": "r035",
+      "id": "r036",
       "voisins": [
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Blanche",
             "Frère",
@@ -1951,7 +1986,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r039",
+          "id": "r040",
           "mots": [
             "Blanche",
             "Frère",
@@ -1960,30 +1995,30 @@ window.REVES = {
           ]
         },
         {
-          "id": "r011",
+          "id": "r012",
           "mots": [
             "Magnolia"
           ]
         },
         {
-          "id": "r033",
+          "id": "r034",
           "mots": [
             "Dessin"
           ]
         },
         {
-          "id": "r040",
+          "id": "r041",
           "mots": [
             "Dessin"
           ]
         }
       ],
-      "x": 518.1,
-      "y": 325.8,
-      "xM": 271.1,
-      "yM": 443.4,
-      "duree": 18,
-      "delai": -18
+      "x": 544.7,
+      "y": 313.9,
+      "xM": 241.6,
+      "yM": 474.4,
+      "duree": 24,
+      "delai": -12
     },
     {
       "titre": "Joachim au féminin",
@@ -1997,40 +2032,40 @@ window.REVES = {
         "Ami",
         "Lumière"
       ],
-      "id": "r036",
+      "id": "r037",
       "voisins": [
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "Joachim"
           ]
         },
         {
-          "id": "r033",
+          "id": "r034",
           "mots": [
             "Ami",
             "Lumière"
           ]
         },
         {
-          "id": "r037",
+          "id": "r038",
           "mots": [
             "Ami"
           ]
         },
         {
-          "id": "r045",
+          "id": "r046",
           "mots": [
             "Lumière"
           ]
         }
       ],
-      "x": 512.3,
-      "y": 250.5,
-      "xM": 361.4,
-      "yM": 438.6,
-      "duree": 24,
-      "delai": -6
+      "x": 546,
+      "y": 235.5,
+      "xM": 320.1,
+      "yM": 475.5,
+      "duree": 21,
+      "delai": -20
     },
     {
       "titre": "Tarek",
@@ -2044,46 +2079,46 @@ window.REVES = {
         "Ami",
         "Train"
       ],
-      "id": "r037",
+      "id": "r038",
       "voisins": [
         {
-          "id": "r033",
+          "id": "r034",
           "mots": [
             "JFD"
           ]
         },
         {
-          "id": "r041",
+          "id": "r042",
           "mots": [
             "JFD",
             "Ami"
           ]
         },
         {
-          "id": "r036",
+          "id": "r037",
           "mots": [
             "Ami"
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Train"
           ]
         },
         {
-          "id": "r045",
+          "id": "r046",
           "mots": [
             "Train"
           ]
         }
       ],
-      "x": 605.3,
-      "y": 235.8,
-      "xM": 379,
-      "yM": 516.1,
-      "duree": 18,
-      "delai": -4
+      "x": 648.2,
+      "y": 220.1,
+      "xM": 335.4,
+      "yM": 562.5,
+      "duree": 24,
+      "delai": -8
     },
     {
       "titre": "Quelque chose dans le lit",
@@ -2096,34 +2131,34 @@ window.REVES = {
         "Maison",
         "Chambre"
       ],
-      "id": "r038",
+      "id": "r039",
       "voisins": [
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Maison"
           ]
         },
         {
-          "id": "r039",
+          "id": "r040",
           "mots": [
             "Maison",
             "Chambre"
           ]
         },
         {
-          "id": "r030",
+          "id": "r031",
           "mots": [
             "Chambre"
           ]
         }
       ],
-      "x": 573.3,
-      "y": 194.9,
-      "xM": 428.1,
-      "yM": 489.5,
+      "x": 616.8,
+      "y": 174.7,
+      "xM": 380.8,
+      "yM": 535.8,
       "duree": 21,
-      "delai": -24
+      "delai": -6
     },
     {
       "titre": "Malheurs",
@@ -2150,10 +2185,10 @@ window.REVES = {
         "Maison",
         "Chambre"
       ],
-      "id": "r039",
+      "id": "r040",
       "voisins": [
         {
-          "id": "r035",
+          "id": "r036",
           "mots": [
             "Blanche",
             "Frère",
@@ -2162,7 +2197,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r040",
+          "id": "r041",
           "mots": [
             "Blanche",
             "Paris",
@@ -2170,45 +2205,45 @@ window.REVES = {
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Parents",
             "Paris"
           ]
         },
         {
-          "id": "r045",
+          "id": "r046",
           "mots": [
             "Frère",
             "Maison"
           ]
         },
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "Ville"
           ]
         },
         {
-          "id": "r043",
+          "id": "r044",
           "mots": [
             "Mort"
           ]
         },
         {
-          "id": "r038",
+          "id": "r039",
           "mots": [
             "Maison",
             "Chambre"
           ]
         }
       ],
-      "x": 583.9,
-      "y": 269.3,
-      "xM": 338.8,
-      "yM": 498.3,
-      "duree": 26,
-      "delai": -3
+      "x": 610.3,
+      "y": 259,
+      "xM": 296.5,
+      "yM": 530.3,
+      "duree": 20,
+      "delai": -22
     },
     {
       "titre": "Rebecca dans la baignoire",
@@ -2225,10 +2260,10 @@ window.REVES = {
         "Dessin",
         "Ville"
       ],
-      "id": "r040",
+      "id": "r041",
       "voisins": [
         {
-          "id": "r039",
+          "id": "r040",
           "mots": [
             "Blanche",
             "Paris",
@@ -2236,30 +2271,30 @@ window.REVES = {
           ]
         },
         {
-          "id": "r044",
+          "id": "r045",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r035",
+          "id": "r036",
           "mots": [
             "Dessin"
           ]
         },
         {
-          "id": "r043",
+          "id": "r044",
           "mots": [
             "Dessin"
           ]
         }
       ],
-      "x": 681.1,
-      "y": 339.3,
-      "xM": 254.9,
-      "yM": 579.3,
-      "duree": 20,
-      "delai": -16
+      "x": 703.3,
+      "y": 338.1,
+      "xM": 217.5,
+      "yM": 609.5,
+      "duree": 19,
+      "delai": -21
     },
     {
       "titre": "L'ascenseur vers le passé",
@@ -2274,29 +2309,29 @@ window.REVES = {
         "JFD",
         "Ami"
       ],
-      "id": "r041",
+      "id": "r042",
       "voisins": [
         {
-          "id": "r037",
+          "id": "r038",
           "mots": [
             "JFD",
             "Ami"
           ]
         },
         {
-          "id": "r043",
+          "id": "r044",
           "mots": [
             "JFD",
             "Ami"
           ]
         }
       ],
-      "x": 745.9,
-      "y": 235.8,
-      "xM": 379.1,
-      "yM": 633.3,
-      "duree": 19,
-      "delai": -24
+      "x": 793.7,
+      "y": 230.1,
+      "xM": 325.5,
+      "yM": 686.5,
+      "duree": 18,
+      "delai": -17
     },
     {
       "titre": "Veille de cours",
@@ -2308,21 +2343,21 @@ window.REVES = {
       "mots": [
         "École"
       ],
-      "id": "r042",
+      "id": "r043",
       "voisins": [
         {
-          "id": "r026",
+          "id": "r027",
           "mots": [
             "École"
           ]
         }
       ],
-      "x": 371.3,
+      "x": 349.9,
       "y": 70,
-      "xM": 578,
-      "yM": 321.1,
-      "duree": 17,
-      "delai": -14
+      "xM": 485.5,
+      "yM": 308.4,
+      "duree": 26,
+      "delai": -21
     },
     {
       "titre": "La trace d'un mort",
@@ -2337,40 +2372,40 @@ window.REVES = {
         "Dessin",
         "Mort"
       ],
-      "id": "r043",
+      "id": "r044",
       "voisins": [
         {
-          "id": "r041",
+          "id": "r042",
           "mots": [
             "JFD",
             "Ami"
           ]
         },
         {
-          "id": "r046",
+          "id": "r047",
           "mots": [
             "Ami"
           ]
         },
         {
-          "id": "r040",
+          "id": "r041",
           "mots": [
             "Dessin"
           ]
         },
         {
-          "id": "r039",
+          "id": "r040",
           "mots": [
             "Mort"
           ]
         }
       ],
-      "x": 748.9,
-      "y": 301,
-      "xM": 300.8,
-      "yM": 635.7,
-      "duree": 23,
-      "delai": -5
+      "x": 776.7,
+      "y": 298.8,
+      "xM": 256.7,
+      "yM": 672,
+      "duree": 20,
+      "delai": 0
     },
     {
       "titre": "L'ange",
@@ -2382,27 +2417,27 @@ window.REVES = {
       "mots": [
         "Blanche"
       ],
-      "id": "r044",
+      "id": "r045",
       "voisins": [
         {
-          "id": "r040",
+          "id": "r041",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r046",
+          "id": "r047",
           "mots": [
             "Blanche"
           ]
         }
       ],
-      "x": 814,
-      "y": 377.6,
-      "xM": 208.9,
-      "yM": 690,
+      "x": 824.8,
+      "y": 390.4,
+      "xM": 165.1,
+      "yM": 713,
       "duree": 26,
-      "delai": -19
+      "delai": -21
     },
     {
       "titre": "Chez Pacôme",
@@ -2420,46 +2455,46 @@ window.REVES = {
         "Maison",
         "Chemin"
       ],
-      "id": "r045",
+      "id": "r046",
       "voisins": [
         {
-          "id": "r039",
+          "id": "r040",
           "mots": [
             "Frère",
             "Maison"
           ]
         },
         {
-          "id": "r031",
+          "id": "r032",
           "mots": [
             "Deux Noyers"
           ]
         },
         {
-          "id": "r037",
+          "id": "r038",
           "mots": [
             "Train"
           ]
         },
         {
-          "id": "r036",
+          "id": "r037",
           "mots": [
             "Lumière"
           ]
         },
         {
-          "id": "r030",
+          "id": "r031",
           "mots": [
             "Chemin"
           ]
         }
       ],
-      "x": 543.7,
-      "y": 229.3,
-      "xM": 386.8,
-      "yM": 464.7,
-      "duree": 17,
-      "delai": -14
+      "x": 583,
+      "y": 201.4,
+      "xM": 354.1,
+      "yM": 507,
+      "duree": 20,
+      "delai": -12
     },
     {
       "titre": "Cascade",
@@ -2472,27 +2507,27 @@ window.REVES = {
         "Blanche",
         "Ami"
       ],
-      "id": "r046",
+      "id": "r047",
       "voisins": [
         {
-          "id": "r044",
+          "id": "r045",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r043",
+          "id": "r044",
           "mots": [
             "Ami"
           ]
         }
       ],
-      "x": 867.9,
-      "y": 339.3,
-      "xM": 254.8,
-      "yM": 734.9,
-      "duree": 24,
-      "delai": -8
+      "x": 884.3,
+      "y": 350.6,
+      "xM": 204.9,
+      "yM": 763.6,
+      "duree": 18,
+      "delai": -20
     }
   ],
   "liens": [
@@ -2505,20 +2540,13 @@ window.REVES = {
     },
     {
       "a": "r007",
-      "b": "r008",
+      "b": "r009",
       "mots": [
         "Blanche"
       ]
     },
     {
-      "a": "r008",
-      "b": "r011",
-      "mots": [
-        "Blanche"
-      ]
-    },
-    {
-      "a": "r011",
+      "a": "r009",
       "b": "r012",
       "mots": [
         "Blanche"
@@ -2526,13 +2554,13 @@ window.REVES = {
     },
     {
       "a": "r012",
-      "b": "r014",
+      "b": "r013",
       "mots": [
         "Blanche"
       ]
     },
     {
-      "a": "r014",
+      "a": "r013",
       "b": "r015",
       "mots": [
         "Blanche"
@@ -2540,20 +2568,20 @@ window.REVES = {
     },
     {
       "a": "r015",
-      "b": "r019",
+      "b": "r016",
       "mots": [
         "Blanche"
       ]
     },
     {
-      "a": "r019",
-      "b": "r021",
+      "a": "r016",
+      "b": "r020",
       "mots": [
         "Blanche"
       ]
     },
     {
-      "a": "r021",
+      "a": "r020",
       "b": "r022",
       "mots": [
         "Blanche"
@@ -2561,37 +2589,44 @@ window.REVES = {
     },
     {
       "a": "r022",
-      "b": "r024",
+      "b": "r023",
       "mots": [
         "Blanche"
       ]
     },
     {
-      "a": "r024",
-      "b": "r030",
+      "a": "r023",
+      "b": "r025",
+      "mots": [
+        "Blanche"
+      ]
+    },
+    {
+      "a": "r025",
+      "b": "r031",
       "mots": [
         "Blanche",
         "Chambre"
       ]
     },
     {
-      "a": "r030",
-      "b": "r032",
+      "a": "r031",
+      "b": "r033",
       "mots": [
         "Blanche",
         "Femme"
       ]
     },
     {
-      "a": "r032",
-      "b": "r034",
+      "a": "r033",
+      "b": "r035",
       "mots": [
         "Blanche"
       ]
     },
     {
-      "a": "r034",
-      "b": "r035",
+      "a": "r035",
+      "b": "r036",
       "mots": [
         "Blanche",
         "Frère",
@@ -2599,8 +2634,8 @@ window.REVES = {
       ]
     },
     {
-      "a": "r035",
-      "b": "r039",
+      "a": "r036",
+      "b": "r040",
       "mots": [
         "Blanche",
         "Frère",
@@ -2609,8 +2644,8 @@ window.REVES = {
       ]
     },
     {
-      "a": "r039",
-      "b": "r040",
+      "a": "r040",
+      "b": "r041",
       "mots": [
         "Blanche",
         "Paris",
@@ -2618,51 +2653,51 @@ window.REVES = {
       ]
     },
     {
-      "a": "r040",
-      "b": "r044",
+      "a": "r041",
+      "b": "r045",
       "mots": [
         "Blanche"
       ]
     },
     {
-      "a": "r044",
-      "b": "r046",
+      "a": "r045",
+      "b": "r047",
       "mots": [
         "Blanche"
       ]
     },
     {
-      "a": "r008",
-      "b": "r026",
+      "a": "r009",
+      "b": "r027",
       "mots": [
         "Joachim"
       ]
     },
     {
-      "a": "r026",
-      "b": "r036",
-      "mots": [
-        "Joachim"
-      ]
-    },
-    {
-      "a": "r033",
+      "a": "r027",
       "b": "r037",
+      "mots": [
+        "Joachim"
+      ]
+    },
+    {
+      "a": "r034",
+      "b": "r038",
       "mots": [
         "JFD"
       ]
     },
     {
-      "a": "r037",
-      "b": "r041",
+      "a": "r038",
+      "b": "r042",
       "mots": [
         "JFD",
         "Ami"
       ]
     },
     {
-      "a": "r041",
-      "b": "r043",
+      "a": "r042",
+      "b": "r044",
       "mots": [
         "JFD",
         "Ami"
@@ -2670,7 +2705,7 @@ window.REVES = {
     },
     {
       "a": "r006",
-      "b": "r008",
+      "b": "r009",
       "mots": [
         "Ami",
         "Paris",
@@ -2679,29 +2714,29 @@ window.REVES = {
       ]
     },
     {
-      "a": "r008",
-      "b": "r013",
+      "a": "r009",
+      "b": "r014",
       "mots": [
         "Ami"
       ]
     },
     {
-      "a": "r013",
-      "b": "r017",
+      "a": "r014",
+      "b": "r018",
       "mots": [
         "Ami"
       ]
     },
     {
-      "a": "r017",
-      "b": "r026",
+      "a": "r018",
+      "b": "r027",
       "mots": [
         "Ami"
       ]
     },
     {
-      "a": "r026",
-      "b": "r030",
+      "a": "r027",
+      "b": "r031",
       "mots": [
         "Ami",
         "Femme",
@@ -2709,30 +2744,30 @@ window.REVES = {
       ]
     },
     {
-      "a": "r030",
-      "b": "r033",
+      "a": "r031",
+      "b": "r034",
       "mots": [
         "Ami"
       ]
     },
     {
-      "a": "r033",
-      "b": "r036",
+      "a": "r034",
+      "b": "r037",
       "mots": [
         "Ami",
         "Lumière"
       ]
     },
     {
-      "a": "r036",
-      "b": "r037",
+      "a": "r037",
+      "b": "r038",
       "mots": [
         "Ami"
       ]
     },
     {
-      "a": "r043",
-      "b": "r046",
+      "a": "r044",
+      "b": "r047",
       "mots": [
         "Ami"
       ]
@@ -2746,27 +2781,28 @@ window.REVES = {
     },
     {
       "a": "r006",
-      "b": "r009",
+      "b": "r008",
+      "mots": [
+        "Parents",
+        "Magnolia"
+      ]
+    },
+    {
+      "a": "r008",
+      "b": "r010",
       "mots": [
         "Parents"
       ]
     },
     {
-      "a": "r009",
-      "b": "r020",
+      "a": "r010",
+      "b": "r021",
       "mots": [
         "Parents"
       ]
     },
     {
-      "a": "r020",
-      "b": "r023",
-      "mots": [
-        "Parents"
-      ]
-    },
-    {
-      "a": "r023",
+      "a": "r021",
       "b": "r024",
       "mots": [
         "Parents"
@@ -2783,27 +2819,27 @@ window.REVES = {
       "a": "r025",
       "b": "r026",
       "mots": [
+        "Parents"
+      ]
+    },
+    {
+      "a": "r026",
+      "b": "r027",
+      "mots": [
         "Parents",
         "Dessin",
         "Ville"
       ]
     },
     {
-      "a": "r026",
-      "b": "r028",
+      "a": "r027",
+      "b": "r029",
       "mots": [
         "Parents"
       ]
     },
     {
-      "a": "r028",
-      "b": "r030",
-      "mots": [
-        "Parents"
-      ]
-    },
-    {
-      "a": "r030",
+      "a": "r029",
       "b": "r031",
       "mots": [
         "Parents"
@@ -2811,14 +2847,21 @@ window.REVES = {
     },
     {
       "a": "r031",
-      "b": "r034",
+      "b": "r032",
       "mots": [
         "Parents"
       ]
     },
     {
-      "a": "r034",
-      "b": "r039",
+      "a": "r032",
+      "b": "r035",
+      "mots": [
+        "Parents"
+      ]
+    },
+    {
+      "a": "r035",
+      "b": "r040",
       "mots": [
         "Parents",
         "Paris"
@@ -2840,29 +2883,29 @@ window.REVES = {
     },
     {
       "a": "r003",
-      "b": "r009",
+      "b": "r010",
       "mots": [
         "Frère"
       ]
     },
     {
-      "a": "r009",
-      "b": "r011",
+      "a": "r010",
+      "b": "r012",
       "mots": [
         "Frère"
       ]
     },
     {
-      "a": "r011",
-      "b": "r020",
+      "a": "r012",
+      "b": "r021",
       "mots": [
         "Frère",
         "Chambre"
       ]
     },
     {
-      "a": "r020",
-      "b": "r024",
+      "a": "r021",
+      "b": "r025",
       "mots": [
         "Frère",
         "Deux Noyers",
@@ -2870,72 +2913,65 @@ window.REVES = {
       ]
     },
     {
-      "a": "r024",
-      "b": "r029",
+      "a": "r025",
+      "b": "r030",
       "mots": [
         "Frère"
       ]
     },
     {
-      "a": "r029",
-      "b": "r034",
+      "a": "r030",
+      "b": "r035",
       "mots": [
         "Frère"
       ]
     },
     {
-      "a": "r039",
-      "b": "r045",
+      "a": "r040",
+      "b": "r046",
       "mots": [
         "Frère",
         "Maison"
       ]
     },
     {
-      "a": "r024",
-      "b": "r031",
+      "a": "r025",
+      "b": "r032",
       "mots": [
         "Deux Noyers"
       ]
     },
     {
-      "a": "r031",
-      "b": "r045",
+      "a": "r032",
+      "b": "r046",
       "mots": [
         "Deux Noyers"
-      ]
-    },
-    {
-      "a": "r006",
-      "b": "r011",
-      "mots": [
-        "Magnolia"
-      ]
-    },
-    {
-      "a": "r011",
-      "b": "r035",
-      "mots": [
-        "Magnolia"
       ]
     },
     {
       "a": "r008",
       "b": "r012",
       "mots": [
+        "Magnolia"
+      ]
+    },
+    {
+      "a": "r012",
+      "b": "r036",
+      "mots": [
+        "Magnolia"
+      ]
+    },
+    {
+      "a": "r009",
+      "b": "r013",
+      "mots": [
         "Paris",
         "Ville"
       ]
     },
     {
-      "a": "r012",
-      "b": "r026",
-      "mots": [
-        "Paris"
-      ]
-    },
-    {
-      "a": "r026",
+      "a": "r013",
       "b": "r027",
       "mots": [
         "Paris"
@@ -2943,64 +2979,71 @@ window.REVES = {
     },
     {
       "a": "r027",
-      "b": "r034",
+      "b": "r028",
+      "mots": [
+        "Paris"
+      ]
+    },
+    {
+      "a": "r028",
+      "b": "r035",
       "mots": [
         "Paris"
       ]
     },
     {
       "a": "r002",
-      "b": "r030",
+      "b": "r031",
       "mots": [
         "Train"
       ]
     },
     {
-      "a": "r030",
-      "b": "r034",
+      "a": "r031",
+      "b": "r035",
       "mots": [
         "Train",
         "Maison"
       ]
     },
     {
-      "a": "r034",
-      "b": "r037",
+      "a": "r035",
+      "b": "r038",
       "mots": [
         "Train"
       ]
     },
     {
-      "a": "r037",
-      "b": "r045",
+      "a": "r038",
+      "b": "r046",
       "mots": [
         "Train"
       ]
     },
     {
       "a": "r003",
-      "b": "r010",
+      "b": "r011",
       "mots": [
         "Femme"
       ]
     },
     {
-      "a": "r010",
-      "b": "r014",
+      "a": "r011",
+      "b": "r015",
       "mots": [
         "Femme"
       ]
     },
     {
-      "a": "r014",
-      "b": "r022",
+      "a": "r015",
+      "b": "r023",
       "mots": [
         "Femme"
       ]
     },
     {
-      "a": "r022",
-      "b": "r026",
+      "a": "r023",
+      "b": "r027",
       "mots": [
         "Femme",
         "Maison"
@@ -3008,113 +3051,113 @@ window.REVES = {
     },
     {
       "a": "r004",
-      "b": "r014",
+      "b": "r015",
       "mots": [
         "Dessin",
         "Animaux"
       ]
     },
     {
-      "a": "r014",
-      "b": "r025",
-      "mots": [
-        "Dessin"
-      ]
-    },
-    {
-      "a": "r026",
-      "b": "r032",
-      "mots": [
-        "Dessin"
-      ]
-    },
-    {
-      "a": "r032",
-      "b": "r033",
-      "mots": [
-        "Dessin"
-      ]
-    },
-    {
-      "a": "r033",
-      "b": "r035",
-      "mots": [
-        "Dessin"
-      ]
-    },
-    {
-      "a": "r035",
-      "b": "r040",
-      "mots": [
-        "Dessin"
-      ]
-    },
-    {
-      "a": "r040",
-      "b": "r043",
-      "mots": [
-        "Dessin"
-      ]
-    },
-    {
-      "a": "r016",
+      "a": "r015",
       "b": "r026",
       "mots": [
-        "École"
-      ]
-    },
-    {
-      "a": "r026",
-      "b": "r042",
-      "mots": [
-        "École"
-      ]
-    },
-    {
-      "a": "r012",
-      "b": "r018",
-      "mots": [
-        "Ville"
-      ]
-    },
-    {
-      "a": "r018",
-      "b": "r025",
-      "mots": [
-        "Ville"
-      ]
-    },
-    {
-      "a": "r026",
-      "b": "r039",
-      "mots": [
-        "Ville"
+        "Dessin"
       ]
     },
     {
       "a": "r027",
-      "b": "r029",
-      "mots": [
-        "Mort"
-      ]
-    },
-    {
-      "a": "r029",
       "b": "r033",
       "mots": [
-        "Mort"
+        "Dessin"
       ]
     },
     {
       "a": "r033",
       "b": "r034",
       "mots": [
+        "Dessin"
+      ]
+    },
+    {
+      "a": "r034",
+      "b": "r036",
+      "mots": [
+        "Dessin"
+      ]
+    },
+    {
+      "a": "r036",
+      "b": "r041",
+      "mots": [
+        "Dessin"
+      ]
+    },
+    {
+      "a": "r041",
+      "b": "r044",
+      "mots": [
+        "Dessin"
+      ]
+    },
+    {
+      "a": "r017",
+      "b": "r027",
+      "mots": [
+        "École"
+      ]
+    },
+    {
+      "a": "r027",
+      "b": "r043",
+      "mots": [
+        "École"
+      ]
+    },
+    {
+      "a": "r013",
+      "b": "r019",
+      "mots": [
+        "Ville"
+      ]
+    },
+    {
+      "a": "r019",
+      "b": "r026",
+      "mots": [
+        "Ville"
+      ]
+    },
+    {
+      "a": "r027",
+      "b": "r040",
+      "mots": [
+        "Ville"
+      ]
+    },
+    {
+      "a": "r028",
+      "b": "r030",
+      "mots": [
         "Mort"
       ]
     },
     {
-      "a": "r039",
-      "b": "r043",
+      "a": "r030",
+      "b": "r034",
+      "mots": [
+        "Mort"
+      ]
+    },
+    {
+      "a": "r034",
+      "b": "r035",
+      "mots": [
+        "Mort"
+      ]
+    },
+    {
+      "a": "r040",
+      "b": "r044",
       "mots": [
         "Mort"
       ]
@@ -3127,98 +3170,91 @@ window.REVES = {
       ]
     },
     {
-      "a": "r014",
-      "b": "r018",
+      "a": "r015",
+      "b": "r019",
       "mots": [
         "Animaux"
       ]
     },
     {
-      "a": "r018",
-      "b": "r020",
+      "a": "r019",
+      "b": "r021",
       "mots": [
         "Animaux"
       ]
     },
     {
       "a": "r003",
-      "b": "r012",
+      "b": "r013",
       "mots": [
         "Eau"
       ]
     },
     {
-      "a": "r010",
-      "b": "r025",
+      "a": "r011",
+      "b": "r026",
       "mots": [
         "Jardin"
       ]
     },
     {
-      "a": "r025",
-      "b": "r031",
-      "mots": [
-        "Jardin"
-      ]
-    },
-    {
-      "a": "r031",
+      "a": "r026",
       "b": "r032",
       "mots": [
         "Jardin"
       ]
     },
     {
+      "a": "r032",
+      "b": "r033",
+      "mots": [
+        "Jardin"
+      ]
+    },
+    {
       "a": "r002",
-      "b": "r008",
+      "b": "r009",
       "mots": [
         "Soleil"
       ]
     },
     {
-      "a": "r008",
-      "b": "r018",
+      "a": "r009",
+      "b": "r019",
       "mots": [
         "Soleil"
       ]
     },
     {
-      "a": "r018",
-      "b": "r023",
+      "a": "r019",
+      "b": "r024",
       "mots": [
         "Soleil"
       ]
     },
     {
       "a": "r007",
-      "b": "r014",
+      "b": "r015",
       "mots": [
         "Lumière"
       ]
     },
     {
-      "a": "r014",
-      "b": "r033",
+      "a": "r015",
+      "b": "r034",
       "mots": [
         "Lumière"
       ]
     },
     {
-      "a": "r036",
-      "b": "r045",
+      "a": "r037",
+      "b": "r046",
       "mots": [
         "Lumière"
       ]
     },
     {
-      "a": "r010",
-      "b": "r018",
-      "mots": [
-        "Maison"
-      ]
-    },
-    {
-      "a": "r018",
+      "a": "r011",
       "b": "r019",
       "mots": [
         "Maison"
@@ -3226,65 +3262,72 @@ window.REVES = {
     },
     {
       "a": "r019",
-      "b": "r022",
+      "b": "r020",
       "mots": [
         "Maison"
       ]
     },
     {
-      "a": "r034",
-      "b": "r038",
+      "a": "r020",
+      "b": "r023",
       "mots": [
         "Maison"
       ]
     },
     {
-      "a": "r038",
+      "a": "r035",
       "b": "r039",
+      "mots": [
+        "Maison"
+      ]
+    },
+    {
+      "a": "r039",
+      "b": "r040",
       "mots": [
         "Maison",
         "Chambre"
       ]
     },
     {
-      "a": "r008",
-      "b": "r010",
+      "a": "r009",
+      "b": "r011",
       "mots": [
         "Chambre",
         "Chemin"
       ]
     },
     {
-      "a": "r010",
-      "b": "r011",
+      "a": "r011",
+      "b": "r012",
       "mots": [
         "Chambre"
       ]
     },
     {
-      "a": "r030",
-      "b": "r038",
+      "a": "r031",
+      "b": "r039",
       "mots": [
         "Chambre"
       ]
     },
     {
-      "a": "r010",
-      "b": "r016",
+      "a": "r011",
+      "b": "r017",
       "mots": [
         "Chemin"
       ]
     },
     {
-      "a": "r016",
-      "b": "r030",
+      "a": "r017",
+      "b": "r031",
       "mots": [
         "Chemin"
       ]
     },
     {
-      "a": "r030",
-      "b": "r045",
+      "a": "r031",
+      "b": "r046",
       "mots": [
         "Chemin"
       ]

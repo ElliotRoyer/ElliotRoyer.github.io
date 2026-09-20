@@ -183,7 +183,7 @@ body {
   opacity: 0.9;
   stroke-dasharray: var(--longueur);
   stroke-dashoffset: var(--longueur);
-  animation: tracer 0.43s ease forwards;
+  animation: tracer 0.39s ease forwards; /* <------------------------- vitesse tracé */
   animation-delay: var(--rang, 0s);
 }
 

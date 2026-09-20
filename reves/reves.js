@@ -202,7 +202,7 @@
       for (let i = 0; i + 1 < suite.length; i++) {
         const ligne = lignesParPaire.get(suite[i].id + '|' + suite[i + 1].id);
         if (!ligne) continue;
-        ligne.style.setProperty('--rang', (i * 0.24).toFixed(2) + 's');
+        ligne.style.setProperty('--rang', (i * 0.18).toFixed(2) + 's');
         ligne.classList.add('chemin');
       }
 
