@@ -1,0 +1,3 @@
+J'étais dans un donjon avec Lucas et Maman. Nous alliions gagner mais un endroit par lequel on devait passer nécessitait un sacrifice. Maman voulait se sacrifier, mais nous on ne voulait pas. Du coup, on a pris un monstre et on l'a jeté sur l'endroit.
+
+J'étais dans un magasin avec Papa. Citrouille est arrivé avec sa maman. Moi, je voulais acheter un manga "Soul Eater", mais Papa ne voulait pas. Il fallait d'abord que je ne fasse pas la gueule toute la journée. Citrouille, lui, voulait acheter un moule à fusée pour pâte à modeler.
