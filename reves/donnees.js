@@ -1,8 +1,8 @@
 /* Fichier généré par build-index.js — ne pas modifier à la main. */
 window.REVES = {
-  "genere": "2026-09-20",
-  "viewBox": "0 0 954 556",
-  "viewBoxMobile": "0 0 556 834",
+  "genere": "2026-09-21",
+  "viewBox": "0 0 1117 632",
+  "viewBoxMobile": "0 0 686 1005",
   "mots": [
     "Blanche",
     "Joachim",
@@ -56,12 +56,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 357.5,
-      "y": 485.5,
+      "x": 363.1,
+      "y": 561.8,
       "xM": 70,
-      "yM": 314.9,
-      "duree": 16,
-      "delai": -12
+      "yM": 329.3,
+      "duree": 23,
+      "delai": -1
     },
     {
       "titre": "Bribes",
@@ -104,12 +104,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 384.7,
-      "y": 368.7,
-      "xM": 186.8,
-      "yM": 338.1,
-      "duree": 21,
-      "delai": -8
+      "x": 415.3,
+      "y": 425.1,
+      "xM": 221.9,
+      "yM": 375.5,
+      "duree": 16,
+      "delai": -6
     },
     {
       "titre": "Le jambon sec (ou fumé)",
@@ -157,12 +157,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 253.2,
-      "y": 379.1,
-      "xM": 176.4,
-      "yM": 226,
-      "duree": 20,
-      "delai": -1
+      "x": 260.6,
+      "y": 404,
+      "xM": 245.4,
+      "yM": 238.6,
+      "duree": 23,
+      "delai": -18
     },
     {
       "titre": "Vente de chiens",
@@ -191,12 +191,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 130,
-      "y": 356.5,
-      "xM": 199,
-      "yM": 121.1,
-      "duree": 21,
-      "delai": -15
+      "x": 124.6,
+      "y": 369.6,
+      "xM": 283.6,
+      "yM": 118.3,
+      "duree": 20,
+      "delai": -25
     },
     {
       "titre": "La pyramide",
@@ -210,12 +210,12 @@ window.REVES = {
       "mots": [],
       "id": "r005",
       "voisins": [],
-      "x": 795.5,
-      "y": 371,
-      "xM": 184.5,
-      "yM": 688,
-      "duree": 22,
-      "delai": -14
+      "x": 653.5,
+      "y": 107.9,
+      "xM": 574.4,
+      "yM": 586.1,
+      "duree": 23,
+      "delai": -11
     },
     {
       "titre": "Quelque chose cloche",
@@ -266,12 +266,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 237.3,
-      "y": 456.8,
-      "xM": 98.7,
-      "yM": 212.5,
-      "duree": 22,
-      "delai": -1
+      "x": 275.4,
+      "y": 509.2,
+      "xM": 128.5,
+      "yM": 251.7,
+      "duree": 23,
+      "delai": -12
     },
     {
       "titre": "Fausse Blanche",
@@ -306,12 +306,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 176.9,
-      "y": 387.6,
-      "xM": 167.9,
-      "yM": 161.1,
-      "duree": 16,
-      "delai": -10
+      "x": 204.6,
+      "y": 426,
+      "xM": 220.9,
+      "yM": 189.1,
+      "duree": 27,
+      "delai": -22
     },
     {
       "titre": "Maman, est-ce que c'est la réalité ?",
@@ -346,12 +346,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 299.1,
-      "y": 479.3,
-      "xM": 76.2,
-      "yM": 265.2,
+      "x": 378.9,
+      "y": 509.7,
+      "xM": 127.9,
+      "yM": 343.3,
       "duree": 19,
-      "delai": 0
+      "delai": -18
     },
     {
       "titre": "L'appartement saccagé",
@@ -435,12 +435,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 256.9,
-      "y": 334.9,
-      "xM": 220.7,
-      "yM": 229.2,
-      "duree": 21,
-      "delai": -5
+      "x": 344.2,
+      "y": 384.3,
+      "xM": 267.3,
+      "yM": 312.6,
+      "duree": 25,
+      "delai": -2
     },
     {
       "titre": "La jambe qui tremble",
@@ -481,12 +481,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 286.6,
-      "y": 415.1,
-      "xM": 140.4,
-      "yM": 254.5,
-      "duree": 16,
-      "delai": -1
+      "x": 337.5,
+      "y": 437.2,
+      "xM": 208.4,
+      "yM": 306.6,
+      "duree": 26,
+      "delai": -19
     },
     {
       "titre": "Chemins",
@@ -548,12 +548,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 289.7,
-      "y": 317.8,
-      "xM": 237.7,
-      "yM": 257.2,
-      "duree": 24,
-      "delai": -3
+      "x": 302.1,
+      "y": 335.3,
+      "xM": 321.7,
+      "yM": 275.4,
+      "duree": 19,
+      "delai": -5
     },
     {
       "titre": "Les cordes",
@@ -602,7 +602,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r036",
+          "id": "r037",
           "mots": [
             "Magnolia"
           ]
@@ -614,12 +614,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 350.1,
-      "y": 370.2,
-      "xM": 185.3,
-      "yM": 308.6,
-      "duree": 23,
-      "delai": -10
+      "x": 438.4,
+      "y": 390.2,
+      "xM": 260.7,
+      "yM": 395.9,
+      "duree": 19,
+      "delai": -2
     },
     {
       "titre": "Les vagues",
@@ -673,14 +673,20 @@ window.REVES = {
           "mots": [
             "Eau"
           ]
+        },
+        {
+          "id": "r034",
+          "mots": [
+            "Eau"
+          ]
         }
       ],
-      "x": 308.1,
-      "y": 296.1,
-      "xM": 259.4,
-      "yM": 272.8,
+      "x": 368.3,
+      "y": 324.4,
+      "xM": 333.8,
+      "yM": 333.9,
       "duree": 25,
-      "delai": -1
+      "delai": -22
     },
     {
       "titre": "Guibert Tinder",
@@ -707,12 +713,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 112.6,
-      "y": 288,
-      "xM": 267.5,
-      "yM": 106.3,
-      "duree": 25,
-      "delai": -16
+      "x": 499.8,
+      "y": 468.8,
+      "xM": 173.4,
+      "yM": 450.2,
+      "duree": 27,
+      "delai": -13
     },
     {
       "titre": "La petite chienne",
@@ -783,18 +789,18 @@ window.REVES = {
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Lumière"
           ]
         }
       ],
-      "x": 233.9,
-      "y": 270.5,
-      "xM": 285,
-      "yM": 209.6,
-      "duree": 19,
-      "delai": -1
+      "x": 270.6,
+      "y": 288.3,
+      "xM": 373.9,
+      "yM": 247.4,
+      "duree": 26,
+      "delai": -18
     },
     {
       "titre": "Ma main dans ma main",
@@ -823,10 +829,10 @@ window.REVES = {
         }
       ],
       "x": 70,
-      "y": 220.7,
-      "xM": 334.8,
+      "y": 255.6,
+      "xM": 410.3,
       "yM": 70,
-      "duree": 16,
+      "duree": 17,
       "delai": -14
     },
     {
@@ -861,12 +867,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 399.7,
-      "y": 277.1,
-      "xM": 278.4,
-      "yM": 350.8,
-      "duree": 18,
-      "delai": 0
+      "x": 436.1,
+      "y": 292.5,
+      "xM": 369.2,
+      "yM": 393.9,
+      "duree": 25,
+      "delai": -17
     },
     {
       "titre": "Un moment avec lui",
@@ -893,12 +899,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 187.3,
-      "y": 205.5,
-      "xM": 350,
-      "yM": 169.9,
+      "x": 534.8,
+      "y": 371.2,
+      "xM": 281.8,
+      "yM": 481.2,
       "duree": 21,
-      "delai": -2
+      "delai": -21
     },
     {
       "titre": "Le chat et les rats",
@@ -965,12 +971,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 207.7,
-      "y": 252.5,
-      "xM": 303,
-      "yM": 187.3,
-      "duree": 26,
-      "delai": -10
+      "x": 227.2,
+      "y": 279.8,
+      "xM": 383.4,
+      "yM": 209.1,
+      "duree": 27,
+      "delai": -15
     },
     {
       "titre": "Réalité de base",
@@ -1010,12 +1016,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 105,
-      "y": 160.8,
-      "xM": 394.7,
-      "yM": 99.8,
-      "duree": 17,
-      "delai": -24
+      "x": 98.5,
+      "y": 188.5,
+      "xM": 484.8,
+      "yM": 95.2,
+      "duree": 20,
+      "delai": -4
     },
     {
       "titre": "L'oiseau de mon père",
@@ -1066,14 +1072,20 @@ window.REVES = {
           "mots": [
             "Animaux"
           ]
+        },
+        {
+          "id": "r034",
+          "mots": [
+            "Animaux"
+          ]
         }
       ],
-      "x": 269.9,
-      "y": 290,
-      "xM": 265.5,
-      "yM": 240.3,
-      "duree": 19,
-      "delai": -24
+      "x": 356.3,
+      "y": 292.9,
+      "xM": 368.8,
+      "yM": 323.3,
+      "duree": 22,
+      "delai": -7
     },
     {
       "titre": "Blanches",
@@ -1100,12 +1112,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 99.9,
-      "y": 89.9,
-      "xM": 465.6,
-      "yM": 95.4,
-      "duree": 19,
-      "delai": -4
+      "x": 82.7,
+      "y": 110.5,
+      "xM": 571.5,
+      "yM": 81.3,
+      "duree": 17,
+      "delai": -22
     },
     {
       "titre": "Viscères",
@@ -1154,12 +1166,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 219.2,
-      "y": 153.5,
-      "xM": 402.1,
-      "yM": 197.1,
-      "duree": 26,
-      "delai": -15
+      "x": 231.1,
+      "y": 167.2,
+      "xM": 508.5,
+      "yM": 212.5,
+      "duree": 17,
+      "delai": -22
     },
     {
       "titre": "La gifle",
@@ -1196,12 +1208,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 235.8,
-      "y": 198.8,
-      "xM": 356.7,
-      "yM": 211.3,
-      "duree": 26,
-      "delai": -7
+      "x": 245.4,
+      "y": 210.8,
+      "xM": 460.1,
+      "yM": 225.2,
+      "duree": 24,
+      "delai": -13
     },
     {
       "titre": "Petite sœur",
@@ -1267,12 +1279,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 336.9,
-      "y": 180.9,
-      "xM": 374.6,
-      "yM": 297.4,
-      "duree": 23,
-      "delai": -13
+      "x": 382.7,
+      "y": 180.4,
+      "xM": 493.8,
+      "yM": 346.6,
+      "duree": 17,
+      "delai": -4
     },
     {
       "titre": "La ville-tube",
@@ -1329,12 +1341,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 311.4,
-      "y": 226.3,
-      "xM": 329.2,
-      "yM": 275.7,
-      "duree": 15,
-      "delai": -8
+      "x": 328.5,
+      "y": 229.3,
+      "xM": 439.5,
+      "yM": 298.7,
+      "duree": 18,
+      "delai": -9
     },
     {
       "titre": "L'herbe jaune",
@@ -1367,7 +1379,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r037",
+          "id": "r038",
           "mots": [
             "Joachim"
           ]
@@ -1432,24 +1444,24 @@ window.REVES = {
           ]
         },
         {
-          "id": "r043",
+          "id": "r044",
           "mots": [
             "École"
           ]
         },
         {
-          "id": "r040",
+          "id": "r034",
           "mots": [
             "Ville"
           ]
         }
       ],
-      "x": 385.7,
-      "y": 203.6,
-      "xM": 351.9,
-      "yM": 338.9,
+      "x": 437.4,
+      "y": 221.8,
+      "xM": 447.8,
+      "yM": 395,
       "duree": 21,
-      "delai": -3
+      "delai": -8
     },
     {
       "titre": "Denfert-Rochereau",
@@ -1471,7 +1483,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r035",
+          "id": "r034",
           "mots": [
             "Paris"
           ]
@@ -1483,12 +1495,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 504.6,
-      "y": 111.1,
-      "xM": 444.4,
-      "yM": 440.2,
-      "duree": 26,
-      "delai": -19
+      "x": 517.5,
+      "y": 126.8,
+      "xM": 553.3,
+      "yM": 465.8,
+      "duree": 16,
+      "delai": -7
     },
     {
       "titre": "Sans effort",
@@ -1515,12 +1527,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 412.7,
-      "y": 115.7,
-      "xM": 439.8,
-      "yM": 361.9,
-      "duree": 16,
-      "delai": -1
+      "x": 449.2,
+      "y": 120.7,
+      "xM": 560.1,
+      "yM": 405.5,
+      "duree": 24,
+      "delai": -2
     },
     {
       "titre": "Le quatrième frère",
@@ -1544,7 +1556,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r035",
+          "id": "r036",
           "mots": [
             "Frère"
           ]
@@ -1556,18 +1568,18 @@ window.REVES = {
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Mort"
           ]
         }
       ],
-      "x": 466.3,
-      "y": 140.1,
-      "xM": 415.4,
-      "yM": 407.6,
-      "duree": 19,
-      "delai": -12
+      "x": 574.3,
+      "y": 140,
+      "xM": 538.7,
+      "yM": 516.1,
+      "duree": 22,
+      "delai": -11
     },
     {
       "titre": "Carré noir",
@@ -1615,7 +1627,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Ami"
           ]
@@ -1639,14 +1651,14 @@ window.REVES = {
           ]
         },
         {
-          "id": "r035",
+          "id": "r036",
           "mots": [
             "Train",
             "Maison"
           ]
         },
         {
-          "id": "r039",
+          "id": "r040",
           "mots": [
             "Chambre"
           ]
@@ -1658,18 +1670,18 @@ window.REVES = {
           ]
         },
         {
-          "id": "r046",
+          "id": "r047",
           "mots": [
             "Chemin"
           ]
         }
       ],
-      "x": 462,
-      "y": 217.5,
-      "xM": 338,
-      "yM": 404,
+      "x": 520.5,
+      "y": 237.8,
+      "xM": 430,
+      "yM": 468.5,
       "duree": 22,
-      "delai": -2
+      "delai": -11
     },
     {
       "titre": "Sous terre",
@@ -1695,7 +1707,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r035",
+          "id": "r034",
           "mots": [
             "Parents"
           ]
@@ -1707,7 +1719,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r046",
+          "id": "r047",
           "mots": [
             "Deux Noyers"
           ]
@@ -1725,12 +1737,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 445.8,
-      "y": 180.2,
-      "xM": 375.3,
-      "yM": 390.2,
-      "duree": 21,
-      "delai": -6
+      "x": 491.5,
+      "y": 185.3,
+      "xM": 488.3,
+      "yM": 442.9,
+      "duree": 23,
+      "delai": -5
     },
     {
       "titre": "Un jour de rien",
@@ -1757,9 +1769,10 @@ window.REVES = {
           ]
         },
         {
-          "id": "r035",
+          "id": "r034",
           "mots": [
-            "Blanche"
+            "Blanche",
+            "Femme"
           ]
         },
         {
@@ -1769,7 +1782,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Dessin"
           ]
@@ -1781,12 +1794,92 @@ window.REVES = {
           ]
         }
       ],
-      "x": 496.4,
-      "y": 171.3,
-      "xM": 384.2,
-      "yM": 433.2,
-      "duree": 25,
-      "delai": -15
+      "x": 552.1,
+      "y": 186.1,
+      "xM": 487.5,
+      "yM": 496.5,
+      "duree": 22,
+      "delai": -8
+    },
+    {
+      "titre": "Paris détruit",
+      "date": "2025-07-27",
+      "extrait": "Alors que nous étions Blanche et moi dans nos familles respectives, un tremblement de terre, suivi d'un déluge, avaient…",
+      "texte": [
+        "Alors que nous étions Blanche et moi dans nos familles respectives, un tremblement de terre, suivi d'un déluge, avaient frappé Paris. Les images étaient impressionnantes. Comme ça semblait s'être calmé, mes parents décidaient de m'y emmener récupérer mes affaires.",
+        "Nuit. Mon père conduisait. Les rues étaient encore inondées et dans les pentes, l'eau était trop abondante pour espérer freiner. Je craignais un instant que mon quartier ne soit sous l'eau. Heureusement que la rue monte haut.",
+        "Arrivé à un certain point, le sol était sec, mais trop craquelé pour qu'il soit encore possible d'avancer en voiture. Mes parents allaient trouver où dormir dans le coin, je continuerai jusqu'à chez moi à pied. La ville avait des allures d'après cataclysme. Des gens erraient parmi les décombres. En haut d'un escalier qui ressemblait à ceux de Montmartre, un type avec un chien noir m'a menacé pour que je lui donne mon téléphone. J'avais peur mais je savais que j'aurais besoin de mon portable dans cette ville détruite. J'ai ramassé un tout petit scalpel par terre pour me défendre, je l'ai planté dans le cou du chien qui me sautait dessus, puis dans le torse de l'agresseur. Petite lame : pas de quoi tuer un homme. Heureusement. Le type s'est dégonflé et m'a laissé tranquille.",
+        "La porte en bas de mon immeuble était à moitié cassée, une femme de ménage astiquait la vitre restante. Je suis monté chez moi. Comme toujours l'appartement différait du « vrai » : il était sombre et étroit, les murs couverts de bibliothèques. Soulagement : mes livres n'avaient pas été abîmés. J'ai dû dormir, car au matin je suis suis sorti marcher dans les rues détruites. Il faisait beau, vraiment l'ambiance de Paris un dimanche matin, j'ai appelé mes parents pour leur donner des nouvelles. On s'est retrouvés, tous les quatre avec Blanche chez moi, pour décider quoi faire."
+      ],
+      "mots": [
+        "Blanche",
+        "Parents",
+        "Paris",
+        "Femme",
+        "Ville",
+        "Animaux",
+        "Eau"
+      ],
+      "id": "r034",
+      "voisins": [
+        {
+          "id": "r033",
+          "mots": [
+            "Blanche",
+            "Femme"
+          ]
+        },
+        {
+          "id": "r036",
+          "mots": [
+            "Blanche",
+            "Parents",
+            "Paris"
+          ]
+        },
+        {
+          "id": "r032",
+          "mots": [
+            "Parents"
+          ]
+        },
+        {
+          "id": "r028",
+          "mots": [
+            "Paris"
+          ]
+        },
+        {
+          "id": "r027",
+          "mots": [
+            "Ville"
+          ]
+        },
+        {
+          "id": "r041",
+          "mots": [
+            "Ville"
+          ]
+        },
+        {
+          "id": "r021",
+          "mots": [
+            "Animaux"
+          ]
+        },
+        {
+          "id": "r013",
+          "mots": [
+            "Eau"
+          ]
+        }
+      ],
+      "x": 542.7,
+      "y": 264.9,
+      "xM": 399.9,
+      "yM": 488.2,
+      "duree": 15,
+      "delai": -1
     },
     {
       "titre": "Parler à ton souvenir",
@@ -1805,10 +1898,10 @@ window.REVES = {
         "Mort",
         "Lumière"
       ],
-      "id": "r034",
+      "id": "r035",
       "voisins": [
         {
-          "id": "r038",
+          "id": "r039",
           "mots": [
             "JFD"
           ]
@@ -1820,7 +1913,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r037",
+          "id": "r038",
           "mots": [
             "Ami",
             "Lumière"
@@ -1833,7 +1926,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r036",
+          "id": "r037",
           "mots": [
             "Dessin"
           ]
@@ -1845,7 +1938,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r035",
+          "id": "r036",
           "mots": [
             "Mort"
           ]
@@ -1857,12 +1950,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 477.8,
-      "y": 240.4,
-      "xM": 315.2,
-      "yM": 417.4,
-      "duree": 26,
-      "delai": -11
+      "x": 579,
+      "y": 233.6,
+      "xM": 434.6,
+      "yM": 520.3,
+      "duree": 17,
+      "delai": -3
     },
     {
       "titre": "Déserter",
@@ -1886,16 +1979,18 @@ window.REVES = {
         "Mort",
         "Maison"
       ],
-      "id": "r035",
+      "id": "r036",
       "voisins": [
         {
-          "id": "r033",
+          "id": "r034",
           "mots": [
-            "Blanche"
+            "Blanche",
+            "Parents",
+            "Paris"
           ]
         },
         {
-          "id": "r036",
+          "id": "r037",
           "mots": [
             "Blanche",
             "Frère",
@@ -1903,13 +1998,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r032",
-          "mots": [
-            "Parents"
-          ]
-        },
-        {
-          "id": "r040",
+          "id": "r041",
           "mots": [
             "Parents",
             "Paris"
@@ -1922,12 +2011,6 @@ window.REVES = {
           ]
         },
         {
-          "id": "r028",
-          "mots": [
-            "Paris"
-          ]
-        },
-        {
           "id": "r031",
           "mots": [
             "Train",
@@ -1935,30 +2018,30 @@ window.REVES = {
           ]
         },
         {
-          "id": "r038",
+          "id": "r039",
           "mots": [
             "Train"
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Mort"
           ]
         },
         {
-          "id": "r039",
+          "id": "r040",
           "mots": [
             "Maison"
           ]
         }
       ],
-      "x": 545.1,
-      "y": 197.6,
-      "xM": 358,
-      "yM": 474.7,
-      "duree": 21,
-      "delai": -11
+      "x": 664.9,
+      "y": 243.4,
+      "xM": 423.8,
+      "yM": 596.3,
+      "duree": 24,
+      "delai": 0
     },
     {
       "titre": "Feux follets",
@@ -1975,10 +2058,10 @@ window.REVES = {
         "Dessin",
         "Mort"
       ],
-      "id": "r036",
+      "id": "r037",
       "voisins": [
         {
-          "id": "r035",
+          "id": "r036",
           "mots": [
             "Blanche",
             "Frère",
@@ -1986,7 +2069,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r040",
+          "id": "r041",
           "mots": [
             "Blanche",
             "Frère",
@@ -2001,24 +2084,24 @@ window.REVES = {
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Dessin"
           ]
         },
         {
-          "id": "r041",
+          "id": "r042",
           "mots": [
             "Dessin"
           ]
         }
       ],
-      "x": 544.7,
-      "y": 313.9,
-      "xM": 241.6,
-      "yM": 474.4,
-      "duree": 24,
-      "delai": -12
+      "x": 669.6,
+      "y": 342.3,
+      "xM": 313.9,
+      "yM": 600.4,
+      "duree": 16,
+      "delai": -17
     },
     {
       "titre": "Joachim au féminin",
@@ -2032,7 +2115,7 @@ window.REVES = {
         "Ami",
         "Lumière"
       ],
-      "id": "r037",
+      "id": "r038",
       "voisins": [
         {
           "id": "r027",
@@ -2041,31 +2124,31 @@ window.REVES = {
           ]
         },
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "Ami",
             "Lumière"
           ]
         },
         {
-          "id": "r038",
+          "id": "r039",
           "mots": [
             "Ami"
           ]
         },
         {
-          "id": "r046",
+          "id": "r047",
           "mots": [
             "Lumière"
           ]
         }
       ],
-      "x": 546,
-      "y": 235.5,
-      "xM": 320.1,
-      "yM": 475.5,
-      "duree": 21,
-      "delai": -20
+      "x": 643.3,
+      "y": 155.2,
+      "xM": 521.8,
+      "yM": 577.2,
+      "duree": 23,
+      "delai": -6
     },
     {
       "titre": "Tarek",
@@ -2079,46 +2162,46 @@ window.REVES = {
         "Ami",
         "Train"
       ],
-      "id": "r038",
+      "id": "r039",
       "voisins": [
         {
-          "id": "r034",
+          "id": "r035",
           "mots": [
             "JFD"
           ]
         },
         {
-          "id": "r042",
+          "id": "r043",
           "mots": [
             "JFD",
             "Ami"
           ]
         },
         {
-          "id": "r037",
+          "id": "r038",
           "mots": [
             "Ami"
           ]
         },
         {
-          "id": "r035",
+          "id": "r036",
           "mots": [
             "Train"
           ]
         },
         {
-          "id": "r046",
+          "id": "r047",
           "mots": [
             "Train"
           ]
         }
       ],
-      "x": 648.2,
-      "y": 220.1,
-      "xM": 335.4,
-      "yM": 562.5,
-      "duree": 24,
-      "delai": -8
+      "x": 766.8,
+      "y": 186.7,
+      "xM": 486.8,
+      "yM": 686.4,
+      "duree": 18,
+      "delai": -13
     },
     {
       "titre": "Quelque chose dans le lit",
@@ -2131,16 +2214,16 @@ window.REVES = {
         "Maison",
         "Chambre"
       ],
-      "id": "r039",
+      "id": "r040",
       "voisins": [
         {
-          "id": "r035",
+          "id": "r036",
           "mots": [
             "Maison"
           ]
         },
         {
-          "id": "r040",
+          "id": "r041",
           "mots": [
             "Maison",
             "Chambre"
@@ -2153,12 +2236,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 616.8,
-      "y": 174.7,
-      "xM": 380.8,
-      "yM": 535.8,
-      "duree": 21,
-      "delai": -6
+      "x": 726.7,
+      "y": 255.4,
+      "xM": 410.5,
+      "yM": 651,
+      "duree": 23,
+      "delai": -10
     },
     {
       "titre": "Malheurs",
@@ -2185,10 +2268,10 @@ window.REVES = {
         "Maison",
         "Chambre"
       ],
-      "id": "r040",
+      "id": "r041",
       "voisins": [
         {
-          "id": "r036",
+          "id": "r037",
           "mots": [
             "Blanche",
             "Frère",
@@ -2197,7 +2280,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r041",
+          "id": "r042",
           "mots": [
             "Blanche",
             "Paris",
@@ -2205,45 +2288,45 @@ window.REVES = {
           ]
         },
         {
-          "id": "r035",
+          "id": "r036",
           "mots": [
             "Parents",
             "Paris"
           ]
         },
         {
-          "id": "r046",
+          "id": "r047",
           "mots": [
             "Frère",
             "Maison"
           ]
         },
         {
-          "id": "r027",
+          "id": "r034",
           "mots": [
             "Ville"
           ]
         },
         {
-          "id": "r044",
+          "id": "r045",
           "mots": [
             "Mort"
           ]
         },
         {
-          "id": "r039",
+          "id": "r040",
           "mots": [
             "Maison",
             "Chambre"
           ]
         }
       ],
-      "x": 610.3,
-      "y": 259,
-      "xM": 296.5,
-      "yM": 530.3,
-      "duree": 20,
-      "delai": -22
+      "x": 759.3,
+      "y": 294.9,
+      "xM": 366.5,
+      "yM": 679.8,
+      "duree": 16,
+      "delai": -18
     },
     {
       "titre": "Rebecca dans la baignoire",
@@ -2260,10 +2343,10 @@ window.REVES = {
         "Dessin",
         "Ville"
       ],
-      "id": "r041",
+      "id": "r042",
       "voisins": [
         {
-          "id": "r040",
+          "id": "r041",
           "mots": [
             "Blanche",
             "Paris",
@@ -2271,30 +2354,30 @@ window.REVES = {
           ]
         },
         {
-          "id": "r045",
+          "id": "r046",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r036",
+          "id": "r037",
           "mots": [
             "Dessin"
           ]
         },
         {
-          "id": "r044",
+          "id": "r045",
           "mots": [
             "Dessin"
           ]
         }
       ],
-      "x": 703.3,
-      "y": 338.1,
-      "xM": 217.5,
-      "yM": 609.5,
-      "duree": 19,
-      "delai": -21
+      "x": 855.8,
+      "y": 371.6,
+      "xM": 281.3,
+      "yM": 765.1,
+      "duree": 22,
+      "delai": -19
     },
     {
       "titre": "L'ascenseur vers le passé",
@@ -2309,29 +2392,29 @@ window.REVES = {
         "JFD",
         "Ami"
       ],
-      "id": "r042",
+      "id": "r043",
       "voisins": [
         {
-          "id": "r038",
+          "id": "r039",
           "mots": [
             "JFD",
             "Ami"
           ]
         },
         {
-          "id": "r044",
+          "id": "r045",
           "mots": [
             "JFD",
             "Ami"
           ]
         }
       ],
-      "x": 793.7,
-      "y": 230.1,
-      "xM": 325.5,
-      "yM": 686.5,
-      "duree": 18,
-      "delai": -17
+      "x": 937,
+      "y": 215.6,
+      "xM": 454.7,
+      "yM": 837,
+      "duree": 20,
+      "delai": -9
     },
     {
       "titre": "Veille de cours",
@@ -2343,7 +2426,7 @@ window.REVES = {
       "mots": [
         "École"
       ],
-      "id": "r043",
+      "id": "r044",
       "voisins": [
         {
           "id": "r027",
@@ -2352,12 +2435,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 349.9,
+      "x": 371.9,
       "y": 70,
-      "xM": 485.5,
-      "yM": 308.4,
-      "duree": 26,
-      "delai": -21
+      "xM": 616.5,
+      "yM": 337.1,
+      "duree": 23,
+      "delai": -18
     },
     {
       "titre": "La trace d'un mort",
@@ -2372,40 +2455,40 @@ window.REVES = {
         "Dessin",
         "Mort"
       ],
-      "id": "r044",
+      "id": "r045",
       "voisins": [
         {
-          "id": "r042",
+          "id": "r043",
           "mots": [
             "JFD",
             "Ami"
           ]
         },
         {
-          "id": "r047",
+          "id": "r048",
           "mots": [
             "Ami"
           ]
         },
         {
-          "id": "r041",
+          "id": "r042",
           "mots": [
             "Dessin"
           ]
         },
         {
-          "id": "r040",
+          "id": "r041",
           "mots": [
             "Mort"
           ]
         }
       ],
-      "x": 776.7,
-      "y": 298.8,
-      "xM": 256.7,
-      "yM": 672,
-      "duree": 20,
-      "delai": 0
+      "x": 938.7,
+      "y": 313.5,
+      "xM": 346,
+      "yM": 838.5,
+      "duree": 23,
+      "delai": -17
     },
     {
       "titre": "L'ange",
@@ -2417,26 +2500,26 @@ window.REVES = {
       "mots": [
         "Blanche"
       ],
-      "id": "r045",
+      "id": "r046",
       "voisins": [
         {
-          "id": "r041",
+          "id": "r042",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r047",
+          "id": "r048",
           "mots": [
             "Blanche"
           ]
         }
       ],
-      "x": 824.8,
-      "y": 390.4,
-      "xM": 165.1,
-      "yM": 713,
-      "duree": 26,
+      "x": 983.4,
+      "y": 429.6,
+      "xM": 216.9,
+      "yM": 878,
+      "duree": 19,
       "delai": -21
     },
     {
@@ -2455,10 +2538,10 @@ window.REVES = {
         "Maison",
         "Chemin"
       ],
-      "id": "r046",
+      "id": "r047",
       "voisins": [
         {
-          "id": "r040",
+          "id": "r041",
           "mots": [
             "Frère",
             "Maison"
@@ -2471,13 +2554,13 @@ window.REVES = {
           ]
         },
         {
-          "id": "r038",
+          "id": "r039",
           "mots": [
             "Train"
           ]
         },
         {
-          "id": "r037",
+          "id": "r038",
           "mots": [
             "Lumière"
           ]
@@ -2489,12 +2572,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 583,
-      "y": 201.4,
-      "xM": 354.1,
-      "yM": 507,
-      "duree": 20,
-      "delai": -12
+      "x": 676.3,
+      "y": 196.9,
+      "xM": 475.4,
+      "yM": 606.3,
+      "duree": 18,
+      "delai": -4
     },
     {
       "titre": "Cascade",
@@ -2507,27 +2590,27 @@ window.REVES = {
         "Blanche",
         "Ami"
       ],
-      "id": "r047",
+      "id": "r048",
       "voisins": [
         {
-          "id": "r045",
+          "id": "r046",
           "mots": [
             "Blanche"
           ]
         },
         {
-          "id": "r044",
+          "id": "r045",
           "mots": [
             "Ami"
           ]
         }
       ],
-      "x": 884.3,
-      "y": 350.6,
-      "xM": 204.9,
-      "yM": 763.6,
-      "duree": 18,
-      "delai": -20
+      "x": 1047.3,
+      "y": 376.7,
+      "xM": 275.7,
+      "yM": 934.5,
+      "duree": 16,
+      "delai": -1
     }
   ],
   "liens": [
@@ -2619,14 +2702,24 @@ window.REVES = {
     },
     {
       "a": "r033",
-      "b": "r035",
+      "b": "r034",
       "mots": [
-        "Blanche"
+        "Blanche",
+        "Femme"
       ]
     },
     {
-      "a": "r035",
+      "a": "r034",
       "b": "r036",
+      "mots": [
+        "Blanche",
+        "Parents",
+        "Paris"
+      ]
+    },
+    {
+      "a": "r036",
+      "b": "r037",
       "mots": [
         "Blanche",
         "Frère",
@@ -2634,8 +2727,8 @@ window.REVES = {
       ]
     },
     {
-      "a": "r036",
-      "b": "r040",
+      "a": "r037",
+      "b": "r041",
       "mots": [
         "Blanche",
         "Frère",
@@ -2644,8 +2737,8 @@ window.REVES = {
       ]
     },
     {
-      "a": "r040",
-      "b": "r041",
+      "a": "r041",
+      "b": "r042",
       "mots": [
         "Blanche",
         "Paris",
@@ -2653,15 +2746,15 @@ window.REVES = {
       ]
     },
     {
-      "a": "r041",
-      "b": "r045",
+      "a": "r042",
+      "b": "r046",
       "mots": [
         "Blanche"
       ]
     },
     {
-      "a": "r045",
-      "b": "r047",
+      "a": "r046",
+      "b": "r048",
       "mots": [
         "Blanche"
       ]
@@ -2675,29 +2768,29 @@ window.REVES = {
     },
     {
       "a": "r027",
-      "b": "r037",
+      "b": "r038",
       "mots": [
         "Joachim"
       ]
     },
     {
-      "a": "r034",
-      "b": "r038",
+      "a": "r035",
+      "b": "r039",
       "mots": [
         "JFD"
       ]
     },
     {
-      "a": "r038",
-      "b": "r042",
+      "a": "r039",
+      "b": "r043",
       "mots": [
         "JFD",
         "Ami"
       ]
     },
     {
-      "a": "r042",
-      "b": "r044",
+      "a": "r043",
+      "b": "r045",
       "mots": [
         "JFD",
         "Ami"
@@ -2745,29 +2838,29 @@ window.REVES = {
     },
     {
       "a": "r031",
-      "b": "r034",
+      "b": "r035",
       "mots": [
         "Ami"
       ]
     },
     {
-      "a": "r034",
-      "b": "r037",
+      "a": "r035",
+      "b": "r038",
       "mots": [
         "Ami",
         "Lumière"
       ]
     },
     {
-      "a": "r037",
-      "b": "r038",
+      "a": "r038",
+      "b": "r039",
       "mots": [
         "Ami"
       ]
     },
     {
-      "a": "r044",
-      "b": "r047",
+      "a": "r045",
+      "b": "r048",
       "mots": [
         "Ami"
       ]
@@ -2854,14 +2947,14 @@ window.REVES = {
     },
     {
       "a": "r032",
-      "b": "r035",
+      "b": "r034",
       "mots": [
         "Parents"
       ]
     },
     {
-      "a": "r035",
-      "b": "r040",
+      "a": "r036",
+      "b": "r041",
       "mots": [
         "Parents",
         "Paris"
@@ -2921,14 +3014,14 @@ window.REVES = {
     },
     {
       "a": "r030",
-      "b": "r035",
+      "b": "r036",
       "mots": [
         "Frère"
       ]
     },
     {
-      "a": "r040",
-      "b": "r046",
+      "a": "r041",
+      "b": "r047",
       "mots": [
         "Frère",
         "Maison"
@@ -2943,7 +3036,7 @@ window.REVES = {
     },
     {
       "a": "r032",
-      "b": "r046",
+      "b": "r047",
       "mots": [
         "Deux Noyers"
       ]
@@ -2957,7 +3050,7 @@ window.REVES = {
     },
     {
       "a": "r012",
-      "b": "r036",
+      "b": "r037",
       "mots": [
         "Magnolia"
       ]
@@ -2986,7 +3079,7 @@ window.REVES = {
     },
     {
       "a": "r028",
-      "b": "r035",
+      "b": "r034",
       "mots": [
         "Paris"
       ]
@@ -3000,22 +3093,22 @@ window.REVES = {
     },
     {
       "a": "r031",
-      "b": "r035",
+      "b": "r036",
       "mots": [
         "Train",
         "Maison"
       ]
     },
     {
-      "a": "r035",
-      "b": "r038",
+      "a": "r036",
+      "b": "r039",
       "mots": [
         "Train"
       ]
     },
     {
-      "a": "r038",
-      "b": "r046",
+      "a": "r039",
+      "b": "r047",
       "mots": [
         "Train"
       ]
@@ -3073,28 +3166,28 @@ window.REVES = {
     },
     {
       "a": "r033",
-      "b": "r034",
+      "b": "r035",
       "mots": [
         "Dessin"
       ]
     },
     {
-      "a": "r034",
-      "b": "r036",
+      "a": "r035",
+      "b": "r037",
       "mots": [
         "Dessin"
       ]
     },
     {
-      "a": "r036",
-      "b": "r041",
+      "a": "r037",
+      "b": "r042",
       "mots": [
         "Dessin"
       ]
     },
     {
-      "a": "r041",
-      "b": "r044",
+      "a": "r042",
+      "b": "r045",
       "mots": [
         "Dessin"
       ]
@@ -3108,7 +3201,7 @@ window.REVES = {
     },
     {
       "a": "r027",
-      "b": "r043",
+      "b": "r044",
       "mots": [
         "École"
       ]
@@ -3129,7 +3222,14 @@ window.REVES = {
     },
     {
       "a": "r027",
-      "b": "r040",
+      "b": "r034",
+      "mots": [
+        "Ville"
+      ]
+    },
+    {
+      "a": "r034",
+      "b": "r041",
       "mots": [
         "Ville"
       ]
@@ -3143,21 +3243,21 @@ window.REVES = {
     },
     {
       "a": "r030",
-      "b": "r034",
-      "mots": [
-        "Mort"
-      ]
-    },
-    {
-      "a": "r034",
       "b": "r035",
       "mots": [
         "Mort"
       ]
     },
     {
-      "a": "r040",
-      "b": "r044",
+      "a": "r035",
+      "b": "r036",
+      "mots": [
+        "Mort"
+      ]
+    },
+    {
+      "a": "r041",
+      "b": "r045",
       "mots": [
         "Mort"
       ]
@@ -3184,8 +3284,22 @@ window.REVES = {
       ]
     },
     {
+      "a": "r021",
+      "b": "r034",
+      "mots": [
+        "Animaux"
+      ]
+    },
+    {
       "a": "r003",
       "b": "r013",
+      "mots": [
+        "Eau"
+      ]
+    },
+    {
+      "a": "r013",
+      "b": "r034",
       "mots": [
         "Eau"
       ]
@@ -3241,14 +3355,14 @@ window.REVES = {
     },
     {
       "a": "r015",
-      "b": "r034",
+      "b": "r035",
       "mots": [
         "Lumière"
       ]
     },
     {
-      "a": "r037",
-      "b": "r046",
+      "a": "r038",
+      "b": "r047",
       "mots": [
         "Lumière"
       ]
@@ -3275,15 +3389,15 @@ window.REVES = {
       ]
     },
     {
-      "a": "r035",
-      "b": "r039",
+      "a": "r036",
+      "b": "r040",
       "mots": [
         "Maison"
       ]
     },
     {
-      "a": "r039",
-      "b": "r040",
+      "a": "r040",
+      "b": "r041",
       "mots": [
         "Maison",
         "Chambre"
@@ -3306,7 +3420,7 @@ window.REVES = {
     },
     {
       "a": "r031",
-      "b": "r039",
+      "b": "r040",
       "mots": [
         "Chambre"
       ]
@@ -3327,7 +3441,7 @@ window.REVES = {
     },
     {
       "a": "r031",
-      "b": "r046",
+      "b": "r047",
       "mots": [
         "Chemin"
       ]
