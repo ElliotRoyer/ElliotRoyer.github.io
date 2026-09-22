@@ -570,4 +570,54 @@
     if (isNaN(d)) return iso;
     return d.toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });
   }
+
+  // ======================================================== liens directs (#)
+  //
+  // Une URL peut désigner directement un rêve ou un mot-clef, pour être
+  // partagée ou citée ailleurs :
+  //   #reve-la-maison-au-bord-de-la-mer   → ouvre la fiche de ce rêve
+  //   #mot-eau                            → trace le chemin de ce mot, épinglé
+  //
+  // Le lien s'appuie sur le TITRE plutôt que sur l'identifiant interne
+  // (r001, r002…) : ce dernier se décale si un rêve plus ancien est ajouté
+  // après coup, alors que le titre ne change que si vous renommez le
+  // fichier. Pas d'accent, d'espace ni de majuscule à respecter en écrivant
+  // le lien à la main — tout est ramené à des minuscules et des tirets.
+  //
+  // L'aperçu au survol n'est volontairement pas une cible de lien : c'est un
+  // repère éphémère, positionné par rapport à la souris, pas un état fait
+  // pour être partagé — la fiche de lecture, elle, s'y prête naturellement.
+
+  function translitterer(s) {
+    return s
+      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
+  const idParSlug = new Map(D.reves.map((r) => [translitterer(r.titre), r.id]));
+  const motParSlug = new Map(D.mots.map((m) => [translitterer(m), m]));
+
+  function ouvrirDepuisHash() {
+    const h = decodeURIComponent(location.hash.slice(1));
+    if (!h) return;
+
+    if (h.startsWith('reve-')) {
+      const id = idParSlug.get(h.slice(5));
+      if (id) { if (!voile.hidden) fermer(); ouvrir(id, null); }
+      return;
+    }
+    if (h.startsWith('mot-')) {
+      const mot = motParSlug.get(h.slice(4));
+      if (mot && revesParMot.has(mot)) {
+        if (!voile.hidden) fermer();
+        afficherConstellation();
+        tracerChemin(mot, true);
+      }
+    }
+  }
+
+  ouvrirDepuisHash();
+  addEventListener('hashchange', ouvrirDepuisHash);
 })();

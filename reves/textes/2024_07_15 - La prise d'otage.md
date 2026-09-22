@@ -1,0 +1,3 @@
+Une douzaine de personnes dans ce qui ressemble à une arrière-boutique. Blanche est là, moi aussi. Nous sommes pris en otages par un terroriste. Je sens que cette histoire va mal finir, mais je ne réalise pas que c'est en train de ses passer. Parmi nous, quelques uns se font abattre. Blanche lève un rideau métallique et je me réveille.
+
+Le cauchemar m'a laissé filer, pourtant je décide d'y retourner. Pour nous en sortir, pour punir le meurtrier en tant que rêveur maître du rêve. Mais de retour dans l'arrière-boutique, je n'ai pas le pouvoir escompté. Je parviens juste à faire un apparaitre un tunnel en mille-feuille dans le murs avant d'oublier que je suis en train de rêver. Nous fuyons dans la ville, au gré de bus qui ne passent pas.

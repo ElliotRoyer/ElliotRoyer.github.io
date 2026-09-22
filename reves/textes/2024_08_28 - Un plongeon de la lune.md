@@ -1,0 +1,1 @@
+Un homme fait un plongeon de la lune dans une piscine, pour un défi. Il s'arrête un instant sur les nuages, pour viser. Il réussit son pari.
