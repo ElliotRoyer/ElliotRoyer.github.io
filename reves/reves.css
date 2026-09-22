@@ -249,11 +249,11 @@ body {
 
 @keyframes derive {
   0%   { transform: translate(0, 0); }
-  16%  { transform: translate(4px, -3px); }
-  33%  { transform: translate(5px, -6px); }
-  50%  { transform: translate(-1px, -7px); }
-  66%  { transform: translate(-5px, -3px); }
-  83%  { transform: translate(-3px, 3px); }
+  16%  { transform: translate(5px, -4px); }
+  33%  { transform: translate(6px, -7px); }
+  50%  { transform: translate(-1px, -8px); }
+  66%  { transform: translate(-6px, -4px); }
+  83%  { transform: translate(-4px, 4px); }
   100% { transform: translate(0, 0); }
 }
 
