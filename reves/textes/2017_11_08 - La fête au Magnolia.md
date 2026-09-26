@@ -1,0 +1,7 @@
+J’avais organisé une grande fête au Magnolia. Il y avait plein de gens de mon âge, dont quelques uns que je ne connaissais pas, un garçon à la peau sombre, qui s’ennuyait et à qui j’avais montré mes livres, car il voulait lire.
+
+Voilà je ne retrouve plus personne. Je les cherche, inquiet, je sors. Il fait nuit et frais. Je marche dans la forêt. Je trébuche alors dans un piège tendu par mon père. Je tombe dans la boue tête la première pendant qu’il se moque de moi et disparaît. Je ne sait pas pourquoi mais cela me rend fou de rage. Je hurle et retourne vers la maison.
+
+Les autres sont là à nouveau, ils font une chorégraphie dans le salon. Tiens… je les vois à travers la baie vitrée, alors que j’arrive du bois, côté garage. Peu importe, comment ai-je pu ne pas les trouver ? J’ai été piégé ! Plusieurs jours, je m’enferme dans la salle de bain de la chambre d’ami, qui est devenue ma chambre - il y a un matelas dans la baignoire. Ma mère m’explique que mon père était ivre et que je dois le pardonner… je refuse. Je vois un peu mes frères.
+
+On joue à un jeu où l’on tente de marquer des buts avec une balle que l’on fait circuler avec les pieds, avec les mains et avec des crosses. Il n’y a que des filles à part moi. Blanche est dans l’équipe adverse, le terrain est le salon. On s’amuse bien.
