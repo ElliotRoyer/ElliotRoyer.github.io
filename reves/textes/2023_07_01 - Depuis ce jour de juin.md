@@ -1,0 +1,3 @@
+Cette nuit, j'ai encore rêvé que maman allait mieux. On faisait un jeu de société au Magnolia, autour de la table ronde, et son visage bougeait normalement. Je n'avais pas oublié l'accident et d'ailleurs, j'étais ému de son rétablissement.
+
+Ce genre de rêve, j'ai dû en faire quatre ou cinq depuis ce jour de juin ; peut-être plus, dont je ne me souviens pas. Des rêves simples. On est dans la rue, elle marche avec moi. Il suffirait de ça.
