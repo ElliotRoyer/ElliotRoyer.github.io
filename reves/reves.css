@@ -468,7 +468,7 @@ body {
 
 .fiche-tete h2 { margin: 0 2.4rem 0.15rem 0; font-size: 1.3rem; font-weight: 400; }
 
-.fiche-date { margin: 0; color: var(--doux); font-size: 0.85rem; }
+.fiche-date { margin: 0; color: var(--doux); font-size: 0.9rem; }
 
 .fiche-texte { padding-top: 1.6rem; }
 .fiche-texte p { margin: 0 0 1.25rem; max-width: 60ch; line-height: 1.7; }

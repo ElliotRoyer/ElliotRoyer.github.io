@@ -1,0 +1,1 @@
+Me réveillant au milieu de la nuit, j'ai vu la pièce éclairée d'une lumière rouge. À mesure que je revenais à moi, la lumière s'estompait et je savais qu'aucun de mes appareils n'avaient pu produire une telle couleur. C'est comme si je m'étais réveillé trop vite, et que je baignais encore un peu dans le rêve en ouvrant les yeux.
