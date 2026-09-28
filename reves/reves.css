@@ -52,9 +52,9 @@ body {
 
 .intro {
   grid-column: 1;
-  margin: 0.15rem 0 0;
+  margin: 0 0 0;
   color: var(--doux);
-  font-size: 0.92rem;
+  font-size: 0.98rem;
   font-style: italic;
 }
 
@@ -183,7 +183,7 @@ body {
   opacity: 0.9;
   stroke-dasharray: var(--longueur);
   stroke-dashoffset: var(--longueur);
-  animation: tracer 0.39s ease forwards; /* <------------------------- vitesse tracé */
+  animation: tracer 0.4s ease forwards; /* <------------------------- vitesse tracé */
   animation-delay: var(--rang, 0s);
 }
 
