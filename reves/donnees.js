@@ -1,8 +1,8 @@
 /* Fichier généré par build-index.js — ne pas modifier à la main. */
 window.REVES = {
-  "genere": "2026-09-28",
-  "viewBox": "0 0 1228 584",
-  "viewBoxMobile": "0 0 780 1228",
+  "genere": "2026-09-30",
+  "viewBox": "0 0 1254 575",
+  "viewBoxMobile": "0 0 766 1254",
   "mots": [
     "Blanche",
     "Joachim",
@@ -62,11 +62,11 @@ window.REVES = {
         }
       ],
       "x": 80,
-      "y": 296.3,
-      "xM": 384,
+      "y": 255.6,
+      "xM": 429.1,
       "yM": 80,
-      "duree": 16,
-      "delai": -19
+      "duree": 19,
+      "delai": -3
     },
     {
       "titre": "Bribes",
@@ -109,12 +109,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 192.3,
-      "y": 325.8,
-      "xM": 340.9,
-      "yM": 192.3,
-      "duree": 25,
-      "delai": -25
+      "x": 186.3,
+      "y": 293.2,
+      "xM": 374.3,
+      "yM": 186.3,
+      "duree": 24,
+      "delai": -3
     },
     {
       "titre": "Le jambon sec (ou fumé)",
@@ -162,12 +162,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 257.6,
-      "y": 371,
-      "xM": 274.9,
-      "yM": 257.6,
-      "duree": 18,
-      "delai": -10
+      "x": 236.5,
+      "y": 334.7,
+      "xM": 313.6,
+      "yM": 236.5,
+      "duree": 17,
+      "delai": -14
     },
     {
       "titre": "Vente de chiens",
@@ -201,12 +201,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 154.8,
-      "y": 360.2,
-      "xM": 290.7,
-      "yM": 154.8,
-      "duree": 18,
-      "delai": -16
+      "x": 137.6,
+      "y": 324.1,
+      "xM": 329,
+      "yM": 137.6,
+      "duree": 16,
+      "delai": -10
     },
     {
       "titre": "Le quatrième frère",
@@ -242,12 +242,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 206.5,
-      "y": 414.5,
-      "xM": 211.3,
-      "yM": 206.5,
-      "duree": 27,
-      "delai": 0
+      "x": 183.9,
+      "y": 383.2,
+      "xM": 242.6,
+      "yM": 183.9,
+      "duree": 24,
+      "delai": -19
     },
     {
       "titre": "Le carnet de mon père",
@@ -302,12 +302,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 247.8,
-      "y": 314.9,
-      "xM": 356.9,
-      "yM": 247.8,
-      "duree": 16,
-      "delai": -12
+      "x": 245.7,
+      "y": 283.3,
+      "xM": 388.8,
+      "yM": 245.7,
+      "duree": 25,
+      "delai": -22
     },
     {
       "titre": "La pyramide",
@@ -330,12 +330,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 236.4,
-      "y": 493.8,
-      "xM": 95.4,
-      "yM": 236.4,
-      "duree": 19,
-      "delai": -19
+      "x": 204.2,
+      "y": 468,
+      "xM": 118.8,
+      "yM": 204.2,
+      "duree": 27,
+      "delai": -17
     },
     {
       "titre": "La fête au Magnolia",
@@ -414,12 +414,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 311.5,
-      "y": 395.4,
-      "xM": 239.2,
-      "yM": 311.5,
-      "duree": 23,
-      "delai": -1
+      "x": 295.1,
+      "y": 371.2,
+      "xM": 260.2,
+      "yM": 295.1,
+      "duree": 17,
+      "delai": -23
     },
     {
       "titre": "Quelque chose cloche",
@@ -493,12 +493,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 398.7,
-      "y": 333,
-      "xM": 330.4,
-      "yM": 398.7,
+      "x": 397,
+      "y": 317.9,
+      "xM": 338.2,
+      "yM": 397,
       "duree": 26,
-      "delai": -15
+      "delai": -25
     },
     {
       "titre": "Fausse Blanche",
@@ -540,11 +540,11 @@ window.REVES = {
           ]
         }
       ],
-      "x": 338.4,
-      "y": 295.7,
-      "xM": 385,
-      "yM": 338.4,
-      "duree": 18,
+      "x": 345.6,
+      "y": 279.5,
+      "xM": 394.2,
+      "yM": 345.6,
+      "duree": 16,
       "delai": -9
     },
     {
@@ -580,12 +580,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 350.7,
-      "y": 420.2,
-      "xM": 203,
-      "yM": 350.7,
-      "duree": 24,
-      "delai": -4
+      "x": 331.6,
+      "y": 401.1,
+      "xM": 216.5,
+      "yM": 331.6,
+      "duree": 26,
+      "delai": -17
     },
     {
       "titre": "En montagne",
@@ -679,12 +679,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 336.4,
-      "y": 339.4,
-      "xM": 321.1,
-      "yM": 336.4,
+      "x": 326.8,
+      "y": 316.2,
+      "xM": 340.7,
+      "yM": 326.8,
       "duree": 21,
-      "delai": -17
+      "delai": -12
     },
     {
       "titre": "Depuis ce jour de juin",
@@ -738,12 +738,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 426.8,
-      "y": 375.7,
-      "xM": 268,
-      "yM": 426.8,
-      "duree": 24,
-      "delai": -23
+      "x": 422.3,
+      "y": 361.1,
+      "xM": 275,
+      "yM": 422.3,
+      "duree": 17,
+      "delai": -24
     },
     {
       "titre": "L'appartement saccagé",
@@ -828,12 +828,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 472.4,
-      "y": 302.6,
-      "xM": 374.9,
-      "yM": 472.4,
-      "duree": 24,
-      "delai": -17
+      "x": 477,
+      "y": 309.5,
+      "xM": 350.4,
+      "yM": 477,
+      "duree": 16,
+      "delai": -1
     },
     {
       "titre": "La jambe qui tremble",
@@ -881,12 +881,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 491.9,
-      "y": 419.2,
-      "xM": 204.4,
-      "yM": 491.9,
-      "duree": 26,
-      "delai": -9
+      "x": 481.6,
+      "y": 406.2,
+      "xM": 209.1,
+      "yM": 481.6,
+      "duree": 24,
+      "delai": -15
     },
     {
       "titre": "Chemins",
@@ -954,12 +954,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 423.9,
-      "y": 307.7,
-      "xM": 367.4,
-      "yM": 423.9,
-      "duree": 17,
-      "delai": -24
+      "x": 424.7,
+      "y": 288.4,
+      "xM": 381.2,
+      "yM": 424.7,
+      "duree": 21,
+      "delai": -18
     },
     {
       "titre": "Les cordes",
@@ -1020,12 +1020,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 537.6,
-      "y": 369.6,
-      "xM": 277,
-      "yM": 537.6,
-      "duree": 19,
-      "delai": -13
+      "x": 540.2,
+      "y": 349.8,
+      "xM": 291.6,
+      "yM": 540.2,
+      "duree": 17,
+      "delai": -17
     },
     {
       "titre": "Les vagues",
@@ -1079,12 +1079,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 503,
-      "y": 324.5,
-      "xM": 342.8,
-      "yM": 503,
-      "duree": 22,
-      "delai": -12
+      "x": 476.7,
+      "y": 281.6,
+      "xM": 391.1,
+      "yM": 476.7,
+      "duree": 21,
+      "delai": -4
     },
     {
       "titre": "Guibert Tinder",
@@ -1124,12 +1124,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 594.4,
-      "y": 368.6,
-      "xM": 278.4,
-      "yM": 594.4,
-      "duree": 20,
-      "delai": -25
+      "x": 594.8,
+      "y": 367.4,
+      "xM": 265.9,
+      "yM": 594.8,
+      "duree": 22,
+      "delai": -3
     },
     {
       "titre": "La petite chienne",
@@ -1214,12 +1214,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 444.8,
-      "y": 262.2,
-      "xM": 433.9,
-      "yM": 444.8,
-      "duree": 18,
-      "delai": -5
+      "x": 450.5,
+      "y": 232.8,
+      "xM": 462.5,
+      "yM": 450.5,
+      "duree": 21,
+      "delai": -18
     },
     {
       "titre": "Moi en fille",
@@ -1263,12 +1263,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 542.5,
-      "y": 172.4,
-      "xM": 565.1,
-      "yM": 542.5,
+      "x": 557.7,
+      "y": 156.4,
+      "xM": 574.2,
+      "yM": 557.7,
       "duree": 26,
-      "delai": -5
+      "delai": -11
     },
     {
       "titre": "Ma main dans ma main",
@@ -1296,12 +1296,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 306.7,
-      "y": 174.6,
-      "xM": 561.9,
-      "yM": 306.7,
-      "duree": 19,
-      "delai": -13
+      "x": 337.2,
+      "y": 136.1,
+      "xM": 603.9,
+      "yM": 337.2,
+      "duree": 21,
+      "delai": -22
     },
     {
       "titre": "Le parapente",
@@ -1335,12 +1335,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 492.2,
-      "y": 213.5,
-      "xM": 505.1,
-      "yM": 492.2,
-      "duree": 26,
-      "delai": -12
+      "x": 504.3,
+      "y": 199.1,
+      "xM": 511.7,
+      "yM": 504.3,
+      "duree": 19,
+      "delai": -6
     },
     {
       "titre": "Un moment avec lui",
@@ -1367,12 +1367,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 618.2,
-      "y": 423.7,
-      "xM": 197.8,
-      "yM": 618.2,
-      "duree": 26,
-      "delai": -8
+      "x": 616.6,
+      "y": 417.7,
+      "xM": 192.3,
+      "yM": 616.6,
+      "duree": 24,
+      "delai": -6
     },
     {
       "titre": "Le chat et les rats",
@@ -1439,12 +1439,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 534.5,
-      "y": 282.2,
-      "xM": 404.7,
-      "yM": 534.5,
-      "duree": 18,
-      "delai": -2
+      "x": 542.3,
+      "y": 273,
+      "xM": 403.8,
+      "yM": 542.3,
+      "duree": 21,
+      "delai": -20
     },
     {
       "titre": "Réalité de base",
@@ -1484,12 +1484,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 420.9,
-      "y": 172.6,
-      "xM": 564.9,
-      "yM": 420.9,
-      "duree": 22,
-      "delai": -20
+      "x": 457.7,
+      "y": 144.5,
+      "xM": 591.6,
+      "yM": 457.7,
+      "duree": 16,
+      "delai": -13
     },
     {
       "titre": "L'oiseau de mon père",
@@ -1548,12 +1548,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 630.2,
-      "y": 346.1,
-      "xM": 311.2,
-      "yM": 630.2,
-      "duree": 16,
-      "delai": -4
+      "x": 635.3,
+      "y": 340.5,
+      "xM": 305.1,
+      "yM": 635.3,
+      "duree": 23,
+      "delai": -14
     },
     {
       "titre": "Blanches",
@@ -1580,12 +1580,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 446.4,
-      "y": 112.9,
-      "xM": 652.2,
-      "yM": 446.4,
-      "duree": 26,
-      "delai": -4
+      "x": 505,
+      "y": 80,
+      "xM": 685.8,
+      "yM": 505,
+      "duree": 21,
+      "delai": -11
     },
     {
       "titre": "Viscères",
@@ -1636,12 +1636,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 557.3,
-      "y": 210.5,
-      "xM": 509.4,
-      "yM": 557.3,
-      "duree": 23,
-      "delai": -7
+      "x": 598.1,
+      "y": 181.6,
+      "xM": 537.3,
+      "yM": 598.1,
+      "duree": 19,
+      "delai": -4
     },
     {
       "titre": "Jean-François",
@@ -1730,12 +1730,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 583.7,
-      "y": 298.1,
-      "xM": 381.4,
-      "yM": 583.7,
-      "duree": 26,
-      "delai": -20
+      "x": 592.1,
+      "y": 286.8,
+      "xM": 383.6,
+      "yM": 592.1,
+      "duree": 21,
+      "delai": -17
     },
     {
       "titre": "La gifle",
@@ -1778,12 +1778,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 737.1,
-      "y": 369.3,
-      "xM": 277.4,
-      "yM": 737.1,
-      "duree": 24,
-      "delai": -7
+      "x": 748.9,
+      "y": 363.9,
+      "xM": 270.8,
+      "yM": 748.9,
+      "duree": 21,
+      "delai": -8
     },
     {
       "titre": "Petite sœur",
@@ -1854,12 +1854,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 712.6,
-      "y": 293.6,
-      "xM": 388.1,
-      "yM": 712.6,
-      "duree": 23,
-      "delai": -10
+      "x": 735.6,
+      "y": 291.2,
+      "xM": 377.1,
+      "yM": 735.6,
+      "duree": 21,
+      "delai": -4
     },
     {
       "titre": "La ville-tube",
@@ -1911,12 +1911,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 620.6,
-      "y": 236.6,
-      "xM": 471.4,
-      "yM": 620.6,
-      "duree": 27,
-      "delai": -20
+      "x": 646.3,
+      "y": 266.2,
+      "xM": 413.6,
+      "yM": 646.3,
+      "duree": 25,
+      "delai": -6
     },
     {
       "titre": "L'herbe jaune",
@@ -2001,7 +2001,7 @@ window.REVES = {
           ]
         },
         {
-          "id": "r053",
+          "id": "r044",
           "mots": [
             "École"
           ]
@@ -2019,12 +2019,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 615.8,
-      "y": 199.1,
-      "xM": 526.1,
-      "yM": 615.8,
-      "duree": 20,
-      "delai": -3
+      "x": 625.2,
+      "y": 214.3,
+      "xM": 489.5,
+      "yM": 625.2,
+      "duree": 24,
+      "delai": -10
     },
     {
       "titre": "La prise d'otage",
@@ -2065,12 +2065,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 735.5,
-      "y": 194.6,
-      "xM": 532.7,
-      "yM": 735.5,
-      "duree": 18,
-      "delai": -18
+      "x": 731.7,
+      "y": 186.5,
+      "xM": 530.1,
+      "yM": 731.7,
+      "duree": 19,
+      "delai": -14
     },
     {
       "titre": "Près de Lyon",
@@ -2189,12 +2189,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 687.2,
-      "y": 243.9,
-      "xM": 460.7,
-      "yM": 687.2,
-      "duree": 25,
-      "delai": -19
+      "x": 690.2,
+      "y": 235.2,
+      "xM": 459,
+      "yM": 690.2,
+      "duree": 20,
+      "delai": -10
     },
     {
       "titre": "Un plongeon de la lune",
@@ -2221,12 +2221,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 832.6,
-      "y": 167.8,
-      "xM": 571.8,
-      "yM": 832.6,
-      "duree": 19,
-      "delai": -18
+      "x": 800.1,
+      "y": 144.2,
+      "xM": 592,
+      "yM": 800.1,
+      "duree": 16,
+      "delai": -7
     },
     {
       "titre": "Denfert-Rochereau",
@@ -2266,12 +2266,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 592.6,
-      "y": 264.6,
-      "xM": 430.4,
-      "yM": 592.6,
-      "duree": 20,
-      "delai": -11
+      "x": 577.9,
+      "y": 246.8,
+      "xM": 442.1,
+      "yM": 577.9,
+      "duree": 18,
+      "delai": -10
     },
     {
       "titre": "Sans effort",
@@ -2298,12 +2298,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 726.5,
-      "y": 143.6,
-      "xM": 607.2,
-      "yM": 726.5,
+      "x": 713.4,
+      "y": 140.2,
+      "xM": 597.8,
+      "yM": 713.4,
       "duree": 23,
-      "delai": -5
+      "delai": -3
     },
     {
       "titre": "Carré noir",
@@ -2408,12 +2408,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 724.2,
-      "y": 263,
-      "xM": 432.8,
-      "yM": 724.2,
-      "duree": 17,
-      "delai": -16
+      "x": 749.4,
+      "y": 262,
+      "xM": 419.9,
+      "yM": 749.4,
+      "duree": 27,
+      "delai": -14
     },
     {
       "titre": "Sous terre",
@@ -2485,12 +2485,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 813.3,
-      "y": 245.1,
-      "xM": 458.9,
-      "yM": 813.3,
-      "duree": 22,
-      "delai": -16
+      "x": 817.6,
+      "y": 244.5,
+      "xM": 445.5,
+      "yM": 817.6,
+      "duree": 23,
+      "delai": -5
     },
     {
       "titre": "Un jour de rien",
@@ -2542,12 +2542,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 825.8,
-      "y": 213.3,
-      "xM": 505.4,
-      "yM": 825.8,
-      "duree": 25,
-      "delai": -13
+      "x": 835.2,
+      "y": 194.4,
+      "xM": 518.7,
+      "yM": 835.2,
+      "duree": 20,
+      "delai": -22
     },
     {
       "titre": "Paris détruit",
@@ -2638,12 +2638,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 770,
-      "y": 255.8,
-      "xM": 443.3,
-      "yM": 770,
-      "duree": 21,
-      "delai": -23
+      "x": 741.7,
+      "y": 237.4,
+      "xM": 455.8,
+      "yM": 741.7,
+      "duree": 24,
+      "delai": -10
     },
     {
       "titre": "Parler à ton souvenir",
@@ -2651,7 +2651,7 @@ window.REVES = {
       "extrait": "Aubecerf. Je parle avec Jean-François tel qu'il était lorsque je l'ai rencontré, les joues encore pleines, et la…",
       "texte": [
         "Aubecerf. Je parle avec Jean-François tel qu'il était lorsque je l'ai rencontré, les joues encore pleines, et la moustache épaisse. Il est assis dans son fauteuil en cuir rouge. Je sais qu'il est mort et que je parle avec son souvenir. Pourtant il est bien là, il me répond, je lui pose une question, une histoire de calcul qu'il fait de tête, à voix haute. Delphine est là elle aussi, je ne sais pas si elle le voit. Je parle avec elle après que la présence de Jean-François se soit évanouie.",
-        "Je manque un appel de l'école et risque de perdre mes cours là-bas. Puis la rentrée arrive, j'ai une classe de cinquante élèves, c'est intenable - c'est le second rêve que je fais de ce genre. Je tente de m'imposer plus sévère dès le premier cours, j'en fais trop, il y a une évacuation de l'école, un test d'alarme incendie peut-être, c'est le bazar. Je retrouve ma classe avec des élèves qui ne devraient pas y être. Un élève que j'avais eu l'an dernier est à nouveau dans ma classe, je lui dit que je ne comprends pas, à quoi bon, lui qui n'a aucun intérêt pour le dessin ? Je m'entends bien avec quelques autres. Je crois qu'on fait une sortie dans un musée.",
+        "Je manque un appel de l'Écaille et risque de perdre mes cours là-bas. Puis la rentrée arrive, j'ai une classe de cinquante élèves, c'est intenable - c'est le second rêve que je fais de ce genre. Je tente de m'imposer plus sévère dès le premier cours, j'en fais trop, il y a une évacuation de l'école, un test d'alarme incendie peut-être, c'est le bazar. Je retrouve ma classe avec des élèves qui ne devraient pas y être. Un élève que j'avais eu l'an dernier est à nouveau dans ma classe, je lui dit que je ne comprends pas, à quoi bon, lui qui n'a aucun intérêt pour le dessin ? Je m'entends bien avec quelques autres. Je crois qu'on fait une sortie dans un musée.",
         "Au Japon, je rencontre à un distributeur de boisson une japonaise avec qui je parle en marchant un peu. Elle se moque de mon mauvais niveau de japonais. Son français est excellent. Je crois qu'on va manger au restaurant avec son compagnon.",
         "Le reste s'est dissipé à la lumière du jour. Ne persiste qu'une légère tristesse."
       ],
@@ -2659,6 +2659,7 @@ window.REVES = {
         "JFD",
         "Ami",
         "Dessin",
+        "École",
         "Mort",
         "Lumière",
         "Musée"
@@ -2703,6 +2704,18 @@ window.REVES = {
           ]
         },
         {
+          "id": "r034",
+          "mots": [
+            "École"
+          ]
+        },
+        {
+          "id": "r053",
+          "mots": [
+            "École"
+          ]
+        },
+        {
           "id": "r043",
           "mots": [
             "Mort"
@@ -2727,12 +2740,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 756.1,
-      "y": 283.1,
-      "xM": 403.3,
-      "yM": 756.1,
-      "duree": 21,
-      "delai": -21
+      "x": 775.5,
+      "y": 219.8,
+      "xM": 481.5,
+      "yM": 775.5,
+      "duree": 25,
+      "delai": -18
     },
     {
       "titre": "Déserter",
@@ -2813,12 +2826,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 851.6,
-      "y": 304.7,
-      "xM": 371.8,
-      "yM": 851.6,
-      "duree": 20,
-      "delai": -25
+      "x": 868.8,
+      "y": 279.6,
+      "xM": 394.1,
+      "yM": 868.8,
+      "duree": 22,
+      "delai": -3
     },
     {
       "titre": "Feux follets",
@@ -2886,12 +2899,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 758,
-      "y": 337.4,
-      "xM": 323.9,
-      "yM": 758,
-      "duree": 20,
-      "delai": -22
+      "x": 778.2,
+      "y": 313,
+      "xM": 345.3,
+      "yM": 778.2,
+      "duree": 23,
+      "delai": -23
     },
     {
       "titre": "Joachim au féminin",
@@ -2953,12 +2966,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 882.7,
-      "y": 266.5,
-      "xM": 427.6,
-      "yM": 882.7,
-      "duree": 17,
-      "delai": -15
+      "x": 897.9,
+      "y": 244.5,
+      "xM": 445.4,
+      "yM": 897.9,
+      "duree": 26,
+      "delai": -12
     },
     {
       "titre": "Tarek",
@@ -3006,12 +3019,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 990.6,
-      "y": 303.4,
-      "xM": 373.7,
-      "yM": 990.6,
-      "duree": 24,
-      "delai": -23
+      "x": 1006.9,
+      "y": 249.2,
+      "xM": 438.5,
+      "yM": 1006.9,
+      "duree": 22,
+      "delai": -11
     },
     {
       "titre": "Quelque chose dans le lit",
@@ -3054,12 +3067,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 854.4,
-      "y": 346.3,
-      "xM": 311,
-      "yM": 854.4,
+      "x": 871.6,
+      "y": 335.1,
+      "xM": 312.9,
+      "yM": 871.6,
       "duree": 21,
-      "delai": -9
+      "delai": -8
     },
     {
       "titre": "Malheurs",
@@ -3150,12 +3163,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 924.2,
-      "y": 338.2,
-      "xM": 322.8,
-      "yM": 924.2,
-      "duree": 21,
-      "delai": -10
+      "x": 933.4,
+      "y": 321.7,
+      "xM": 332.5,
+      "yM": 933.4,
+      "duree": 15,
+      "delai": -7
     },
     {
       "titre": "Rebecca dans la baignoire",
@@ -3201,12 +3214,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 934.8,
-      "y": 424.1,
-      "xM": 197.3,
-      "yM": 934.8,
-      "duree": 24,
-      "delai": -9
+      "x": 945.8,
+      "y": 409.8,
+      "xM": 203.8,
+      "yM": 945.8,
+      "duree": 17,
+      "delai": -15
     },
     {
       "titre": "L'ascenseur vers le passé",
@@ -3238,12 +3251,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 1148.4,
-      "y": 349.6,
-      "xM": 306.1,
-      "yM": 1148.4,
-      "duree": 18,
-      "delai": -15
+      "x": 1158.5,
+      "y": 317.1,
+      "xM": 339.4,
+      "yM": 1158.5,
+      "duree": 16,
+      "delai": -16
     },
     {
       "titre": "Veille de cours",
@@ -3258,18 +3271,18 @@ window.REVES = {
       "id": "r053",
       "voisins": [
         {
-          "id": "r034",
+          "id": "r044",
           "mots": [
             "École"
           ]
         }
       ],
-      "x": 621.5,
-      "y": 80,
-      "xM": 700.2,
-      "yM": 621.5,
-      "duree": 23,
-      "delai": -14
+      "x": 923.2,
+      "y": 121.3,
+      "xM": 625.5,
+      "yM": 923.2,
+      "duree": 21,
+      "delai": -5
     },
     {
       "titre": "La trace d'un mort",
@@ -3312,12 +3325,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 1069.1,
-      "y": 403,
-      "xM": 228.1,
-      "yM": 1069.1,
-      "duree": 25,
-      "delai": -1
+      "x": 1085.2,
+      "y": 385.5,
+      "xM": 239.3,
+      "yM": 1085.2,
+      "duree": 15,
+      "delai": -17
     },
     {
       "titre": "L'ange",
@@ -3344,12 +3357,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 1009.5,
-      "y": 504.4,
+      "x": 1018.5,
+      "y": 494.5,
       "xM": 80,
-      "yM": 1009.5,
-      "duree": 16,
-      "delai": -3
+      "yM": 1018.5,
+      "duree": 18,
+      "delai": -17
     },
     {
       "titre": "Chez Pacôme",
@@ -3413,12 +3426,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 964.1,
-      "y": 278.3,
-      "xM": 410.4,
-      "yM": 964.1,
-      "duree": 19,
-      "delai": -2
+      "x": 981.8,
+      "y": 282.9,
+      "xM": 389.3,
+      "yM": 981.8,
+      "duree": 25,
+      "delai": -19
     },
     {
       "titre": "Cascade",
@@ -3453,12 +3466,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 1067.9,
-      "y": 460.5,
-      "xM": 144.1,
-      "yM": 1067.9,
-      "duree": 18,
-      "delai": -5
+      "x": 1084.2,
+      "y": 452.1,
+      "xM": 142,
+      "yM": 1084.2,
+      "duree": 26,
+      "delai": -17
     },
     {
       "titre": "La décapotable",
@@ -3495,12 +3508,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 962.2,
-      "y": 387.9,
-      "xM": 250.2,
-      "yM": 962.2,
-      "duree": 24,
-      "delai": -2
+      "x": 975.9,
+      "y": 385.8,
+      "xM": 238.9,
+      "yM": 975.9,
+      "duree": 25,
+      "delai": -22
     },
     {
       "titre": "Lumière rouge",
@@ -3521,12 +3534,12 @@ window.REVES = {
           ]
         }
       ],
-      "x": 1136.9,
-      "y": 232.8,
-      "xM": 476.9,
-      "yM": 1136.9,
-      "duree": 20,
-      "delai": -15
+      "x": 1173.6,
+      "y": 249,
+      "xM": 438.9,
+      "yM": 1173.6,
+      "duree": 23,
+      "delai": -4
     }
   ],
   "liens": [
@@ -4293,6 +4306,13 @@ window.REVES = {
     },
     {
       "a": "r034",
+      "b": "r044",
+      "mots": [
+        "École"
+      ]
+    },
+    {
+      "a": "r044",
       "b": "r053",
       "mots": [
         "École"
