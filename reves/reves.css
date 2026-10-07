@@ -425,7 +425,15 @@ body {
 
 .fiche-ext {
   width: min(40rem, 100%);
+  /* `vh` se base sur la plus grande hauteur possible de la fenêtre : sur
+     mobile, quand la barre d'adresse ou la barre d'onglets du navigateur est
+     visible, la zone réellement affichée est plus petite, et la fiche se
+     retrouve coupée en bas (les mots-clefs deviennent inaccessibles). `dvh`
+     (« dynamic viewport height ») suit la hauteur réellement visible à tout
+     instant ; on garde `vh` juste avant comme repli pour les navigateurs qui
+     ne connaissent pas encore `dvh`, ignoré par ceux qui le supportent. */
   max-height: 84vh;
+  max-height: 84dvh;
   transform: scaleY(0);
   transform-origin: center;
   transition: transform 0.28s ease 0.24s;   /* à la fermeture, se replie en dernier */
@@ -445,6 +453,7 @@ body {
 
 .fiche-corps {
   max-height: calc(84vh - 2px);
+  max-height: calc(84dvh - 2px);
   overflow-y: auto;
   overscroll-behavior: contain;
   scrollbar-width: thin;

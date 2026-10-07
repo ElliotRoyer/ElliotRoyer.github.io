@@ -138,6 +138,15 @@
   // point effectivement posé, jamais avant.
   const DUREE_INSTALLATION = 820; // un peu plus que la transition CSS (0.8s), par sécurité
 
+  // Facteur appliqué à la pause de chaque point avant qu'il ne reprenne sa
+  // dérive (voir executerLiberation ci-dessous) : 1 = pause complète (jusqu'à
+  // 25 s, la plage de --delai posée par build-index.js) ; une valeur plus
+  // petite raccourcit toutes les pauses dans les mêmes proportions — la
+  // reprise paraît plus rapide — en gardant le déphasage entre les points
+  // (ils restent répartis sur la plage, juste compressée). 0 revient à une
+  // reprise instantanée et uniforme (l'ancien comportement, sans déphasage).
+  const FACTEUR_REPRISE = 0.5;
+
   const flottes = () => gPoints.querySelectorAll('.flotte');
   let figee = false;          // un chemin doit-il rester affiché ?
   let installee = false;      // le glissement vers la position exacte est-il terminé ?
@@ -175,9 +184,23 @@
     clearTimeout(minuteurInstallation);
     liberationEnAttente = false;
     installee = false;
-    // l'animation redémarre à sa position zéro, exactement où le point vient
-    // de s'immobiliser : aucun saut possible.
-    flottes().forEach((g) => { g.style.transform = ''; g.style.animationDelay = '0s'; });
+    // Chaque point a reçu un --delai NÉGATIF à la construction du graphe
+    // (build-index.js), exprès pour paraître déjà en plein mouvement dès le
+    // chargement de la page. Un délai négatif fait justement ça : il avance
+    // l'animation en plein milieu de son cycle dès qu'elle démarre — pratique
+    // au chargement, mais ça veut dire qu'en réappliquant ce même --delai ici,
+    // l'animation ne reprendrait pas à sa position zéro (celle où le point
+    // vient de s'immobiliser) mais sauterait ailleurs dans son cycle : d'où le
+    // petit saut visible. On reprend donc avec la valeur ABSOLUE de ce délai —
+    // une pause avant de repartir plutôt qu'un saut en avant. Pendant cette
+    // pause, l'animation est inactive et le point reste exactement là où il
+    // s'est figé (aucun saut) ; comme cette pause diffère d'un point à
+    // l'autre, ils ne repartent pas tous au même instant (déphasage conservé).
+    flottes().forEach((g) => {
+      const brut = parseFloat(getComputedStyle(g).getPropertyValue('--delai')) || 0;
+      g.style.transform = '';
+      g.style.animationDelay = (Math.abs(brut) * FACTEUR_REPRISE) + 's';
+    });
     svg.classList.remove('fige');
   }
 
