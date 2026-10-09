@@ -483,6 +483,17 @@ body {
 .fiche-texte p { margin: 0 0 1.25rem; max-width: 60ch; line-height: 1.7; }
 .fiche-texte p:last-child { margin-bottom: 0; }
 
+/* liens dans un récit : même logique que les autres éléments cliquables
+   discrets de la page (.mot, .apercu-lire) — sobre au repos, teinte chaude
+   au survol/focus. */
+.fiche-texte a {
+  color: var(--doux);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.fiche-texte a:hover,
+.fiche-texte a:focus-visible { color: var(--vif); }
+
 .fiche-mots {
   margin: 2rem 0 0;
   padding-top: 1.1rem;
@@ -528,6 +539,7 @@ body {
   .entete { grid-template-columns: 1fr; }
   .bascule { grid-column: 1; grid-row: auto; justify-self: start; margin-top: 0.6rem; }
   .point .etiquette { font-size: 16px; }
+  .fiche-texte { font-size: 0.95rem; }
   .fiche-texte p { line-height: 1.65; }
 }
 

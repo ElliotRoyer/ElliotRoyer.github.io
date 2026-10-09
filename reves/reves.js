@@ -577,12 +577,19 @@
       .replace(/\s+»/g, '\u00A0»');
   }
 
-  // **gras** et *italique*, à la façon d'Obsidian. Échappe d'abord le texte
-  // (au cas où un rêve contiendrait un caractère < ou &), pour qu'aucun
-  // balisage étranger ne puisse s'y glisser.
+  // **gras**, *italique* et [texte](lien), à la façon d'Obsidian/markdown
+  // standard. Échappe d'abord le texte (au cas où un rêve contiendrait un
+  // caractère < ou &), pour qu'aucun balisage étranger ne puisse s'y glisser.
+  // Les liens sont traités avant gras/italique, pour qu'un caractère * dans
+  // une adresse (rare) ne soit pas interprété comme de la mise en forme.
+  // Seuls http:// et https:// sont reconnus, par précaution.
   function texteEnHTML(s) {
     let t = s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     t = insecables(t);
+    t = t.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_, texte, url) => {
+      const lien = url.replace(/"/g, '&quot;');
+      return `<a href="${lien}" target="_blank" rel="noopener noreferrer">${texte}</a>`;
+    });
     t = t.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
     t = t.replace(/\*([^*]+)\*/g, '<em>$1</em>');
     return t;
