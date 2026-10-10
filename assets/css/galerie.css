@@ -307,7 +307,7 @@ margin: 40px 100px 50px;
 }
 
 
-/* class pour galeries : "mobile-caption", permet d'afficher les figcaptions uniquement sur mobile, où les descriptions de GLightbox sont désactivées */
+/* class pour galeries : "mobile-only-figcaption", permet d'afficher les figcaptions uniquement sur mobile, où les descriptions de GLightbox sont désactivées */
 
 @media (hover: hover) and (pointer: fine) {
   .mobile-only-figcaption figcaption {

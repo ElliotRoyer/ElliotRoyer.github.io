@@ -186,6 +186,7 @@ body {
 
 /* Menu */
 .main-nav a {
+    position: relative;
     margin: 0 10px;
     padding: 7px 0;
     font-size: 1.4em;
