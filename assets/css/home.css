@@ -1,12 +1,6 @@
 /* ==================== GLOBAL ==================== */
 html, body {
-  height: 100%;
   margin: 0;
-}
-
-body {
-  font-family: "Raleway", "Arial", "Helvetica", sans-serif;
-  line-height: 1.6;
 }
 
 /* ==================== CONTAINER DU FOND ==================== */
@@ -25,7 +19,7 @@ body {
   position: relative;
 }
 
-/* voile gris */
+/* voile gris : disparaît puis est retiré du rendu (visibility: hidden) */
 .home-bg::after {
   content: "";
   position: fixed;
@@ -37,7 +31,7 @@ body {
 }
 
 @keyframes revealPage {
-  to { opacity: 0; }
+  to { opacity: 0; visibility: hidden; }
 }
 
 .container {
@@ -76,6 +70,12 @@ p { margin: 0; }
 }
 
 /* ==================== NAVIGATION ==================== */
+.home-nav {
+  margin-bottom: 40px;
+}
+
+/* Pas de "opacity: 0" statique : le fill-mode "both" applique l'état de départ
+   pendant le délai. Si les animations ne tournent pas, les liens restent visibles. */
 .home-nav a {
   margin: 0 12px;
   font-size: 2em;
@@ -85,16 +85,9 @@ p { margin: 0; }
   font-weight: 600;
   display: inline-block;
   position: relative;
-  opacity: 0;
-  animation: navReveal 1.1s ease forwards;
+  animation: navReveal 1.1s ease both;
   transition: color 0.3s ease;
 }
-
-.home-nav {
-  margin-bottom: 40px;
-}
-
-.home-nav a:hover { color: #57535b; }
 
 .home-nav a::after {
   content: "";
@@ -107,7 +100,20 @@ p { margin: 0; }
   transition: width 0.3s ease, left 0.3s ease;
 }
 
-.home-nav a:hover::after { width: 100%; left: 0; }
+/* Survol : uniquement sur les appareils avec un vrai pointeur (évite le hover "collant" sur tablette) */
+@media (hover: hover) and (pointer: fine) {
+  .home-nav a:hover { color: #57535b; }
+  .home-nav a:hover::after { width: 100%; left: 0; }
+}
+
+/* Navigation clavier */
+.home-nav a:focus-visible {
+  color: #57535b;
+  outline: 2px solid #6b7b8e;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+.home-nav a:focus-visible::after { width: 100%; left: 0; }
 
 /* Déphasage apparition nav */
 .home-nav a:nth-child(1) { animation-delay: 0.1s; }
@@ -142,6 +148,12 @@ p { margin: 0; }
   position: relative;
   display: inline-block;
   overflow: hidden;
+
+  /* Largeur d'une "tuile" de brume : le défilement boucle exactement dessus.
+     Les images de brume font 800px de large. */
+  --fog-w: 800px;
+  /* Intensité globale de la brume (1 = normal, 0.5 = moitié). */
+  --fog-k: 1;
 }
 
 .home-image img {
@@ -154,49 +166,58 @@ p { margin: 0; }
   margin: 40px auto;
 }
 
+/* Calques de brume : plus larges que le conteneur d'une tuile,
+   et déplacés avec transform (animation GPU, pas de repaint). */
 .home-image::before,
 .home-image::after {
   content: "";
   position: absolute;
-  inset: 0;
+  inset: 0 calc(var(--fog-w) * -1) 0 0;
   pointer-events: none;
+  background-repeat: repeat-x;
+  background-size: var(--fog-w) 100%;
+  background-position: 0 50%;
+  opacity: calc(0.3 * var(--fog-k));
+  will-change: transform, opacity;
 }
 
 .home-image::before {
   z-index: 2;
   background-image: url("/assets/img-site/brume-1.webp");
-  background-repeat: repeat-x;
-  background-size: auto 100%;
-  background-position: 0 50%;
-  filter: blur(6px);
-  animation: fogScrollFade 18s linear infinite,
-             fogFadeStable 12s ease-in-out forwards,
-             fogBreath 9s ease-in-out infinite;           
+  animation: fogScroll 18s linear infinite,
+             fogFadeIn 12s ease-in-out forwards,
+             fogBreath 9s ease-in-out 12s infinite;
 }
 
 .home-image::after {
   z-index: 3;
   background-image: url("/assets/img-site/brume-2.webp");
-  background-repeat: repeat-x;
-  background-size: auto 100%;
-  background-position: 0 50%;
-  filter: blur(10px);
-  animation: fogScrollFadeFast 36s linear infinite,
-             fogFadeStable 12s ease-in-out forwards,
-             fogBreath 12s ease-in-out infinite reverse;
+  animation: fogScroll 36s linear infinite,
+             fogFadeIn 12s ease-in-out forwards,
+             fogBreath 12s ease-in-out 12s infinite;
 }
 
-
 /* ==================== ANIMATIONS BRUME ==================== */
-@keyframes fogScrollFade       { 0% { background-position: 0 50%; } 100% { background-position: -1024px 50%; } }
-@keyframes fogScrollFadeFast   { 0% { background-position: 0 50%; } 100% { background-position: -1024px 50%; } }
-@keyframes fogFadeStable       { 0% { opacity: 0.7; } 50% { opacity: 0.5; } 100% { opacity: 0.3; } }
-@keyframes fogBreath           { 0% { opacity: 0.25; } 50% { opacity: 0.5; } 100% { opacity: 0.25; } }
+@keyframes fogScroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(calc(var(--fog-w) * -1)); }
+}
+
+/* Fondu d'entrée (12 s), puis la "respiration" prend le relais grâce à son délai de 12 s */
+@keyframes fogFadeIn {
+  from { opacity: calc(0.7 * var(--fog-k)); }
+  to   { opacity: calc(0.3 * var(--fog-k)); }
+}
+
+@keyframes fogBreath {
+  0%, 100% { opacity: calc(0.3 * var(--fog-k)); }
+  50%      { opacity: calc(0.5 * var(--fog-k)); }
+}
 
 /* ==================== RESPONSIVE ==================== */
 @media (max-width: 768px) {
-  .container { 
-    margin: 0 auto; 
+  .container {
+    margin: 0 auto;
     text-align: center;
   }
 
@@ -213,26 +234,17 @@ p { margin: 0; }
     justify-content: center;
     margin-bottom: 32px;
     font-size: 2em;
-    transition: none; /* suppression du hover sur les liens sur mobile */
-  }
-
-  .home-nav a:hover { /* suppression du hover sur les liens sur mobile */
-      opacity: 1;
-      transform: none;
-  }
-  
-  .home-nav a:hover::after {
-      width: 0;
   }
 
   .home-nav a span { animation: none; }
 
+  .home-image {
+    /* Pour une brume plus discrète sur mobile, baisse cette valeur (ex. 0.7) */
+    --fog-k: 1;
+  }
+
   .home-image img { max-width: 90%; margin: 32px auto; }
-
-  .home-image::before { opacity: 0.4; }
-  .home-image::after  { opacity: 0.6; }
 }
-
 
 @media (max-width: 768px) and (orientation: portrait) {
   .home-bg {
@@ -243,12 +255,28 @@ p { margin: 0; }
       #f6e9d6 65%,
       #f6eada 85%,
       #c4cdd8 100%);
-    }
+  }
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
-  html, body { height: auto; margin: 0;}
   .home-nav a { display: inline-block; margin-bottom: 0; }
   .home-nav a span { animation: float 4.5s ease-in-out infinite; }
   .home-image img { max-width: 70%; }
+}
+
+/* ==================== ACCESSIBILITÉ : MOUVEMENT RÉDUIT ==================== */
+@media (prefers-reduced-motion: reduce) {
+  .home-bg::after { display: none; }
+
+  .ER-title,
+  .home-nav a,
+  .home-nav a span {
+    animation: none;
+  }
+
+  .home-image::before,
+  .home-image::after {
+    animation: none;
+    transform: none;
+  }
 }

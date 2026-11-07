@@ -1,6 +1,6 @@
 /* Fichier généré par build-index.js — ne pas modifier à la main. */
 window.REVES = {
-  "genere": "2026-10-09",
+  "genere": "2026-10-14",
   "viewBox": "0 0 1276 571",
   "viewBoxMobile": "0 0 571 1028",
   "mots": [

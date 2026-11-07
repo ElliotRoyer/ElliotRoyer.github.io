@@ -1,4 +1,4 @@
-  // Pagination automatique
+// Pagination automatique
 
 (function () {
   const sections = {
@@ -30,16 +30,19 @@
     ],
   };
 
-   let path = window.location.pathname.toLowerCase();
+  let path = window.location.pathname.toLowerCase();
 
-  // 🔥 IMPORTANT : on enlève index.html si présent
+  // On enlève index.html si présent
   path = path.replace(/index\.html$/, "");
 
   const segments = path.split('/').filter(seg => seg);
 
-  // 👉 Exemple attendu :
+  // Exemple attendu :
   // /dessins/carnets/19-avene/
   // segments = ["dessins", "carnets", "19-avene"]
+
+  // Pas assez de segments (accueil, /dessins/, etc.) : pas de pagination, sans bruit en console
+  if (segments.length < 2) return;
 
   const section = segments[segments.length - 2];
   const currentFolder = segments[segments.length - 1];

@@ -2,28 +2,36 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Elliot Royer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elliot Royer – Dessins, livres et musique</title>
+  <meta name="description" content="Site d'Elliot Royer : dessins, livres et musique.">
+  <link rel="canonical" href="https://elliotroyer.com/">
+  <link rel="icon" href="/favicon.ico">
+
+  <link rel="preload" href="/assets/fonts/nunito-v32-latin_latin-ext-600.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/home.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/favicon.ico">
-  <meta name="description" content="Dessins, livres et musique">
+
+  <!-- Partage (Open Graph / Twitter) -->
   <meta property="og:title" content="Elliot Royer">
   <meta property="og:description" content="Dessins, livres et musique">
-  <meta property="og:image" content="/assets/img-site/site-preview.webp">
+  <meta property="og:image" content="https://elliotroyer.com/assets/img-site/site-preview.webp">
+  <meta property="og:image:alt" content="Illustration d'une île verdoyante">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://elliotroyer.com/" />
+  <meta property="og:url" content="https://elliotroyer.com/">
+  <meta property="og:locale" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="home-page">
 
-  <div class="home-bg"> <!-- <-- Conteneur du dégradé -->
+  <div class="home-bg">
     <div class="container">
       <h1 class="ER-title">
         <img src="/assets/logo/Titre_ER.webp" alt="Elliot Royer">
       </h1>
 
-      <nav class="home-nav">
+      <nav class="home-nav" aria-label="Navigation principale">
         <a href="/dessins/"><span>Dessins</span></a>
         <a href="/livres/"><span>Livres</span></a>
         <a href="/musique/"><span>Musique</span></a>
@@ -33,12 +41,10 @@
       <div class="home-image">
         <picture>
           <source srcset="/assets/img-site/home-ile-mobile.webp" media="(max-width: 768px)">
-          <img src="/assets/img-site/home-ile.webp" alt="Île">
+          <img src="/assets/img-site/home-ile.webp" alt="Illustration d'une île verdoyante" fetchpriority="high">
         </picture>
       </div>
     </div>
   </div>
-
-<script src="/assets/js/script.js"></script>
 </body>
 </html>
